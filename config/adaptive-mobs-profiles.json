@@ -1,0 +1,48 @@
+[
+  {
+    "playerUuid": "c3a0fe15-9fc5-46d7-89bf-7350618f5e4d",
+    "jumpCritRatio": 0.0,
+    "actionWeights": {
+      "STRAFE_LEFT": 0.0,
+      "STRAFE_RIGHT": 0.0,
+      "JUMP_CRIT": 0.0,
+      "RANGED_ATTACK": 0.0,
+      "MELEE_ATTACK": 0.0,
+      "SHIELD_BLOCK": 0.0,
+      "HIT_AND_RUN": 0.0,
+      "BACK_PEDAL": 0.0,
+      "CIRCLE_STRAFE": 0.0,
+      "ENVIRONMENTAL_KILL": 0.0,
+      "RUSH_FORWARD": 0.0
+    },
+    "meleeRatio": 0.0,
+    "rangedRatio": 0.0,
+    "shieldUsageRatio": 0.0,
+    "totalActions": 24271,
+    "environmentalKillRatio": 0.0,
+    "dominantMovementPattern": "AGGRESSIVE"
+  },
+  {
+    "playerUuid": "ed92f6a1-8a76-4e50-a2e0-3d8267d3131b",
+    "jumpCritRatio": 0.0,
+    "actionWeights": {
+      "STRAFE_LEFT": 0.0,
+      "STRAFE_RIGHT": 0.0,
+      "JUMP_CRIT": 0.0,
+      "RANGED_ATTACK": 0.0,
+      "MELEE_ATTACK": 0.0,
+      "SHIELD_BLOCK": 0.0,
+      "HIT_AND_RUN": 0.0,
+      "BACK_PEDAL": 0.0,
+      "CIRCLE_STRAFE": 0.0,
+      "ENVIRONMENTAL_KILL": 0.0,
+      "RUSH_FORWARD": 0.0
+    },
+    "meleeRatio": 0.0,
+    "rangedRatio": 0.0,
+    "shieldUsageRatio": 0.0,
+    "totalActions": 0,
+    "environmentalKillRatio": 0.0,
+    "dominantMovementPattern": "NEUTRAL"
+  }
+]

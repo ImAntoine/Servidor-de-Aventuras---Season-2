@@ -1,0 +1,12 @@
+[15:23:37] [INIT] KubeJS 2001.6.5-build.26; MC 2001 forge
+[15:23:37] [INIT] Loaded plugins:
+[15:23:37] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[15:23:37] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
+[15:23:37] [INIT] - com.lowdragmc.lowdraglib.kjs.LDLibKubeJSPlugin
+[15:23:37] [INIT] - com.almostreliable.morejs.Plugin
+[15:23:37] [INIT] - com.almostreliable.lootjs.kube.LootJSPlugin
+[15:23:38] [INFO] example.js#5: Hello, World! (Loaded startup scripts)
+[15:23:38] [INFO] Loaded script startup_scripts:example.js in 0.097 s
+[15:23:38] [INFO] Loaded script startup_scripts:hide_from_creative.js in 0.033 s
+[15:23:38] [INFO] Loaded script startup_scripts:unbreakable_paxel.js in 0.002 s
+[15:23:38] [INFO] Loaded 3/3 KubeJS startup scripts in 1.463 s with 0 errors and 0 warnings

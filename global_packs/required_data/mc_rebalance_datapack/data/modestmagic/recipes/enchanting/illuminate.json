@@ -1,0 +1,17 @@
+{
+  "type": "modestmagic:enchanting",
+  "ingredients": [
+    {
+      "item": "modestmagic:enchantment_tablet_light"
+    },
+    {
+      "item": "minecraft:torch"
+    },
+    {
+      "item": "minecraft:glowstone_dust"
+    }
+  ],
+  "enchantments": [
+    "radenchants:illuminate"
+  ]
+}

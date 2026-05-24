@@ -1,0 +1,17 @@
+{
+  "type": "modestmagic:enchanting",
+  "ingredients": [
+    {
+      "item": "modestmagic:enchantment_tablet_serrated"
+    },
+    {
+      "item": "minecraft:iron_sword"
+    },
+    {
+      "item": "minecraft:brewing_stand"
+    }
+  ],
+  "enchantments": [
+    "radenchants:magical_blade"
+  ]
+}

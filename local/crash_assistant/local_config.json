@@ -1,0 +1,12 @@
+{
+	"shown_reasons": {
+		"MissingUnsupportedDependencies": true,
+		"AzureLibAddons": true,
+		"MixinApply": true
+	},
+	"analysis": {
+		"jdeps": {
+			"include_nested": true
+		}
+	}
+}

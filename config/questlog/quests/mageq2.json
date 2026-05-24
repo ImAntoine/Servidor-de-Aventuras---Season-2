@@ -1,0 +1,18 @@
+{
+  "title": "The First Grimoire",
+  "description": "To cast spells without breaking the scroll, you'll need a spell book. \n\nThe flimsy journal is the most basic spell book, and it's a great way to get started with magic. It can be crafted using basic materials, and it can hold up to 5 spells. To equip it place it in your Spell Book slot in your curios inventory or just equip it when its in your main hand. \n\nThere are other spell books that have higher capacities, preinscribed spells, or other special features.",
+  "icon": {
+    "item": "irons_spellbooks:copper_spell_book"
+  },
+  "requirements": [],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "item": "irons_spellbooks:copper_spell_book",
+      "required_amount": 1,
+      "name": "Craft a Flimsy Journal"
+    }
+  ],
+  "sort_order": 2,
+  "chapter": "mage"
+}

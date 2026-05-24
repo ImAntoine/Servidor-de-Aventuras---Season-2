@@ -1,0 +1,13 @@
+
+[version]
+	#Configuration Version - Do not change this value
+	#Range: > 0
+	config_version = 1
+
+#Armageddon Tooltip Tier Configuration
+[general]
+	#List of tag entries. Format: [tags, label, advancement]
+	#Tags can be comma-separated for multiple tags
+	#Example: ["forge:diamond_tools, forge:diamond_armor, forge:diamond_blocks", "entity.armageddon_mod.eldoraththe_ancient_builder", "armageddon_mod:the_diamond_keeper"]
+	tags = []
+

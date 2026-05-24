@@ -1,0 +1,14 @@
+{
+  "type": "modestmagic:enchanting",
+  "ingredients": [
+    {
+      "item": "modestmagic:enchantment_tablet_haunted"
+    },
+    {
+      "item": "minecraft:soul_sand"
+    }
+  ],
+  "enchantments": [
+    "minecraft:soul_speed"
+  ]
+}

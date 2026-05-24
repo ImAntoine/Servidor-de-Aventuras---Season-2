@@ -1,0 +1,21 @@
+
+[fixes]
+	#Enable merged PR entity handlers: density cap, AI/gravity disable, suffocation immunity, whirlpool duplicate cancel, and whisper mute.
+	entityRelatedFixes = true
+	#Enable the Macabre attribute base reset compatibility fix.
+	attributeCompatibilityFix = true
+	#Enable Macabre player/saved-data sync throttles.
+	networkSyncThrottleFix = true
+	#Enable removal of unused nearby-entity sorting in Macabre boss tick procedures.
+	bossTickSortFix = true
+	#Enable cleanup of hidden dungeon/village structure trigger blocks without running the expensive template procedures.
+	structureTriggerFix = true
+	#Enable Hollow Man auto-spawner duplicate prevention and lower-allocation trigger checks.
+	bossSpawnerDuplicateFix = true
+	#Enable bounded Pit effect overlay queue and sync behavior.
+	pitEffectQueueSyncFix = true
+	#Enable fallback sounds when inspected Macabre eye entity sound lookups are missing.
+	entitySoundFallbackFix = true
+	#Enable Macabre tree leaf decay support.
+	leafDecayFix = true
+

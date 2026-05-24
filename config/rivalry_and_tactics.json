@@ -1,0 +1,51 @@
+{
+  "enabled": true,
+  "nemesis": {
+    "enabled": true,
+    "spawnChance": 0.2,
+    "maxTraits": 5,
+    "patrolSize": 3,
+    "trackingRangeBlocks": 128,
+    "respawnTimerSeconds": 300,
+    "respawnEnabled": true,
+    "traitStrengthMultiplier": 1.0
+  },
+  "commander": {
+    "enabled": true,
+    "spawnChance": 0.15,
+    "orderCooldownTicks": 100,
+    "commandRange": 16,
+    "coordinationLossDurationTicks": 600,
+    "healthBonus": 0.2
+  },
+  "elite": {
+    "enabled": true,
+    "mutationChance": 0.08,
+    "maxTraits": 2,
+    "permanentElites": false,
+    "temporaryDurationTicks": 6000,
+    "statBoostMultiplier": 1.0
+  },
+  "adaptive": {
+    "enabled": true,
+    "memoryBufferSize": 100,
+    "decayRateMinutes": 30,
+    "counterSpawnBias": 0.3,
+    "analysisIntervalTicks": 1200
+  },
+  "communication": {
+    "enabled": true,
+    "alertRange": 24,
+    "aggressionBoostDurationTicks": 200,
+    "alertCooldownSeconds": 5.0
+  },
+  "balance": {
+    "hardcoreMultiplier": 1.5,
+    "maxNemesisPerPlayer": 3,
+    "maxCommandersPerChunk": 2,
+    "decayOnSleep": true,
+    "decayOnDimensionChange": true,
+    "nemesisDistanceLimit": 256,
+    "nemesisTimeoutMinutes": 60
+  }
+}

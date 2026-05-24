@@ -1,0 +1,17 @@
+{
+  "type": "modestmagic:enchanting",
+  "ingredients": [
+    {
+      "item": "modestmagic:enchantment_tablet_glacial"
+    },
+    {
+      "item": "minecraft:ice"
+    },
+    {
+      "item": "minecraft:feather"
+    }
+  ],
+  "enchantments": [
+    "minecraft:frost_walker"
+  ]
+}

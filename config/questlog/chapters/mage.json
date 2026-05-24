@@ -1,0 +1,10 @@
+{
+  "name": "Mage Questline",
+  "translatable": false,
+  "icon": {
+    "item": "irons_spellbooks:diamond_spell_book"
+  },
+  "order": 2,
+  "default_chapter": false,
+  "hidden": false
+}

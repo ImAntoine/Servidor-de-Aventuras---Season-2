@@ -1,0 +1,17 @@
+{
+  "type": "modestmagic:enchanting",
+  "ingredients": [
+    {
+      "item": "modestmagic:enchantment_tablet_haunted"
+    },
+    {
+      "item": "minecraft:ink_sac"
+    },
+    {
+      "item": "minecraft:string"
+    }
+  ],
+  "enchantments": [
+    "radenchants:shadow_bind"
+  ]
+}

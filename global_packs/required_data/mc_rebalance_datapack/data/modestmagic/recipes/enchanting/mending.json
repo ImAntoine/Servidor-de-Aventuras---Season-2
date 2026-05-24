@@ -1,0 +1,14 @@
+{
+  "type": "modestmagic:enchanting",
+  "ingredients": [
+    {
+      "item": "modestmagic:enchantment_tablet_enduring"
+    },
+    {
+      "item": "minecraft:experience_bottle"
+    }
+  ],
+  "enchantments": [
+    "minecraft:mending"
+  ]
+}

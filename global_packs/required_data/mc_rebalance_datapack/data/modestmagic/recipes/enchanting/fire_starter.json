@@ -1,0 +1,17 @@
+{
+  "type": "modestmagic:enchanting",
+  "ingredients": [
+    {
+      "item": "modestmagic:enchantment_tablet_puncturing"
+    },
+    {
+      "item": "minecraft:flint_and_steel"
+    },
+    {
+      "item": "minecraft:arrow"
+    }
+  ],
+  "enchantments": [
+    "jeg:fire_starter"
+  ]
+}

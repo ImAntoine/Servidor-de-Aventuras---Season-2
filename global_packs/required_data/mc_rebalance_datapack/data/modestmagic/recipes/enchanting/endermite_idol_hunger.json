@@ -1,0 +1,14 @@
+{
+  "type": "modestmagic:enchanting",
+  "ingredients": [
+    {
+      "item": "modestmagic:enchantment_tablet_infested"
+    },
+    {
+      "item": "minecraft:rotten_flesh"
+    }
+  ],
+  "enchantments": [
+    "mofus_better_end_:endermite_idol_hunger"
+  ]
+}

@@ -1,0 +1,63 @@
+
+[dump]
+	#Dump destination root directory (relative to game directory).
+	#Files are placed at <dumpRoot>/generated/<namespace>/<path>.js
+	dumpRoot = "kubejs/server_scripts"
+
+[drag]
+	#Default fluid amount (mB) when dragged from JEI.
+	#Overrides the source amount so behavior is consistent.
+	#Range: > 1
+	fluidDefault = 1000
+	#Default gas amount (mB) when dragged from JEI.
+	#Range: > 1
+	gasDefault = 1000
+
+[editor]
+	#How long edits (drafts) survive.
+	#MIN: discarded when editor closes.
+	#NORMAL: kept until the game exits (default).
+	#MAX: saved to <gameDir>/config/credit-drafts.dat and restored on restart.
+	#Allowed Values: MIN, NORMAL, MAX
+	editPersistence = "NORMAL"
+	#When true, vanilla crafting SHAPED and SHAPELESS share the same slot edits.
+	#Toggling between modes preserves the current grid contents.
+	craftingShareSlots = false
+	#Track edit operations for Ctrl+Z / Ctrl+Y undo/redo while CraftPattern is open.
+	#Disable to skip snapshot capture if you suspect performance issues.
+	undoEnabled = true
+
+[immediateApply]
+	#DANGEROUS: When true, all edits are written to .js files immediately,
+	#bypassing /credit commit and /credit push.
+	#Useful for rapid iteration but loses the safety net of commit review.
+	master = false
+	#DANGEROUS: ADD operations bypass commit/push (master overrides).
+	add = false
+	#DANGEROUS: EDIT operations bypass commit/push (master overrides).
+	edit = false
+	#DANGEROUS: DELETE operations bypass commit/push (master overrides).
+	delete = false
+
+[history]
+	#Maximum number of push entries to keep (10/20/30/40/50/100/200/300/UNLIMITED).
+	#Older entries are dropped when the limit is reached.
+	#Allowed Values: N_10, N_20, N_30, N_40, N_50, N_100, N_200, N_300, UNLIMITED
+	historyMax = "N_30"
+
+[push]
+	#When true, /credit push automatically runs '/reload' after writing files.
+	autoReloadAfterPush = false
+
+[commands]
+	#When true, also register short top-level commands without the /credit prefix:
+	#/commit, /push, /history, /setting, /status
+	#Changes take effect on next world join (or game restart).
+	omitModidPrefix = true
+
+[editor2]
+	#When false (default), switching recipe type while in edit mode clears the loaded grid
+	#to avoid accidentally creating unintended recipes.
+	#When true, the loaded recipe contents are preserved across category switches.
+	preserveEditGridOnSwitch = false
+

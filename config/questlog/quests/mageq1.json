@@ -1,0 +1,18 @@
+{
+  "title": "Other Scrolls",
+  "description": "Scrolls can be used to cast spells, but only once. They are a great way to get started with magic, but they won't last forever. \n\nScrolls can be found in random loot chests, or crafted. They are found in different power levels, and the higher the level, the more powerful the spell. Each spell has an associated school of magic.",
+  "icon": {
+    "item": "irons_spellbooks:scroll"
+  },
+  "requirements": [],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "item": "irons_spellbooks:scroll",
+      "required_amount": 1,
+      "name": "Find a Scroll"
+    }
+  ],
+  "sort_order": 1,
+  "chapter": "mage"
+}

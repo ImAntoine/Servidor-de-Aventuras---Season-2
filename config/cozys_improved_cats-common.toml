@@ -1,0 +1,216 @@
+
+#Cozy's Improved Cats common configuration.
+[trading]
+	#Range: > 0
+	ancientCodEmeraldCost = 3
+	#Range: > 1
+	ancientCodTradeReceive = 1
+	#Range: > 0
+	ancientSalmonEmeraldCost = 3
+	#Range: > 1
+	ancientSalmonTradeReceive = 1
+	#Range: 1 ~ 5
+	fishermanLevelForTrade = 3
+	#Range: > 1
+	maxTradeUsesAncientCod = 10
+	#Range: > 1
+	maxTradeUsesAncientSalmon = 10
+	#Range: > 0
+	xpForTrade = 5
+	#Range: 0.0 ~ 10.0
+	priceMultiplierForTradeFluctuation = 0.05
+
+[catStats]
+	#Range: 1.0 ~ 2048.0
+	wildMaxHealth = 20.0
+	#Range: 1.0 ~ 2048.0
+	tamedMinHealth = 20.0
+	#Range: 1.0 ~ 2048.0
+	tamedMaxHealth = 35.0
+	#Range: 0.01 ~ 4.0
+	tamedDefaultSpeed = 0.4
+	#Range: > 0
+	affinityLevelOne = 12000
+	#Range: > 0
+	affinityLevelTwo = 48000
+	#Range: > 0
+	affinityLevelThree = 192000
+	#Range: > 0
+	affinityLevelFour = 768000
+	#Range: > 0
+	affinityLevelFive = 3072000
+	#Range: > 0
+	bondLevelOne = 12000
+	#Range: > 0
+	bondLevelTwo = 48000
+	#Range: > 0
+	bondLevelThree = 192000
+	#Range: > 0
+	bondLevelFour = 768000
+	#Range: > 0
+	bondLevelFive = 3072000
+	#Range: > 0
+	nonFavoriteFoodBondXp = 1
+	#Range: > 0
+	favoriteFoodBondXp = 2
+	#Range: > 0
+	interactionBondXpMin = 1
+	#Range: > 0
+	interactionBondXpMax = 3
+	#Range: > 0
+	proximityBondXp = 1
+	#Range: 0.0 ~ 256.0
+	largeBondProximityDistance = 30.0
+	#Range: 0.0 ~ 256.0
+	mediumBondProximityDistance = 20.0
+	#Range: 0.0 ~ 256.0
+	smallBondProximityDistance = 10.0
+	#Range: 0.0 ~ 1.0
+	largeProximityBondIncreaseChance = 0.1
+	#Range: 0.0 ~ 1.0
+	mediumProximityBondIncreaseChance = 0.3
+	#Range: 0.0 ~ 1.0
+	smallProximityBondIncreaseChance = 0.9
+
+[behavior]
+	preventOwnerFriendlyFireToCat = true
+	preventAnyFriendlyFireToCat = false
+	preventNonOwnersFromBreeding = true
+	babyCatsAlwaysWild = true
+	#Range: 0.0 ~ 16.0
+	tamedFollowStopDistance = 1.0
+	#Range: 0.0 ~ 64.0
+	additionalBlocksFromWanderToTeleport = 3.0
+	#Range: 0.0 ~ 1.0
+	emoteChance = 1.667E-4
+	#Range: 0.0 ~ 1.0
+	ownerBondEmoteChance = 0.25
+	#Range: 0.0 ~ 256.0
+	emoteMaxDistance = 30.0
+	#Range: 0.0 ~ 64.0
+	pairedActionRange = 7.0
+	enableSoloEmotes = true
+	enablePairedEmotes = true
+	#Range: 0.0 ~ 256.0
+	abilityRange = 25.0
+
+[toggles]
+	teleportSoundEnabled = true
+	genderSystemEnabled = true
+	reviveEnabled = true
+	allowVanillaTaming = false
+	enableFallDamage = false
+	enableTotemReroll = false
+
+[notifications]
+	catRevivedNotif = true
+	newCatGetNotif = true
+	catAbilityNotif = true
+	catInteractionProgressNotif = true
+	catInteractionCompletedNotif = true
+	catNonOwnerInteractionCompletedNotif = true
+	tamingHintNotif = true
+	catHealthFeedNotif = true
+
+[misc]
+	shouldAlwaysRenderName = true
+	#Range: > 1
+	tameChance = 2
+	#Range: > 1
+	statusEffectDurationSeconds = 10
+	#Range: 1 ~ 9223372036854775807
+	secondsToInteract = 5
+	#Range: > 1
+	interactionsToCompletion = 3
+	#Range: > 1
+	trainingStringDurability = 99
+	#Range: 0.0 ~ 2048.0
+	heartIconHealthAmount = 4.0
+	#Range: 0.0 ~ 2048.0
+	foodHealAmount = 4.0
+	#Range: > 1
+	favoriteFoodHealMultiplier = 2
+	#Range: 0.0 ~ 2048.0
+	healthDecayAmount = 1.0
+	#Range: > 1
+	healthDecayIntervalTicks = 1500
+	#Range: 0.0 ~ 1.0
+	minHealthPercentage = 0.5
+
+[ancientFish]
+	#Range: 0.0 ~ 1.0
+	ancientSalmonDropChance = 0.5
+	#Range: 0.0 ~ 1.0
+	ancientCodDropChance = 0.5
+	#Range: 0.0 ~ 1024.0
+	experienceForSmeltingAncientFish = 1.0
+	#Range: > 1
+	ticksToSmeltAncientFish = 200
+	#Range: > 0
+	rawAncientFishNutritionAmount = 2
+	#Range: 0.0 ~ 10.0
+	rawAncientFishSaturationModifier = 0.1
+	#Range: > 0
+	cookedAncientFishNutritionAmount = 5
+	#Range: 0.0 ~ 10.0
+	cookedAncientFishSaturationModifier = 0.6
+	cookedAncientFishEffects = true
+
+[classes]
+	#Range: 0.0 ~ 1.0
+	maleChanceForLucky = 0.05
+	#Range: 0.0 ~ 1.0
+	maleChanceForDreamer = 0.15
+	#Range: 0.0 ~ 1.0
+	maleChanceForGuardian = 0.25
+	#Range: 0.0 ~ 1.0
+	maleChanceForNaiad = 0.25
+	#Range: 0.0 ~ 1.0
+	maleChanceForWitchling = 0.2
+	#Range: 0.0 ~ 1.0
+	femaleChanceForLucky = 0.05
+	#Range: 0.0 ~ 1.0
+	femaleChanceForDreamer = 0.15
+	#Range: 0.0 ~ 1.0
+	femaleChanceForGuardian = 0.2
+	#Range: 0.0 ~ 1.0
+	femaleChanceForNaiad = 0.35
+	#Range: 0.0 ~ 1.0
+	femaleChanceForWitchling = 0.25
+	#Range: > 0
+	guardianCreeperDetectionRadius = 15
+	#Range: > 0
+	guardianPhantomDetectionRadius = 200
+	#Range: 0.0 ~ 1.0
+	witchlingGiftChance = 1.667E-4
+
+[genderClassChances]
+
+	[genderClassChances.maleChances]
+		#Range: 0.0 ~ 1.0
+		lucky = 0.05
+		#Range: 0.0 ~ 1.0
+		dreamer = 0.15
+		#Range: 0.0 ~ 1.0
+		guardian = 0.35
+		#Range: 0.0 ~ 1.0
+		naiad = 0.25
+		#Range: 0.0 ~ 1.0
+		witchling = 0.2
+
+	[genderClassChances.femaleChances]
+		#Range: 0.0 ~ 1.0
+		lucky = 0.05
+		#Range: 0.0 ~ 1.0
+		dreamer = 0.15
+		#Range: 0.0 ~ 1.0
+		guardian = 0.2
+		#Range: 0.0 ~ 1.0
+		naiad = 0.35
+		#Range: 0.0 ~ 1.0
+		witchling = 0.25
+
+[debug]
+	enableNbtWarnings = true
+	debugLoggingEnabled = false
+

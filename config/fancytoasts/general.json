@@ -1,0 +1,20 @@
+{
+  "isJadeHiding": true,
+  "isBossBarHiding": true,
+  "isAetherEnabled": true,
+  "areSoundsEnabled": true,
+  "taskVolume": 0.5,
+  "goalVolume": 0.25,
+  "challengeVolume": 0.5,
+  "loopsStrength": 1.0,
+  "loopsSpeed": 1.0,
+  "pitchRandomness": 0.05,
+  "animationSpeed": 1.3,
+  "offsetX": 0,
+  "offsetY": -50,
+  "toastAnchor": "TOP",
+  "toastScreenBehavior": "TRANSPARENT",
+  "titleDisplayTextType": "DEFAULT",
+  "descriptionDisplayTextType": "DEFAULT",
+  "version": 3
+}

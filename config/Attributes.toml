@@ -1,0 +1,18 @@
+
+[Damage]
+	UppercutDmg = 30.0
+	OverheadDmg = 30.0
+	MeleeDmg = 30.0
+	ShockwaveDmg = 25.0
+	ExplosionDmg = 50.0
+	SoulDmg = 4.0
+
+[Stats]
+	Health = 1024.0
+	Armor = 20.0
+	ArmorToughness = 12.0
+	#Chance to switch target before each attack (lower num = higher chance)
+	ChanceToSwitchTarget = 5.0
+	#How much the boss heals per player death (can only be powers of 2)
+	HealPerDeath = 128.0
+

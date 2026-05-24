@@ -1,0 +1,18 @@
+{
+  "title": "The Arcane Anvil",
+  "description": "The Arcane Anvil is a powerful crafting station that allows the level up your scrolls, upgrade your armor and spell books, and imbue weapons with spells. \n\nGathering your most powerful materials and crafting an Arcane Anvil is the first step to becoming a true master of the arcane arts.",
+  "icon": {
+    "item": "irons_spellbooks:arcane_anvil"
+  },
+  "requirements": [],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "item": "irons_spellbooks:arcane_anvil",
+      "required_amount": 1,
+      "name": "Craft an Arcane Anvil"
+    }
+  ],
+  "sort_order": 6,
+  "chapter": "mage"
+}

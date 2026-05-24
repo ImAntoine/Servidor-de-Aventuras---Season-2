@@ -1,0 +1,14 @@
+{
+  "type": "modestmagic:enchanting",
+  "ingredients": [
+    {
+      "item": "modestmagic:enchantment_tablet_heavy"
+    },
+    {
+      "item": "minecraft:rabbit_foot"
+    }
+  ],
+  "enchantments": [
+    "radenchants:rabbits_feet"
+  ]
+}

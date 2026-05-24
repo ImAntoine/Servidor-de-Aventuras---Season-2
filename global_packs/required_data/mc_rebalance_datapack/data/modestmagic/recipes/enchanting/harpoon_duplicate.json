@@ -1,0 +1,17 @@
+{
+  "type": "modestmagic:enchanting",
+  "ingredients": [
+    {
+      "item": "modestmagic:enchantment_tablet_puncturing"
+    },
+    {
+      "item": "minecraft:chain"
+    },
+    {
+      "item": "minecraft:arrow"
+    }
+  ],
+  "enchantments": [
+    "mofus_better_end_:harpoon_duplicate"
+  ]
+}

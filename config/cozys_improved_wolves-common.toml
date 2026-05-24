@@ -1,0 +1,144 @@
+
+#Cozy's Improved Wolves common configuration.
+[trading]
+	#Range: > 0
+	ancientBoneEmeraldCost = 3
+	#Range: > 1
+	ancientBoneTradeReceive = 1
+	#Range: 1 ~ 5
+	clericLevelForTrade = 3
+
+[wolfStats]
+	#Range: 1.0 ~ 2048.0
+	wildWolfMaxHealth = 15.0
+	#Range: 0.0 ~ 1024.0
+	wildWolfAttackDamage = 4.0
+	#Range: 0.01 ~ 4.0
+	wildWolfMovementSpeed = 0.4
+	#Range: 0.0 ~ 1024.0
+	tamedMinAttack = 2.0
+	#Range: 0.0 ~ 1024.0
+	tamedMaxAttack = 6.0
+	#Range: 1.0 ~ 2048.0
+	tamedMinHealth = 20.0
+	#Range: 1.0 ~ 2048.0
+	tamedMaxHealth = 35.0
+	#Range: 0.01 ~ 4.0
+	tamedMinSpeed = 0.3
+	#Range: 0.01 ~ 4.0
+	tamedMaxSpeed = 0.4
+	#Range: 0.0 ~ 1.0
+	tamedGathererMinGiftChance = 0.0
+	#Range: 0.0 ~ 1.0
+	tamedGathererMaxGiftChance = 0.0025
+	#Range: 0.0 ~ 1.0
+	tamedHunterMinGiftChance = 0.0
+	#Range: 0.0 ~ 1.0
+	tamedHunterMaxGiftChance = 0.4
+	#Range: 0.0 ~ 128.0
+	tamedMinWanderRange = 5.0
+	#Range: 0.0 ~ 128.0
+	tamedMaxWanderRange = 12.0
+	#Range: 0.0 ~ 1024.0
+	hunterMinAttack = 3.0
+	#Range: 0.0 ~ 1024.0
+	hunterMaxAttack = 6.0
+	#Range: 1.0 ~ 2048.0
+	hunterMinHealth = 25.0
+	#Range: 1.0 ~ 2048.0
+	hunterMaxHealth = 35.0
+	#Range: 0.01 ~ 4.0
+	hunterMinSpeed = 0.3
+	#Range: 0.01 ~ 4.0
+	hunterMaxSpeed = 0.36
+	#Range: 0.0 ~ 1.0
+	hunterGiftChanceMin = 0.0
+	#Range: 0.0 ~ 1.0
+	hunterGiftChanceMax = 0.2
+	#Range: 0.0 ~ 128.0
+	hunterMinWanderRange = 5.0
+	#Range: 0.0 ~ 128.0
+	hunterMaxWanderRange = 9.0
+	#Range: 0.0 ~ 1024.0
+	gathererMinAttack = 2.0
+	#Range: 0.0 ~ 1024.0
+	gathererMaxAttack = 4.0
+	#Range: 1.0 ~ 2048.0
+	gathererMinHealth = 20.0
+	#Range: 1.0 ~ 2048.0
+	gathererMaxHealth = 28.0
+	#Range: 0.01 ~ 4.0
+	gathererMinSpeed = 0.33
+	#Range: 0.01 ~ 4.0
+	gathererMaxSpeed = 0.4
+	#Range: 0.0 ~ 1.0
+	gathererGiftChanceMin = 0.00125
+	#Range: 0.0 ~ 1.0
+	gathererGiftChanceMax = 0.0025
+	#Range: 0.0 ~ 128.0
+	gathererMinWanderRange = 8.0
+	#Range: 0.0 ~ 128.0
+	gathererMaxWanderRange = 12.0
+
+[behavior]
+	preventOwnerFriendlyFireToWolf = true
+	preventAnyFriendlyFireToWolf = false
+	preventNonOwnersFromBreeding = true
+	babyWolvesAlwaysWild = true
+	enableTeleportSound = true
+	enableGenderSystem = true
+	allowFallDamage = true
+	enableTotemReroll = false
+	#Range: 0.0 ~ 16.0
+	tamedFollowStopDistance = 1.0
+	#Range: 0.0 ~ 64.0
+	additionalBlocksFromWanderToTeleport = 3.0
+	#Range: 0.0 ~ 1.0
+	emoteChance = 1.667E-4
+	#Range: 0.0 ~ 256.0
+	emoteMaxDistance = 30.0
+	#Range: 0.0 ~ 64.0
+	pairedActionRange = 7.0
+	enableSoloEmotes = true
+	enablePairedEmotes = true
+	#Range: 0.0 ~ 256.0
+	gathererGiftOwnerRange = 20.0
+	enableGathererGift = true
+	enableHunterGift = true
+
+[notifications]
+	wolfKilledMobNotif = true
+	wolfRevivedNotif = true
+	newWolfGetNotif = true
+	wolfGiftNotif = true
+	wolfInteractionProgressNotif = true
+	wolfInteractionCompletedNotif = true
+	wolfNonOwnerInteractionCompletedNotif = true
+	tamingHintNotif = true
+	wolfHealthFeedNotif = true
+
+[misc]
+	#Range: 0.0 ~ 1.0
+	ancientBoneSkeletonDropChance = 0.1
+	shouldAlwaysRenderName = true
+	#Range: > 1
+	tameChance = 2
+	allowVanillaTaming = false
+	#Range: > 1
+	statusEffectDurationSeconds = 10
+	#Range: 1 ~ 9223372036854775807
+	secondsToInteract = 5
+	#Range: > 1
+	interactionsToCompletion = 3
+	#Range: > 1
+	trainingStickDurability = 99
+	enableReviveMechanics = true
+	#Range: 0.0 ~ 1.0
+	maleChanceForHunter = 0.7
+	#Range: 0.0 ~ 1.0
+	femaleChanceForGatherer = 0.7
+
+[debug]
+	enableDebugLogging = true
+	enableNbtWarnings = true
+

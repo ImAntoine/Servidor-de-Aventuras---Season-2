@@ -1,0 +1,17 @@
+{
+  "type": "modestmagic:enchanting",
+  "ingredients": [
+    {
+      "item": "modestmagic:enchantment_tablet_swift"
+    },
+    {
+      "item": "minecraft:feather"
+    },
+    {
+      "item": "minecraft:tnt"
+    }
+  ],
+  "enchantments": [
+    "minecraft_121_update:wind_burst"
+  ]
+}

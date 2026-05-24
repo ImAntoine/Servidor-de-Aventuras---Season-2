@@ -1,0 +1,17 @@
+{
+  "type": "modestmagic:enchanting",
+  "ingredients": [
+    {
+      "item": "modestmagic:enchantment_tablet_light"
+    },
+    {
+      "item": "minecraft:feather"
+    },
+    {
+      "item": "minecraft:rabbit_foot"
+    }
+  ],
+  "enchantments": [
+    "radenchants:moon_boots"
+  ]
+}

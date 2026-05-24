@@ -1,0 +1,14 @@
+{
+  "type": "modestmagic:enchanting",
+  "ingredients": [
+    {
+      "item": "modestmagic:enchantment_tablet_secure"
+    },
+    {
+      "item": "minecraft:fermented_spider_eye"
+    }
+  ],
+  "enchantments": [
+    "enchantlement:vital_leak"
+  ]
+}

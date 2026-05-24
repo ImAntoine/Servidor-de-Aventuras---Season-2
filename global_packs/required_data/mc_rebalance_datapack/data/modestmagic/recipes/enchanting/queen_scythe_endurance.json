@@ -1,0 +1,17 @@
+{
+  "type": "modestmagic:enchanting",
+  "ingredients": [
+    {
+      "item": "modestmagic:enchantment_tablet_serrated"
+    },
+    {
+      "item": "minecraft:end_stone"
+    },
+    {
+      "item": "minecraft:iron_sword"
+    }
+  ],
+  "enchantments": [
+    "mofus_better_end_:queen_scythe_endurance"
+  ]
+}

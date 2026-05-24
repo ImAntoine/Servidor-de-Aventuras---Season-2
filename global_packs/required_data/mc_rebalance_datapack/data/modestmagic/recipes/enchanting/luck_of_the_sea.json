@@ -1,0 +1,17 @@
+{
+  "type": "modestmagic:enchanting",
+  "ingredients": [
+    {
+      "item": "modestmagic:enchantment_tablet_recollection"
+    },
+    {
+      "item": "minecraft:fishing_rod"
+    },
+    {
+      "item": "minecraft:diamond"
+    }
+  ],
+  "enchantments": [
+    "minecraft:luck_of_the_sea"
+  ]
+}

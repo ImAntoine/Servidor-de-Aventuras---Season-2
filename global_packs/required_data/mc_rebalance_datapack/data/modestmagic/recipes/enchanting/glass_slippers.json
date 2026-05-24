@@ -1,0 +1,14 @@
+{
+  "type": "modestmagic:enchanting",
+  "ingredients": [
+    {
+      "item": "modestmagic:enchantment_tablet_light"
+    },
+    {
+      "item": "minecraft:glass"
+    }
+  ],
+  "enchantments": [
+    "radenchants:glass_slippers"
+  ]
+}

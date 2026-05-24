@@ -1,0 +1,237 @@
+{
+  "vanillatweaks:root": {
+    "criteria": {
+      "tick": "2026-05-24 15:30:50 +0200"
+    },
+    "done": true
+  },
+  "takesapillage:root": {
+    "criteria": {
+      "always": "2026-05-24 15:30:50 +0200"
+    },
+    "done": true
+  },
+  "create:root": {
+    "criteria": {
+      "0": "2026-05-24 15:30:50 +0200"
+    },
+    "done": true
+  },
+  "stellarity:cursed_tome/root": {
+    "criteria": {
+      "requirement": "2026-05-24 15:30:50 +0200"
+    },
+    "done": true
+  },
+  "vanillatweaks:multiplayer_sleep": {
+    "criteria": {
+      "tick": "2026-05-24 15:30:50 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2026-05-24 15:30:50 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_all_mobs": {
+    "criteria": {
+      "minecraft:slime": "2026-05-24 15:31:44 +0200"
+    },
+    "done": false
+  },
+  "vanillatweaks:anti_enderman_grief": {
+    "criteria": {
+      "tick": "2026-05-24 15:30:50 +0200"
+    },
+    "done": true
+  },
+  "traveloptics:root": {
+    "criteria": {
+      "custom_test_name": "2026-05-24 15:30:50 +0200"
+    },
+    "done": true
+  },
+  "stellarity:dragons_den/cursed_tome/root": {
+    "criteria": {
+      "requirement": "2026-05-24 15:30:50 +0200"
+    },
+    "done": true
+  },
+  "roaring:roaring_achievement": {
+    "criteria": {
+      "roaring_achievement_0": "2026-05-24 15:30:50 +0200"
+    },
+    "done": true
+  },
+  "species:species/v1/v1": {
+    "criteria": {
+      "picked_up_any_item": "2026-05-24 15:30:50 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_something": "2026-05-24 15:31:44 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/slime_block": {
+    "criteria": {
+      "has_slime_ball": "2026-05-24 15:31:47 +0200"
+    },
+    "done": true
+  },
+  "betterdungeons:root": {
+    "criteria": {
+      "always": "2026-05-24 15:30:50 +0200"
+    },
+    "done": true
+  },
+  "legendary_monsters:legendary_monsters_root": {
+    "criteria": {
+      "custom_test_name": "2026-05-24 15:30:50 +0200"
+    },
+    "done": true
+  },
+  "parcool:grant_parcool_guide": {
+    "criteria": {
+      "tick": "2026-05-24 15:30:50 +0200"
+    },
+    "done": true
+  },
+  "species:species/root": {
+    "criteria": {
+      "picked_up_any_item": "2026-05-24 15:30:50 +0200"
+    },
+    "done": true
+  },
+  "restrictedportals:root": {
+    "criteria": {
+      "root": "2026-05-24 15:30:51 +0200"
+    },
+    "done": true
+  },
+  "armor_statues:enable": {
+    "criteria": {
+      "tick": "2026-05-24 15:30:50 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/packing_tape": {
+    "criteria": {
+      "has_slime": "2026-05-24 15:31:47 +0200"
+    },
+    "done": true
+  },
+  "legendary_monsters:end_root": {
+    "criteria": {
+      "custom_test_name": "2026-05-24 15:30:50 +0200"
+    },
+    "done": true
+  },
+  "species:species/v3/v3": {
+    "criteria": {
+      "picked_up_any_item": "2026-05-24 15:30:50 +0200"
+    },
+    "done": true
+  },
+  "vanillatweaks:cauldron_concrete": {
+    "criteria": {
+      "tick": "2026-05-24 15:30:50 +0200"
+    },
+    "done": true
+  },
+  "lootr:root": {
+    "criteria": {
+      "always_true": "2026-05-24 15:30:50 +0200"
+    },
+    "done": true
+  },
+  "eeeabsmobs:eeeabsmobs/root": {
+    "criteria": {
+      "requirement": "2026-05-24 15:30:50 +0200"
+    },
+    "done": true
+  },
+  "vanillatweaks:larger_phantoms": {
+    "criteria": {
+      "tick": "2026-05-24 15:30:50 +0200"
+    },
+    "done": true
+  },
+  "cataclysm:root": {
+    "criteria": {
+      "custom_test_name": "2026-05-24 15:30:50 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/lead": {
+    "criteria": {
+      "has_slime_ball": "2026-05-24 15:31:47 +0200"
+    },
+    "done": true
+  },
+  "darkdoppelganger:root": {
+    "criteria": {
+      "get_scroll": "2026-05-24 15:30:50 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/sticky_piston": {
+    "criteria": {
+      "has_slime_ball": "2026-05-24 15:31:47 +0200"
+    },
+    "done": true
+  },
+  "farmersdelight:main/root": {
+    "criteria": {
+      "seeds": "2026-05-24 15:30:50 +0200"
+    },
+    "done": true
+  },
+  "mythsandlegends:root": {
+    "criteria": {
+      "mythsandlegends": "2026-05-24 15:30:50 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_a_mob": {
+    "criteria": {
+      "minecraft:slime": "2026-05-24 15:31:44 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:plains": "2026-05-24 15:30:51 +0200"
+    },
+    "done": false
+  },
+  "yuushya:recipes/pictor": {
+    "criteria": {
+      "has_iron_ingot": "2026-05-24 15:30:50 +0200"
+    },
+    "done": true
+  },
+  "vanillatweaks:armor_statues": {
+    "criteria": {
+      "tick": "2026-05-24 15:30:50 +0200"
+    },
+    "done": true
+  },
+  "species:species/v2/v2": {
+    "criteria": {
+      "picked_up_any_item": "2026-05-24 15:30:50 +0200"
+    },
+    "done": true
+  },
+  "legendary_monsters:nether_root": {
+    "criteria": {
+      "custom_test_name": "2026-05-24 15:30:50 +0200"
+    },
+    "done": true
+  },
+  "DataVersion": 3465
+}

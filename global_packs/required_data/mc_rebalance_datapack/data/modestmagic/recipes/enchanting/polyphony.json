@@ -1,0 +1,14 @@
+{
+  "type": "modestmagic:enchanting",
+  "ingredients": [
+    {
+      "item": "modestmagic:enchantment_tablet_secure"
+    },
+    {
+      "item": "minecraft:note_block"
+    }
+  ],
+  "enchantments": [
+    "monsterexpansion:polyphony"
+  ]
+}

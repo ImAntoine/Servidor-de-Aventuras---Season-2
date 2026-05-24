@@ -1,0 +1,7 @@
+{
+    "items": [
+        "minecraft:fire_charge",
+        "amendments:dragon_charge"
+    ],
+    "max_stack_size": 4
+}

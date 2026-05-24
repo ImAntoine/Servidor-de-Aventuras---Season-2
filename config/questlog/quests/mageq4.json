@@ -1,0 +1,17 @@
+{
+  "title": "Spell Casting",
+  "description": "With an equipped spell book, you can access the Spell Wheel with the assigned keybind (Default: R) and cast spells using the assigned cast keybind (Default: V). \n\nEvery spell requires mana to cast, which is represented by the blue bar above your hunger. Mana can be replenished by consuming mana potions, or by waiting for it to regenerate over time.",
+  "icon": {
+    "item": "irons_spellbooks:book_stack"
+  },
+  "requirements": [],
+  "objectives": [
+    {
+      "type": "questlog:advancement",
+      "advancement": "irons_spellbooks:irons_spellbooks/spell_book_equip",
+      "name": "Equip a Spell Book"
+    }
+  ],
+  "sort_order": 4,
+  "chapter": "mage"
+}

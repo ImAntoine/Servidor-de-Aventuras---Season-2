@@ -1,0 +1,17 @@
+{
+  "type": "modestmagic:enchanting",
+  "ingredients": [
+    {
+      "item": "modestmagic:enchantment_tablet_cyclic"
+    },
+    {
+      "item": "minecraft:clock"
+    },
+    {
+      "item": "minecraft:ender_pearl"
+    }
+  ],
+  "enchantments": [
+    "monsterexpansion:lunacy"
+  ]
+}

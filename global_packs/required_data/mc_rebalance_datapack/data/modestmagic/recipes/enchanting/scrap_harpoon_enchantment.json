@@ -1,0 +1,17 @@
+{
+  "type": "modestmagic:enchanting",
+  "ingredients": [
+    {
+      "item": "modestmagic:enchantment_tablet_puncturing"
+    },
+    {
+      "item": "minecraft:iron_nugget"
+    },
+    {
+      "item": "minecraft:chain"
+    }
+  ],
+  "enchantments": [
+    "mofus_better_end_:scrap_harpoon_enchantment"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "type": "modestmagic:enchanting",
+  "ingredients": [
+    {
+      "item": "modestmagic:enchantment_tablet_serrated"
+    },
+    {
+      "item": "minecraft:diamond_sword"
+    }
+  ],
+  "enchantments": [
+    "minecraft:sharpness"
+  ]
+}

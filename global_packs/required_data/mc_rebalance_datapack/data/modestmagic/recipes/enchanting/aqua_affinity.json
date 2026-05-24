@@ -1,0 +1,14 @@
+{
+  "type": "modestmagic:enchanting",
+  "ingredients": [
+    {
+      "item": "modestmagic:enchantment_tablet_aquatic"
+    },
+    {
+      "item": "minecraft:water_bucket"
+    }
+  ],
+  "enchantments": [
+    "minecraft:aqua_affinity"
+  ]
+}

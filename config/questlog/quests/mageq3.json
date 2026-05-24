@@ -1,0 +1,18 @@
+{
+  "title": "Inscribing the Arcane",
+  "description": "You can find the Inscription Table in magical structures, or you can craft it yourself. \n\nIt's a crucial tool for any aspiring mage, as it's used to inscribe spells onto spell books.",
+  "icon": {
+    "item": "irons_spellbooks:inscription_table"
+  },
+  "requirements": [],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "item": "irons_spellbooks:inscription_table",
+      "required_amount": 1,
+      "name": "Obtain an Inscription Table"
+    }
+  ],
+  "sort_order": 3,
+  "chapter": "mage"
+}

@@ -1,0 +1,15 @@
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "AntoineCra",
+      "uniqueId": "c3a0fe15-9fc5-46d7-89bf-7350618f5e4d"
+    },
+    "time": 1778151783673,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/cfglNS5ACx"
+    }
+  }
+]

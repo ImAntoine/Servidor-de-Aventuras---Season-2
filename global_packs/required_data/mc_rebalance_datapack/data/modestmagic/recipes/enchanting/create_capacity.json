@@ -1,0 +1,17 @@
+{
+  "type": "modestmagic:enchanting",
+  "ingredients": [
+    {
+      "item": "modestmagic:enchantment_tablet_swift"
+    },
+    {
+      "item": "minecraft:chest"
+    },
+    {
+      "item": "minecraft:iron_ingot"
+    }
+  ],
+  "enchantments": [
+    "create:capacity"
+  ]
+}

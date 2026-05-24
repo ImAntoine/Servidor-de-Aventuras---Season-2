@@ -1,0 +1,17 @@
+StartupEvents.registry('item', event => {
+    // Iron Upgrade Template
+    event.create('iron_upgrade_template')
+        .displayName('Smithing Template')
+        .tooltip('§7Iron Upgrade') // Gray sub-text
+
+    // Gold Upgrade Template
+    event.create('gold_upgrade_template')
+        .displayName('Smithing Template')
+        .tooltip('§7Gold Upgrade')
+
+    // Diamond Upgrade Template
+    event.create('diamond_upgrade_template')
+        .displayName('Smithing Template')
+        .tooltip('§7Diamond Upgrade')
+
+})

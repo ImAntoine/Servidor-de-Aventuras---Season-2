@@ -1,0 +1,22 @@
+{
+  "favorites": [],
+  "lookup_history": [
+    "item:netherexp:carmine_frogmist",
+    "item:minecraft:lingering_potion{Potion:\"minecraft:poison\"}",
+    "item:minecraft:tipped_arrow{Potion:\"minecraft:poison\"}",
+    "item:minecraft:tipped_arrow{Potion:\"minecraft:long_poison\"}",
+    "item:minecraft:poisonous_potato",
+    "item:amarite:amarite_cluster",
+    "item:amarite:amarite_shard",
+    "item:amarite:amarite_block",
+    "item:amarite:amarite_longsword"
+  ],
+  "craft_history": [],
+  "recipe_defaults": {
+    "added": [],
+    "tags": {},
+    "resolutions": {},
+    "disabled": []
+  },
+  "hidden_stacks": []
+}

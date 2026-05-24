@@ -1,0 +1,142 @@
+
+[core]
+	#If true, OPs (permission level 2+) bypass all nation protections.
+	opBypass = true
+
+[points]
+	#If false, nations will not accrue points from playtime (playtime is still tracked for nation creation gating).
+	enabled = true
+	#How many points each online player contributes to their nation per hour. Default: 1.
+	#Range: 0 ~ 1000000
+	pointsPerHourPerPlayer = 1
+	#Minimum total playtime seconds required to create a nation. Default: 3 hours.
+	#Range: 0 ~ 31536000
+	nationCreationMinPlaytimeSeconds = 10800
+	#If true, the mod attempts to claim your current chunk as your capital when creating a nation (only if unclaimed).
+	autoClaimCapitalOnCreate = true
+
+[chat]
+	#If true, formats chat messages with nation prefix + role label.
+	enabled = true
+	#If true, sync scoreboard-team prefixes whenever someone talks (heavier on busy servers).
+	syncPrefixesOnChat = false
+
+[claims]
+	#Base claim cost (your rule: base + nationClaimCount). Default: 3
+	#Range: 0 ~ 1000000
+	costBase = 3
+	#Per-owned-chunk multiplier applied to claimCount. Default: 1
+	#Range: 0 ~ 1000000
+	costPerChunkOwned = 1
+	#Minimum final claim cost. Default: 1
+	#Range: 0 ~ 1000000
+	costMin = 1
+	#Maximum final claim cost. Default: 50
+	#Range: 1 ~ 1000000
+	costMax = 50
+	#If >= this many of the surrounding 5x5 (excluding center) are yours, apply 25% discount. Default: 18
+	#Range: 0 ~ 24
+	discount5x5Threshold = 18
+	#If >= this many of the surrounding 9x9 (excluding center) are other nations, apply 25% increase. Default: 18
+	#Range: 0 ~ 80
+	increase9x9Threshold = 18
+	#Enable the sweet-spot multiplier once a nation owns at least this many chunks. Default: 25
+	#Range: 0 ~ 1000000
+	sweetSpotEnableAfterChunks = 25
+	#Sweet-spot target member count (your idea: ~12). Default: 12
+	#Range: 1 ~ 10000
+	sweetSpotTargetMembers = 12
+	#Sweet-spot penalty: +X% per member away from target. Default: 2
+	#Range: 0 ~ 100
+	sweetSpotStepPercent = 2
+	#If true, buying land/outposts requires the matching role permission nodes.
+	requirePurchasePerm = true
+
+[outposts]
+	#Cooldown after a successful outpost teleport. Default: 15 minutes.
+	#Range: 0 ~ 86400
+	tpCooldownSeconds = 900
+	#Warmup duration for outpost TP (glowing during warmup). Default: 5 seconds.
+	#Range: 0 ~ 60
+	tpWarmupSeconds = 5
+	#If true, teleport only completes if player is at full health when the warmup ends.
+	tpRequireFullHealth = true
+	#If true, converting an owned chunk into an outpost requires your nation to own the full surrounding 3x3.
+	convertRequiresFull3x3 = true
+
+[war]
+	#Point cost to declare war.
+	#Range: 0 ~ 100000000
+	declareCost = 100
+	#Point cost to surrender (can go into debt).
+	#Range: 0 ~ 100000000
+	surrenderCost = 100
+	#Default delay used by the UI when proposing a war start time (minutes from now).
+	#Commands can still propose an exact epoch time.
+	#Range: 0 ~ 10080
+	uiDefaultDelayMinutes = 60
+	#Defender negotiation window (+/- days relative to proposed start). Default: 3 days.
+	#Range: 0 ~ 30
+	defenderAdjustDays = 3
+	#Attacker finalize window (+/- hours relative to defender-adjusted time). Default: 6 hours.
+	#Range: 0 ~ 72
+	attackerFinalizeHours = 6
+	#If scheduled time hits but both sides aren't online, start is delayed with exponential backoff starting at this many seconds. Default: 30
+	#Range: 1 ~ 86400
+	startBackoffBaseSeconds = 30
+	#Maximum backoff delay between retries (seconds). Default: 3600
+	#Range: 1 ~ 604800
+	startBackoffMaxSeconds = 3600
+	#If true, allied nations joining a side also bypass protections vs the enemy while the war is active.
+	allyBypass = false
+
+[protections]
+	blockBreak = true
+	blockPlace = true
+	interact = true
+	entities = true
+	explosions = true
+
+[automation]
+	#If true, the server may auto-register a fake player when it first triggers inside a nation's claim IF a nearby nation member with the permission automation_auto_register is present.
+	autoRegisterNearby = false
+	#Radius in blocks used by the autoRegisterNearby heuristic.
+	#Range: 1.0 ~ 64.0
+	autoRegisterRadius = 8.0
+
+[discord]
+	#If true, nation/war updates are mirrored to Discord using webhooks. Leave webhook URLs empty to disable specific endpoints.
+	enabled = false
+	#Webhook URL for a Discord Forum channel. Used to create/update one thread per nation.
+	nationForumWebhookUrl = ""
+	#Webhook URL for war announcements channel.
+	warWebhookUrl = ""
+	#Simple rate limit per webhook.
+	#Range: 0 ~ 60
+	minSecondsBetweenPosts = 2
+	#If true, when editing a forum post fails, the mod will create a new thread. Keeping false avoids spam from rate limits.
+	recreateThreadOnEditFail = false
+
+[xaeroOverlay]
+	#Master toggle for the Xaero World Map overlay.
+	enabled = true
+	showOutlines = true
+	showNationLabels = true
+	showOutpostLabels = true
+	showTooltips = true
+	#If true, tooltip will show claim cost estimates for unclaimed chunks.
+	tooltipShowCost = true
+	showRelationSelf = true
+	showRelationAlly = true
+	showRelationEnemy = true
+	showRelationNeutral = true
+	#Minimum Xaero map scale required to render nation labels (higher scale = more zoomed in).
+	#Range: 0.01 ~ 10.0
+	minNationLabelScale = 0.25
+	#Minimum Xaero map scale required to render outpost labels (higher scale = more zoomed in).
+	#Range: 0.01 ~ 10.0
+	minOutpostLabelScale = 0.35
+	#Minimum contiguous owned-chunk region size required to place a nation label.
+	#Range: 1 ~ 10000
+	labelMinRegionChunks = 6
+

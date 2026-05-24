@@ -1,0 +1,14 @@
+{
+  "type": "modestmagic:enchanting",
+  "ingredients": [
+    {
+      "item": "modestmagic:enchantment_tablet_recollection"
+    },
+    {
+      "item": "minecraft:compass"
+    }
+  ],
+  "enchantments": [
+    "radenchants:discovery"
+  ]
+}

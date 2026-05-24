@@ -1,0 +1,14 @@
+{
+  "type": "modestmagic:enchanting",
+  "ingredients": [
+    {
+      "item": "modestmagic:enchantment_tablet_enduring"
+    },
+    {
+      "item": "minecraft:iron_ingot"
+    }
+  ],
+  "enchantments": [
+    "minecraft:unbreaking"
+  ]
+}

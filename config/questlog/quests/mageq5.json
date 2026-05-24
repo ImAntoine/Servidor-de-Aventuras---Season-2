@@ -1,0 +1,24 @@
+{
+  "title": "Starter Spells",
+  "description": "Some spells you can use relatively early on are the ones that come pre-inscribed in spell books. \n\nThese spells are usually weaker than the ones you can inscribe yourself, but they can still be useful. They are a great way to get a feel for how spell casting works, and they can help you get started with magic. \n\nTry crafting the Isekai Travel Guidebook and the Explorer's Codex to get some pre-inscribed spell books with a variety of spells to try out.",
+  "icon": {
+    "item": "apprenticecodex:explorers_codex"
+  },
+  "requirements": [],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "item": "apprenticecodex:isekai_travel_guidebook",
+      "required_amount": 1,
+      "name": "Craft an Isekai Travel Guidebook"
+    },
+    {
+      "type": "questlog:item_obtain",
+      "item": "apprenticecodex:explorers_codex",
+      "required_amount": 1,
+      "name": "Craft an Explorer's Codex"
+    }
+  ],
+  "sort_order": 5,
+  "chapter": "mage"
+}

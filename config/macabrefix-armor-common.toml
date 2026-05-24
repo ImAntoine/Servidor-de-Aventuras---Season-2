@@ -1,0 +1,641 @@
+
+[armor]
+
+	[armor.symbiotic]
+
+		[armor.symbiotic.helmet]
+			#Maximum durability for macabre:symbiotic_armor_helmet.
+			#Range: > 1
+			durability = 660
+			#Armor protection for macabre:symbiotic_armor_helmet.
+			#Range: > 0
+			armor = 6
+			#Armor toughness for macabre:symbiotic_armor_helmet.
+			#Range: 0.0 ~ 1.7976931348623157E308
+			toughness = 5.0
+			#Knockback resistance for macabre:symbiotic_armor_helmet.
+			#Range: 0.0 ~ 1.7976931348623157E308
+			knockbackResistance = 0.0
+
+		[armor.symbiotic.chestplate]
+			#Maximum durability for macabre:symbiotic_armor_chestplate.
+			#Range: > 1
+			durability = 960
+			#Armor protection for macabre:symbiotic_armor_chestplate.
+			#Range: > 0
+			armor = 13
+			#Armor toughness for macabre:symbiotic_armor_chestplate.
+			#Range: 0.0 ~ 1.7976931348623157E308
+			toughness = 5.0
+			#Knockback resistance for macabre:symbiotic_armor_chestplate.
+			#Range: 0.0 ~ 1.7976931348623157E308
+			knockbackResistance = 0.0
+
+		[armor.symbiotic.leggings]
+			#Maximum durability for macabre:symbiotic_armor_leggings.
+			#Range: > 1
+			durability = 900
+			#Armor protection for macabre:symbiotic_armor_leggings.
+			#Range: > 0
+			armor = 11
+			#Armor toughness for macabre:symbiotic_armor_leggings.
+			#Range: 0.0 ~ 1.7976931348623157E308
+			toughness = 5.0
+			#Knockback resistance for macabre:symbiotic_armor_leggings.
+			#Range: 0.0 ~ 1.7976931348623157E308
+			knockbackResistance = 0.0
+
+		[armor.symbiotic.boots]
+			#Maximum durability for macabre:symbiotic_armor_boots.
+			#Range: > 1
+			durability = 780
+			#Armor protection for macabre:symbiotic_armor_boots.
+			#Range: > 0
+			armor = 5
+			#Armor toughness for macabre:symbiotic_armor_boots.
+			#Range: 0.0 ~ 1.7976931348623157E308
+			toughness = 5.0
+			#Knockback resistance for macabre:symbiotic_armor_boots.
+			#Range: 0.0 ~ 1.7976931348623157E308
+			knockbackResistance = 0.0
+
+	[armor.bloodClot]
+
+		[armor.bloodClot.helmet]
+			#Maximum durability for macabre:blood_clot_armor_helmet.
+			#Range: > 1
+			durability = 935
+			#Armor protection for macabre:blood_clot_armor_helmet.
+			#Range: > 0
+			armor = 11
+			#Armor toughness for macabre:blood_clot_armor_helmet.
+			#Range: 0.0 ~ 1.7976931348623157E308
+			toughness = 6.0
+			#Knockback resistance for macabre:blood_clot_armor_helmet.
+			#Range: 0.0 ~ 1.7976931348623157E308
+			knockbackResistance = 1.0
+
+		[armor.bloodClot.chestplate]
+			#Maximum durability for macabre:blood_clot_armor_chestplate.
+			#Range: > 1
+			durability = 1360
+			#Armor protection for macabre:blood_clot_armor_chestplate.
+			#Range: > 0
+			armor = 16
+			#Armor toughness for macabre:blood_clot_armor_chestplate.
+			#Range: 0.0 ~ 1.7976931348623157E308
+			toughness = 6.0
+			#Knockback resistance for macabre:blood_clot_armor_chestplate.
+			#Range: 0.0 ~ 1.7976931348623157E308
+			knockbackResistance = 1.0
+
+		[armor.bloodClot.leggings]
+			#Maximum durability for macabre:blood_clot_armor_leggings.
+			#Range: > 1
+			durability = 1275
+			#Armor protection for macabre:blood_clot_armor_leggings.
+			#Range: > 0
+			armor = 15
+			#Armor toughness for macabre:blood_clot_armor_leggings.
+			#Range: 0.0 ~ 1.7976931348623157E308
+			toughness = 6.0
+			#Knockback resistance for macabre:blood_clot_armor_leggings.
+			#Range: 0.0 ~ 1.7976931348623157E308
+			knockbackResistance = 1.0
+
+		[armor.bloodClot.boots]
+			#Maximum durability for macabre:blood_clot_armor_boots.
+			#Range: > 1
+			durability = 1105
+			#Armor protection for macabre:blood_clot_armor_boots.
+			#Range: > 0
+			armor = 11
+			#Armor toughness for macabre:blood_clot_armor_boots.
+			#Range: 0.0 ~ 1.7976931348623157E308
+			toughness = 6.0
+			#Knockback resistance for macabre:blood_clot_armor_boots.
+			#Range: 0.0 ~ 1.7976931348623157E308
+			knockbackResistance = 1.0
+
+	[armor.plasma]
+
+		[armor.plasma.helmet]
+			#Maximum durability for macabre:plasma_armor_helmet.
+			#Range: > 1
+			durability = 220
+			#Armor protection for macabre:plasma_armor_helmet.
+			#Range: > 0
+			armor = 10
+			#Armor toughness for macabre:plasma_armor_helmet.
+			#Range: 0.0 ~ 1.7976931348623157E308
+			toughness = 6.0
+			#Knockback resistance for macabre:plasma_armor_helmet.
+			#Range: 0.0 ~ 1.7976931348623157E308
+			knockbackResistance = 1.0
+
+		[armor.plasma.chestplate]
+			#Maximum durability for macabre:plasma_armor_chestplate.
+			#Range: > 1
+			durability = 320
+			#Armor protection for macabre:plasma_armor_chestplate.
+			#Range: > 0
+			armor = 15
+			#Armor toughness for macabre:plasma_armor_chestplate.
+			#Range: 0.0 ~ 1.7976931348623157E308
+			toughness = 6.0
+			#Knockback resistance for macabre:plasma_armor_chestplate.
+			#Range: 0.0 ~ 1.7976931348623157E308
+			knockbackResistance = 1.0
+
+		[armor.plasma.leggings]
+			#Maximum durability for macabre:plasma_armor_leggings.
+			#Range: > 1
+			durability = 300
+			#Armor protection for macabre:plasma_armor_leggings.
+			#Range: > 0
+			armor = 14
+			#Armor toughness for macabre:plasma_armor_leggings.
+			#Range: 0.0 ~ 1.7976931348623157E308
+			toughness = 6.0
+			#Knockback resistance for macabre:plasma_armor_leggings.
+			#Range: 0.0 ~ 1.7976931348623157E308
+			knockbackResistance = 1.0
+
+		[armor.plasma.boots]
+			#Maximum durability for macabre:plasma_armor_boots.
+			#Range: > 1
+			durability = 260
+			#Armor protection for macabre:plasma_armor_boots.
+			#Range: > 0
+			armor = 10
+			#Armor toughness for macabre:plasma_armor_boots.
+			#Range: 0.0 ~ 1.7976931348623157E308
+			toughness = 6.0
+			#Knockback resistance for macabre:plasma_armor_boots.
+			#Range: 0.0 ~ 1.7976931348623157E308
+			knockbackResistance = 1.0
+
+	[armor.ferrum]
+
+		[armor.ferrum.helmet]
+			#Maximum durability for macabre:ferrum_armor_helmet.
+			#Range: > 1
+			durability = 880
+			#Armor protection for macabre:ferrum_armor_helmet.
+			#Range: > 0
+			armor = 4
+			#Armor toughness for macabre:ferrum_armor_helmet.
+			#Range: 0.0 ~ 1.7976931348623157E308
+			toughness = 4.0
+			#Knockback resistance for macabre:ferrum_armor_helmet.
+			#Range: 0.0 ~ 1.7976931348623157E308
+			knockbackResistance = 0.3
+
+		[armor.ferrum.chestplate]
+			#Maximum durability for macabre:ferrum_armor_chestplate.
+			#Range: > 1
+			durability = 1280
+			#Armor protection for macabre:ferrum_armor_chestplate.
+			#Range: > 0
+			armor = 8
+			#Armor toughness for macabre:ferrum_armor_chestplate.
+			#Range: 0.0 ~ 1.7976931348623157E308
+			toughness = 4.0
+			#Knockback resistance for macabre:ferrum_armor_chestplate.
+			#Range: 0.0 ~ 1.7976931348623157E308
+			knockbackResistance = 0.3
+
+		[armor.ferrum.leggings]
+			#Maximum durability for macabre:ferrum_armor_leggings.
+			#Range: > 1
+			durability = 1200
+			#Armor protection for macabre:ferrum_armor_leggings.
+			#Range: > 0
+			armor = 7
+			#Armor toughness for macabre:ferrum_armor_leggings.
+			#Range: 0.0 ~ 1.7976931348623157E308
+			toughness = 4.0
+			#Knockback resistance for macabre:ferrum_armor_leggings.
+			#Range: 0.0 ~ 1.7976931348623157E308
+			knockbackResistance = 0.3
+
+		[armor.ferrum.boots]
+			#Maximum durability for macabre:ferrum_armor_boots.
+			#Range: > 1
+			durability = 1040
+			#Armor protection for macabre:ferrum_armor_boots.
+			#Range: > 0
+			armor = 4
+			#Armor toughness for macabre:ferrum_armor_boots.
+			#Range: 0.0 ~ 1.7976931348623157E308
+			toughness = 4.0
+			#Knockback resistance for macabre:ferrum_armor_boots.
+			#Range: 0.0 ~ 1.7976931348623157E308
+			knockbackResistance = 0.3
+
+	[armor.abhorrent]
+
+		[armor.abhorrent.helmet]
+			#Maximum durability for macabre:abhorrent_armor_helmet.
+			#Range: > 1
+			durability = 1100
+			#Armor protection for macabre:abhorrent_armor_helmet.
+			#Range: > 0
+			armor = 15
+			#Armor toughness for macabre:abhorrent_armor_helmet.
+			#Range: 0.0 ~ 1.7976931348623157E308
+			toughness = 6.5
+			#Knockback resistance for macabre:abhorrent_armor_helmet.
+			#Range: 0.0 ~ 1.7976931348623157E308
+			knockbackResistance = 1.0
+
+		[armor.abhorrent.chestplate]
+			#Maximum durability for macabre:abhorrent_armor_chestplate.
+			#Range: > 1
+			durability = 1600
+			#Armor protection for macabre:abhorrent_armor_chestplate.
+			#Range: > 0
+			armor = 21
+			#Armor toughness for macabre:abhorrent_armor_chestplate.
+			#Range: 0.0 ~ 1.7976931348623157E308
+			toughness = 6.5
+			#Knockback resistance for macabre:abhorrent_armor_chestplate.
+			#Range: 0.0 ~ 1.7976931348623157E308
+			knockbackResistance = 1.0
+
+		[armor.abhorrent.leggings]
+			#Maximum durability for macabre:abhorrent_armor_leggings.
+			#Range: > 1
+			durability = 1500
+			#Armor protection for macabre:abhorrent_armor_leggings.
+			#Range: > 0
+			armor = 20
+			#Armor toughness for macabre:abhorrent_armor_leggings.
+			#Range: 0.0 ~ 1.7976931348623157E308
+			toughness = 6.5
+			#Knockback resistance for macabre:abhorrent_armor_leggings.
+			#Range: 0.0 ~ 1.7976931348623157E308
+			knockbackResistance = 1.0
+
+		[armor.abhorrent.boots]
+			#Maximum durability for macabre:abhorrent_armor_boots.
+			#Range: > 1
+			durability = 1300
+			#Armor protection for macabre:abhorrent_armor_boots.
+			#Range: > 0
+			armor = 15
+			#Armor toughness for macabre:abhorrent_armor_boots.
+			#Range: 0.0 ~ 1.7976931348623157E308
+			toughness = 6.5
+			#Knockback resistance for macabre:abhorrent_armor_boots.
+			#Range: 0.0 ~ 1.7976931348623157E308
+			knockbackResistance = 1.0
+
+	[armor.skinsuit]
+
+		[armor.skinsuit.helmet]
+			#Maximum durability for macabre:skinsuit_helmet.
+			#Range: > 1
+			durability = 297
+			#Armor protection for macabre:skinsuit_helmet.
+			#Range: > 0
+			armor = 4
+			#Armor toughness for macabre:skinsuit_helmet.
+			#Range: 0.0 ~ 1.7976931348623157E308
+			toughness = 0.0
+			#Knockback resistance for macabre:skinsuit_helmet.
+			#Range: 0.0 ~ 1.7976931348623157E308
+			knockbackResistance = 0.0
+
+		[armor.skinsuit.chestplate]
+			#Maximum durability for macabre:skinsuit_chestplate.
+			#Range: > 1
+			durability = 432
+			#Armor protection for macabre:skinsuit_chestplate.
+			#Range: > 0
+			armor = 6
+			#Armor toughness for macabre:skinsuit_chestplate.
+			#Range: 0.0 ~ 1.7976931348623157E308
+			toughness = 0.0
+			#Knockback resistance for macabre:skinsuit_chestplate.
+			#Range: 0.0 ~ 1.7976931348623157E308
+			knockbackResistance = 0.0
+
+		[armor.skinsuit.leggings]
+			#Maximum durability for macabre:skinsuit_leggings.
+			#Range: > 1
+			durability = 405
+			#Armor protection for macabre:skinsuit_leggings.
+			#Range: > 0
+			armor = 5
+			#Armor toughness for macabre:skinsuit_leggings.
+			#Range: 0.0 ~ 1.7976931348623157E308
+			toughness = 0.0
+			#Knockback resistance for macabre:skinsuit_leggings.
+			#Range: 0.0 ~ 1.7976931348623157E308
+			knockbackResistance = 0.0
+
+		[armor.skinsuit.boots]
+			#Maximum durability for macabre:skinsuit_boots.
+			#Range: > 1
+			durability = 351
+			#Armor protection for macabre:skinsuit_boots.
+			#Range: > 0
+			armor = 3
+			#Armor toughness for macabre:skinsuit_boots.
+			#Range: 0.0 ~ 1.7976931348623157E308
+			toughness = 0.0
+			#Knockback resistance for macabre:skinsuit_boots.
+			#Range: 0.0 ~ 1.7976931348623157E308
+			knockbackResistance = 0.0
+
+	[armor.baalCursed]
+
+		[armor.baalCursed.helmet]
+			#Maximum durability for macabre:baal_armor_helmet.
+			#Range: > 1
+			durability = 1210
+			#Armor protection for macabre:baal_armor_helmet.
+			#Range: > 0
+			armor = 18
+			#Armor toughness for macabre:baal_armor_helmet.
+			#Range: 0.0 ~ 1.7976931348623157E308
+			toughness = 7.0
+			#Knockback resistance for macabre:baal_armor_helmet.
+			#Range: 0.0 ~ 1.7976931348623157E308
+			knockbackResistance = 3.0
+
+		[armor.baalCursed.chestplate]
+			#Maximum durability for macabre:baal_armor_chestplate.
+			#Range: > 1
+			durability = 1760
+			#Armor protection for macabre:baal_armor_chestplate.
+			#Range: > 0
+			armor = 32
+			#Armor toughness for macabre:baal_armor_chestplate.
+			#Range: 0.0 ~ 1.7976931348623157E308
+			toughness = 7.0
+			#Knockback resistance for macabre:baal_armor_chestplate.
+			#Range: 0.0 ~ 1.7976931348623157E308
+			knockbackResistance = 3.0
+
+		[armor.baalCursed.leggings]
+			#Maximum durability for macabre:baal_armor_leggings.
+			#Range: > 1
+			durability = 1650
+			#Armor protection for macabre:baal_armor_leggings.
+			#Range: > 0
+			armor = 25
+			#Armor toughness for macabre:baal_armor_leggings.
+			#Range: 0.0 ~ 1.7976931348623157E308
+			toughness = 7.0
+			#Knockback resistance for macabre:baal_armor_leggings.
+			#Range: 0.0 ~ 1.7976931348623157E308
+			knockbackResistance = 3.0
+
+		[armor.baalCursed.boots]
+			#Maximum durability for macabre:baal_armor_boots.
+			#Range: > 1
+			durability = 1430
+			#Armor protection for macabre:baal_armor_boots.
+			#Range: > 0
+			armor = 16
+			#Armor toughness for macabre:baal_armor_boots.
+			#Range: 0.0 ~ 1.7976931348623157E308
+			toughness = 7.0
+			#Knockback resistance for macabre:baal_armor_boots.
+			#Range: 0.0 ~ 1.7976931348623157E308
+			knockbackResistance = 3.0
+
+	[armor.gomoriaDecaying]
+
+		[armor.gomoriaDecaying.helmet]
+			#Maximum durability for macabre:gomoria_armor_helmet.
+			#Range: > 1
+			durability = 1320
+			#Armor protection for macabre:gomoria_armor_helmet.
+			#Range: > 0
+			armor = 15
+			#Armor toughness for macabre:gomoria_armor_helmet.
+			#Range: 0.0 ~ 1.7976931348623157E308
+			toughness = 7.0
+			#Knockback resistance for macabre:gomoria_armor_helmet.
+			#Range: 0.0 ~ 1.7976931348623157E308
+			knockbackResistance = 2.0
+
+		[armor.gomoriaDecaying.chestplate]
+			#Maximum durability for macabre:gomoria_armor_chestplate.
+			#Range: > 1
+			durability = 1920
+			#Armor protection for macabre:gomoria_armor_chestplate.
+			#Range: > 0
+			armor = 26
+			#Armor toughness for macabre:gomoria_armor_chestplate.
+			#Range: 0.0 ~ 1.7976931348623157E308
+			toughness = 7.0
+			#Knockback resistance for macabre:gomoria_armor_chestplate.
+			#Range: 0.0 ~ 1.7976931348623157E308
+			knockbackResistance = 2.0
+
+		[armor.gomoriaDecaying.leggings]
+			#Maximum durability for macabre:gomoria_armor_leggings.
+			#Range: > 1
+			durability = 1800
+			#Armor protection for macabre:gomoria_armor_leggings.
+			#Range: > 0
+			armor = 31
+			#Armor toughness for macabre:gomoria_armor_leggings.
+			#Range: 0.0 ~ 1.7976931348623157E308
+			toughness = 7.0
+			#Knockback resistance for macabre:gomoria_armor_leggings.
+			#Range: 0.0 ~ 1.7976931348623157E308
+			knockbackResistance = 2.0
+
+		[armor.gomoriaDecaying.boots]
+			#Maximum durability for macabre:gomoria_armor_boots.
+			#Range: > 1
+			durability = 1560
+			#Armor protection for macabre:gomoria_armor_boots.
+			#Range: > 0
+			armor = 19
+			#Armor toughness for macabre:gomoria_armor_boots.
+			#Range: 0.0 ~ 1.7976931348623157E308
+			toughness = 7.0
+			#Knockback resistance for macabre:gomoria_armor_boots.
+			#Range: 0.0 ~ 1.7976931348623157E308
+			knockbackResistance = 2.0
+
+	[armor.valamonCracked]
+
+		[armor.valamonCracked.helmet]
+			#Maximum durability for macabre:valamon_armor_helmet.
+			#Range: > 1
+			durability = 1375
+			#Armor protection for macabre:valamon_armor_helmet.
+			#Range: > 0
+			armor = 23
+			#Armor toughness for macabre:valamon_armor_helmet.
+			#Range: 0.0 ~ 1.7976931348623157E308
+			toughness = 6.5
+			#Knockback resistance for macabre:valamon_armor_helmet.
+			#Range: 0.0 ~ 1.7976931348623157E308
+			knockbackResistance = 1.5
+
+		[armor.valamonCracked.chestplate]
+			#Maximum durability for macabre:valamon_armor_chestplate.
+			#Range: > 1
+			durability = 2000
+			#Armor protection for macabre:valamon_armor_chestplate.
+			#Range: > 0
+			armor = 25
+			#Armor toughness for macabre:valamon_armor_chestplate.
+			#Range: 0.0 ~ 1.7976931348623157E308
+			toughness = 6.5
+			#Knockback resistance for macabre:valamon_armor_chestplate.
+			#Range: 0.0 ~ 1.7976931348623157E308
+			knockbackResistance = 1.5
+
+		[armor.valamonCracked.leggings]
+			#Maximum durability for macabre:valamon_armor_leggings.
+			#Range: > 1
+			durability = 1875
+			#Armor protection for macabre:valamon_armor_leggings.
+			#Range: > 0
+			armor = 21
+			#Armor toughness for macabre:valamon_armor_leggings.
+			#Range: 0.0 ~ 1.7976931348623157E308
+			toughness = 6.5
+			#Knockback resistance for macabre:valamon_armor_leggings.
+			#Range: 0.0 ~ 1.7976931348623157E308
+			knockbackResistance = 1.5
+
+		[armor.valamonCracked.boots]
+			#Maximum durability for macabre:valamon_armor_boots.
+			#Range: > 1
+			durability = 1625
+			#Armor protection for macabre:valamon_armor_boots.
+			#Range: > 0
+			armor = 22
+			#Armor toughness for macabre:valamon_armor_boots.
+			#Range: 0.0 ~ 1.7976931348623157E308
+			toughness = 6.5
+			#Knockback resistance for macabre:valamon_armor_boots.
+			#Range: 0.0 ~ 1.7976931348623157E308
+			knockbackResistance = 1.5
+
+	[armor.gargamawPutrid]
+
+		[armor.gargamawPutrid.helmet]
+			#Maximum durability for macabre:gargamaw_armor_helmet.
+			#Range: > 1
+			durability = 1155
+			#Armor protection for macabre:gargamaw_armor_helmet.
+			#Range: > 0
+			armor = 31
+			#Armor toughness for macabre:gargamaw_armor_helmet.
+			#Range: 0.0 ~ 1.7976931348623157E308
+			toughness = 6.5
+			#Knockback resistance for macabre:gargamaw_armor_helmet.
+			#Range: 0.0 ~ 1.7976931348623157E308
+			knockbackResistance = 5.0
+
+		[armor.gargamawPutrid.chestplate]
+			#Maximum durability for macabre:gargamaw_armor_chestplate.
+			#Range: > 1
+			durability = 1680
+			#Armor protection for macabre:gargamaw_armor_chestplate.
+			#Range: > 0
+			armor = 27
+			#Armor toughness for macabre:gargamaw_armor_chestplate.
+			#Range: 0.0 ~ 1.7976931348623157E308
+			toughness = 6.5
+			#Knockback resistance for macabre:gargamaw_armor_chestplate.
+			#Range: 0.0 ~ 1.7976931348623157E308
+			knockbackResistance = 5.0
+
+		[armor.gargamawPutrid.leggings]
+			#Maximum durability for macabre:gargamaw_armor_leggings.
+			#Range: > 1
+			durability = 1575
+			#Armor protection for macabre:gargamaw_armor_leggings.
+			#Range: > 0
+			armor = 24
+			#Armor toughness for macabre:gargamaw_armor_leggings.
+			#Range: 0.0 ~ 1.7976931348623157E308
+			toughness = 6.5
+			#Knockback resistance for macabre:gargamaw_armor_leggings.
+			#Range: 0.0 ~ 1.7976931348623157E308
+			knockbackResistance = 5.0
+
+		[armor.gargamawPutrid.boots]
+			#Maximum durability for macabre:gargamaw_armor_boots.
+			#Range: > 1
+			durability = 1365
+			#Armor protection for macabre:gargamaw_armor_boots.
+			#Range: > 0
+			armor = 26
+			#Armor toughness for macabre:gargamaw_armor_boots.
+			#Range: 0.0 ~ 1.7976931348623157E308
+			toughness = 6.5
+			#Knockback resistance for macabre:gargamaw_armor_boots.
+			#Range: 0.0 ~ 1.7976931348623157E308
+			knockbackResistance = 5.0
+
+	[armor.morphegorSplit]
+
+		[armor.morphegorSplit.helmet]
+			#Maximum durability for macabre:morphegor_armor_helmet.
+			#Range: > 1
+			durability = 1155
+			#Armor protection for macabre:morphegor_armor_helmet.
+			#Range: > 0
+			armor = 16
+			#Armor toughness for macabre:morphegor_armor_helmet.
+			#Range: 0.0 ~ 1.7976931348623157E308
+			toughness = 7.0
+			#Knockback resistance for macabre:morphegor_armor_helmet.
+			#Range: 0.0 ~ 1.7976931348623157E308
+			knockbackResistance = 2.0
+
+		[armor.morphegorSplit.chestplate]
+			#Maximum durability for macabre:morphegor_armor_chestplate.
+			#Range: > 1
+			durability = 1680
+			#Armor protection for macabre:morphegor_armor_chestplate.
+			#Range: > 0
+			armor = 29
+			#Armor toughness for macabre:morphegor_armor_chestplate.
+			#Range: 0.0 ~ 1.7976931348623157E308
+			toughness = 7.0
+			#Knockback resistance for macabre:morphegor_armor_chestplate.
+			#Range: 0.0 ~ 1.7976931348623157E308
+			knockbackResistance = 2.0
+
+		[armor.morphegorSplit.leggings]
+			#Maximum durability for macabre:morphegor_armor_leggings.
+			#Range: > 1
+			durability = 1575
+			#Armor protection for macabre:morphegor_armor_leggings.
+			#Range: > 0
+			armor = 27
+			#Armor toughness for macabre:morphegor_armor_leggings.
+			#Range: 0.0 ~ 1.7976931348623157E308
+			toughness = 7.0
+			#Knockback resistance for macabre:morphegor_armor_leggings.
+			#Range: 0.0 ~ 1.7976931348623157E308
+			knockbackResistance = 2.0
+
+		[armor.morphegorSplit.boots]
+			#Maximum durability for macabre:morphegor_armor_boots.
+			#Range: > 1
+			durability = 1365
+			#Armor protection for macabre:morphegor_armor_boots.
+			#Range: > 0
+			armor = 17
+			#Armor toughness for macabre:morphegor_armor_boots.
+			#Range: 0.0 ~ 1.7976931348623157E308
+			toughness = 7.0
+			#Knockback resistance for macabre:morphegor_armor_boots.
+			#Range: 0.0 ~ 1.7976931348623157E308
+			knockbackResistance = 2.0
+

@@ -1,0 +1,4 @@
+[15:20:29] [WARN] [FabricLoader/Metadata]: Mod stutterfix uses the version mc1.20.1-0.2.0 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'mc1'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[15:20:30] [WARN] [FabricLoader/Resolution]: Warnings were found!
+ - §Emod 'HariChunk' (harichunk)§r 1.0.0 conflicts with any version of §6mod 'Dynamic view distance' (dynview)§r, which is present with the following versions: 2.3!
+	 - While this won't prevent you from starting the game, the developer(s) of mod 'HariChunk' (harichunk) have found that this combination may cause issues. You should remove one of the mods or check for updates that resolve the issue.

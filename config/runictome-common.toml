@@ -1,0 +1,33 @@
+
+[absorption]
+	#Absorb guide books when picked up from the ground.
+	absorbOnPickup = true
+	#Absorb guide books produced by crafting or smelting.
+	absorbOnCraft = true
+
+[integrations]
+	#Extra item IDs to treat as single-item guide books (item is absorbed and tracked).
+	#Use "modid:item_path" form. Unknown or malformed IDs are logged and skipped.
+	#Example: ["immersiveengineering:manual", "occultism:dictionary_of_spirits"]
+	extraBookItemIds = ["alexsmobs:animal_dictionary"]
+
+[ui]
+	#Show a toast notification when a new book is absorbed.
+	showUnlockToast = true
+
+[performance]
+	#How often (in server ticks) to sweep player inventories for unabsorbed books.
+	#Pickup, craft, and container-close events are handled separately and are unaffected.
+	#20 = once per second. Set to 1 to restore legacy per-tick behavior.
+	#Range: 1 ~ 1200
+	sweepIntervalTicks = 20
+
+[items]
+	#Give a Runic Tome to each player on their first login.
+	#Disable this on servers that distribute the tome via quests or starting kits.
+	grantTomeOnFirstJoin = true
+
+[debug]
+	#Extra logging for capability sync and adapter resolution.
+	verboseLogging = false
+

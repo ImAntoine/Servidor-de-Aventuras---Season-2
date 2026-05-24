@@ -1,0 +1,11 @@
+===========================================
+GLOBAL RARITY ATTRIBUTES
+===========================================
+These control whether a player can cast spells of a given rarity.
+Value: 0 = locked, 1 = unlocked
+
+ironsattributes:common_rarity_unlocked
+ironsattributes:uncommon_rarity_unlocked
+ironsattributes:rare_rarity_unlocked
+ironsattributes:epic_rarity_unlocked
+ironsattributes:legendary_rarity_unlocked

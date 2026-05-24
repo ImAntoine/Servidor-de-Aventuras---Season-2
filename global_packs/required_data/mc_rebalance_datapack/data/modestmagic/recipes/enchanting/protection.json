@@ -1,0 +1,14 @@
+{
+  "type": "modestmagic:enchanting",
+  "ingredients": [
+    {
+      "item": "modestmagic:enchantment_tablet_secure"
+    },
+    {
+      "item": "minecraft:iron_chestplate"
+    }
+  ],
+  "enchantments": [
+    "minecraft:protection"
+  ]
+}

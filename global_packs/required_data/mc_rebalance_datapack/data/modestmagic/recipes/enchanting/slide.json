@@ -1,0 +1,17 @@
+{
+  "type": "modestmagic:enchanting",
+  "ingredients": [
+    {
+      "item": "modestmagic:enchantment_tablet_flinging"
+    },
+    {
+      "item": "minecraft:feather"
+    },    
+    {
+      "item": "minecraft:ice"
+    }
+  ],
+  "enchantments": [
+    "enchancement:slide"
+  ]
+}

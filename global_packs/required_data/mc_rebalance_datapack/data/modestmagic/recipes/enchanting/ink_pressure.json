@@ -1,0 +1,17 @@
+{
+  "type": "modestmagic:enchanting",
+  "ingredients": [
+    {
+      "item": "modestmagic:enchantment_tablet_puncturing"
+    },
+    {
+      "item": "minecraft:ink_sac"
+    },
+    {
+      "item": "minecraft:piston"
+    }
+  ],
+  "enchantments": [
+    "mofus_better_end_:ink_pressure"
+  ]
+}

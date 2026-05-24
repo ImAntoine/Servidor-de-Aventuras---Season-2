@@ -1,0 +1,18 @@
+{
+  "title": "Curse Forge",
+  "description": "To craft the Scroll Forge, you will need to defeat the Slime King to get access to the [Royal Gel](quest:mageq6), which is a key ingredient in the recipe. \n\nOnce you have the Royal Gel, you can combine it with other materials to create the Scroll Forge, a powerful crafting station that allows you to create any type of scroll.",
+  "icon": {
+    "item": "irons_spellbooks:scroll_forge"
+  },
+  "requirements": [],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "item": "irons_spellbooks:scroll_forge",
+      "required_amount": 1,
+      "name": "Craft a Scroll Forge"
+    }
+  ],
+  "sort_order": 6,
+  "chapter": "mage"
+}

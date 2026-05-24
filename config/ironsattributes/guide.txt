@@ -1,0 +1,99 @@
+===========================================
+Iron's Attributes - Guide
+===========================================
+
+OVERVIEW
+--------
+Iron's Attributes adds Minecraft attributes that control which
+spells a player can cast. Attributes can be set via commands,
+data packs, or other mods (e.g. RPG leveling mods).
+
+CONFIG OPTIONS (config/ironsattributes/config.json)
+---------------------------------------------------
+
+globalSpellLocking (default: true)
+  Master switch for per-spell locking. When false, all spells
+  are available regardless of individual spell settings.
+
+globalRarityLocking (default: true)
+  Master switch for global rarity locking. When false, all
+  rarity tiers are available.
+
+globalSchoolLocking (default: false)
+  Master switch for school locking. When true, players must
+  unlock each spell school before casting its spells.
+
+globalSchoolRarityLocking (default: false)
+  Master switch for per-school rarity locking. When true,
+  players must unlock specific rarity tiers within each school.
+  This is independent of globalRarityLocking.
+
+spellLevelGating (default: false)
+  When true, spell unlock attributes represent the max spell
+  level a player can cast, instead of binary unlock.
+  0 = locked, 1 = can cast level 1, 2 = up to level 2, etc.
+  When false, spells use binary unlock (0 = locked, 1 = unlocked).
+
+LOCKING SYSTEMS
+---------------
+
+1. GLOBAL RARITY (globalRarityLocking)
+   Attributes: common_rarity_unlocked, uncommon_rarity_unlocked, etc.
+   Controls access to ALL spells of a given rarity tier.
+   See: generated_rarity_attributes.txt
+
+2. SCHOOL (globalSchoolLocking)
+   Attributes: irons_spellbooks_fire_school_unlocked, etc.
+   Controls access to ALL spells of a given school.
+   See: generated_school_attributes.txt
+
+3. SCHOOL RARITY (globalSchoolRarityLocking)
+   Attributes: irons_spellbooks_fire_common_rarity_unlocked, etc.
+   Controls access to specific rarity tiers within each school.
+   See: generated_school_rarity_attributes.txt
+
+4. SPELL (globalSpellLocking)
+   Attributes: irons_spellbooks_fireball_unlocked, etc.
+   Controls access to individual spells.
+   See: generated_spell_attributes.txt
+
+CHECK ORDER
+-----------
+When casting, checks happen in this order. ALL enabled
+checks must pass:
+  1. School unlock (if globalSchoolLocking = true)
+  2. School rarity unlock (if globalSchoolRarityLocking = true)
+  3. Spell unlock / level gate (if globalSpellLocking = true)
+  4. Global rarity unlock (if globalRarityLocking = true)
+
+EXAMPLE COMMANDS
+----------------
+
+Unlock a spell (binary):
+  /attribute @p ironsattributes:irons_spellbooks_fireball_unlocked base set 1
+
+Unlock a spell up to level 3 (requires spellLevelGating = true):
+  /attribute @p ironsattributes:irons_spellbooks_fireball_unlocked base set 3
+
+Unlock a rarity tier:
+  /attribute @p ironsattributes:rare_rarity_unlocked base set 1
+
+Unlock a school:
+  /attribute @p ironsattributes:irons_spellbooks_fire_school_unlocked base set 1
+
+Unlock epic fire spells (requires globalSchoolRarityLocking = true):
+  /attribute @p ironsattributes:irons_spellbooks_fire_epic_rarity_unlocked base set 1
+
+SPELL LEVEL GATING
+------------------
+When spellLevelGating is enabled, the spell attribute value
+represents the maximum spell level the player can cast:
+
+  ironsattributes:irons_spellbooks_fireball_unlocked = 0  -> cannot cast
+  ironsattributes:irons_spellbooks_fireball_unlocked = 1  -> can cast level 1
+  ironsattributes:irons_spellbooks_fireball_unlocked = 2  -> can cast up to level 2
+  ironsattributes:irons_spellbooks_fireball_unlocked = 5  -> can cast up to level 5
+  ironsattributes:irons_spellbooks_fireball_unlocked = 10 -> can cast any level
+
+When spellLevelGating is disabled (default), the value is
+binary: 0 = locked, 1 (or higher) = unlocked for all levels.
