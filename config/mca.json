@@ -147,7 +147,7 @@
   "forceVillagerPlayerModel": false,
   "allowLimitedPlayerEditor": true,
   "allowFullPlayerEditor": false,
-  "adjustPlayerEyesToHeight": false,
+  "scaleEyeHeightWithPlayerHeight": true,
   "useModernUSANamesOnly": false,
   "guardsTargetEntities": {
     "minecraft:creeper": -1,

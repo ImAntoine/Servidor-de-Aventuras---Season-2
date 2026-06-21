@@ -4,15 +4,15 @@
 	limitation_imposed = true
 
 	[Limitations.Action_Permissions]
-		permit_BreakfallReady = true
+		permit_BreakfallReady = false
 		permit_CatLeap = false
-		permit_ChargeJump = true
+		permit_ChargeJump = false
 		permit_ClimbPoles = true
 		permit_ClimbUp = true
 		permit_ClingToCliff = true
-		permit_HideInBlock = true
-		permit_Crawl = true
-		permit_Dive = true
+		permit_HideInBlock = false
+		permit_Crawl = false
+		permit_Dive = false
 		permit_Dodge = false
 		permit_FastRun = true
 		permit_FastSwim = true
@@ -20,9 +20,9 @@
 		permit_HangDown = true
 		permit_HorizontalWallRun = true
 		permit_JumpFromBar = true
-		permit_QuickTurn = true
-		permit_RideZipline = true
-		permit_Roll = true
+		permit_QuickTurn = false
+		permit_RideZipline = false
+		permit_Roll = false
 		permit_SkyDive = true
 		permit_Slide = true
 		permit_Tap = true

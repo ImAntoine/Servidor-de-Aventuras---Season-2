@@ -1,0 +1,8 @@
+
+[Notifications]
+	hasSeenSpawnRateWarning = false
+	hasSeenCategoryMismatchWarning = false
+
+[Misc]
+	unlockCategoryButton = false
+

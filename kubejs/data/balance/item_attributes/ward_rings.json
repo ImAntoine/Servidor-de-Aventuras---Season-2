@@ -1,0 +1,38 @@
+{
+  "irons_spellbooks:frostward_ring": {
+    "curios_slots": {
+      "ring": [
+        {
+          "attribute": "irons_spellbooks:ice_spell_power",
+          "action": "add",
+          "amount": 0.1,
+          "operation": "add_value"
+        }
+      ]
+    }
+  },
+  "irons_spellbooks:fireward_ring": {
+    "curios_slots": {
+      "ring": [
+        {
+          "attribute": "irons_spellbooks:fire_spell_power",
+          "action": "add",
+          "amount": 0.1,
+          "operation": "add_value"
+        }
+      ]
+    }
+  },
+  "irons_spellbooks:poisonward_ring": {
+    "curios_slots": {
+      "ring": [
+        {
+          "attribute": "irons_spellbooks:nature_spell_power",
+          "action": "add",
+          "amount": 0.1,
+          "operation": "add_value"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,186 @@
+{
+  "apprenticecodex:chromatic_magia_dress_hat": {
+    "equipment_slots": {
+      "head": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "action": "modify",
+          "amount": 4.0,
+          "operation": "add_value"
+        },
+        {
+          "attribute": "minecraft:generic.armor_toughness",
+          "action": "remove"
+        },
+        {
+          "attribute": "irons_spellbooks:max_mana",
+          "action": "modify",
+          "amount": 30.0,
+          "operation": "add_value"
+        },
+        {
+          "attribute": "irons_spellbooks:spell_power",
+          "action": "modify",
+          "amount": 0.1,
+          "operation": "add_value"
+        },
+        {
+          "attribute": "minecraft:generic.attack_damage",
+          "action": "add",
+          "amount": -1.0,
+          "operation": "add_multiplied_total"
+        },
+        {
+          "attribute": "traveloptics:aqua_spell_power",
+          "action": "add",
+          "amount": 0.1,
+          "operation": "add_multiplied_base"
+        },
+        {
+          "attribute": "attributeslib:arrow_damage",
+          "action": "add",
+          "amount": -1.0,
+          "operation": "add_value"
+        }
+      ]
+    }
+  },
+  "apprenticecodex:chromatic_magia_dress_coat": {
+    "equipment_slots": {
+      "chest": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "action": "modify",
+          "amount": 7.0,
+          "operation": "add_value"
+        },
+        {
+          "attribute": "minecraft:generic.armor_toughness",
+          "action": "remove"
+        },
+        {
+          "attribute": "irons_spellbooks:max_mana",
+          "action": "modify",
+          "amount": 35.0,
+          "operation": "add_value"
+        },
+        {
+          "attribute": "irons_spellbooks:spell_power",
+          "action": "modify",
+          "amount": 0.1,
+          "operation": "add_value"
+        },
+        {
+          "attribute": "minecraft:generic.attack_damage",
+          "action": "add",
+          "amount": -1.0,
+          "operation": "add_multiplied_total"
+        },
+        {
+          "attribute": "traveloptics:aqua_spell_power",
+          "action": "add",
+          "amount": 0.1,
+          "operation": "add_multiplied_base"
+        },
+        {
+          "attribute": "attributeslib:arrow_damage",
+          "action": "add",
+          "amount": -1.0,
+          "operation": "add_value"
+        }
+      ]
+    }
+  },
+  "apprenticecodex:chromatic_magia_dress_leggings": {
+    "equipment_slots": {
+      "legs": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "action": "modify",
+          "amount": 5.0,
+          "operation": "add_value"
+        },
+        {
+          "attribute": "minecraft:generic.armor_toughness",
+          "action": "remove"
+        },
+        {
+          "attribute": "irons_spellbooks:max_mana",
+          "action": "modify",
+          "amount": 35.0,
+          "operation": "add_value"
+        },
+        {
+          "attribute": "irons_spellbooks:spell_power",
+          "action": "modify",
+          "amount": 0.1,
+          "operation": "add_value"
+        },
+        {
+          "attribute": "minecraft:generic.attack_damage",
+          "action": "add",
+          "amount": -1.0,
+          "operation": "add_multiplied_total"
+        },
+        {
+          "attribute": "traveloptics:aqua_spell_power",
+          "action": "add",
+          "amount": 0.1,
+          "operation": "add_multiplied_base"
+        },
+        {
+          "attribute": "attributeslib:arrow_damage",
+          "action": "add",
+          "amount": -1.0,
+          "operation": "add_value"
+        }
+      ]
+    }
+  },
+  "apprenticecodex:chromatic_magia_dress_boots": {
+    "equipment_slots": {
+      "feet": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "action": "modify",
+          "amount": 4.0,
+          "operation": "add_value"
+        },
+        {
+          "attribute": "minecraft:generic.armor_toughness",
+          "action": "remove"
+        },
+        {
+          "attribute": "irons_spellbooks:max_mana",
+          "action": "modify",
+          "amount": 30.0,
+          "operation": "add_value"
+        },
+        {
+          "attribute": "irons_spellbooks:spell_power",
+          "action": "modify",
+          "amount": 0.1,
+          "operation": "add_value"
+        },
+        {
+          "attribute": "minecraft:generic.attack_damage",
+          "action": "add",
+          "amount": -1.0,
+          "operation": "add_multiplied_total"
+        },
+        {
+          "attribute": "traveloptics:aqua_spell_power",
+          "action": "add",
+          "amount": 0.1,
+          "operation": "add_multiplied_base"
+        },
+        {
+          "attribute": "attributeslib:arrow_damage",
+          "action": "add",
+          "amount": -1.0,
+          "operation": "add_value"
+        }
+      ]
+    }
+  }
+}

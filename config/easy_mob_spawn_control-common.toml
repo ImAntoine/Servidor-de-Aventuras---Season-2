@@ -1,0 +1,43 @@
+
+[config_v1]
+	#Banned mobs (ex: "minecraft:creeper", "minecraft:zombie")
+	bannedMobs = ["terra_entity:anger_goblin", "terra_entity:anger_bones", "terra_entity:angler", "terra_entity:arapaima", "terra_entity:arms_dealer", "terra_entity:base_bones", "terra_entity:big_anger_bones", "terra_entity:big_bones", "terra_entity:big_helmet_anger_bones", "terra_entity:big_muscle_anger_bones", "terra_entity:bird", "terra_entity:black_slime", "terra_entity:blood_crawler", "terra_entity:blood_mummy", "terra_entity:blood_tumors", "terra_entity:blood_zombie", "terra_entity:bloody_spore", "terra_entity:blue_jay", "terra_entity:blue_jellyfish", "terra_entity:blue_slime", "terra_entity:bone_serpent", "terra_entity:brain_fake", "terra_entity:bunny", "terra_entity:butterfly", "terra_entity:cardinal", "terra_entity:cave_bat", "macabre:cave_dweller", "terra_entity:chester", "terra_entity:clothier", "terra_entity:corrupt_mimic", "terra_entity:corrupt_slime", "terra_entity:crab", "terra_entity:crimson_slime", "terra_entity:crimson_mimic", "terra_entity:crimera", "terra_entity:crawdad", "monsterexpansion:kobeko", "terra_entity:demolitionist", "terra_entity:dark_mummy", "terra_entity:dark_lamia", "terra_entity:dark_caster", "terra_entity:cursed_skull", "terra_entity:demon", "terra_entity:derpling", "terra_entity:desert_slime", "terra_entity:dragonfly", "terra_entity:dreamer_ghoul", "terra_entity:drippler", "terra_entity:dryad", "terra_entity:duck", "terra_entity:dungeon_guardian", "terra_entity:dungeon_slime", "terra_entity:dye_trader", "terra_entity:eater_of_souls", "terra_entity:evil_slime", "terra_entity:face_monster", "terra_entity:fairy", "terra_entity:fealing", "terra_entity:female_angler", "terra_entity:finch_baby", "terra_entity:fire_imp", "terra_entity:flesh_slime", "terra_entity:flying_fish", "terra_entity:ghost", "terra_entity:ghoul", "terra_entity:giant_antlion_swarmer", "terra_entity:giant_shelly", "terra_entity:giant_worm", "terra_entity:glowing_snail", "terra_entity:goblin_archer", "terra_entity:goblin_peon", "terra_entity:goblin_scout", "terra_entity:goblin_sorcerer", "terra_entity:goblin_thief", "terra_entity:goblin_tinkerer", "terra_entity:goblin_warrior", "terra_entity:golden_mimic", "terra_entity:golden_slime", "terra_entity:granite_elemental", "terra_entity:grasshopper", "terra_entity:green_dumpling_slime", "terra_entity:green_jellyfish", "terra_entity:green_slime", "terra_entity:grubby", "terra_entity:guide", "terra_entity:hallowed_mimic", "terra_entity:harpy", "terra_entity:hat_spore_zombie", "terra_entity:hell_bat", "terra_entity:hell_butterfly", "terra_entity:herpling", "terra_entity:hill_hungry", "terra_entity:hill_of_flesh", "terra_entity:hornet", "terra_entity:i_32_iron_golem", "terra_entity:ice_bat", "terra_entity:ice_mimic", "terra_entity:ice_slime", "terra_entity:jewel_squirrel", "terra_entity:jewel_bunny", "terra_entity:jungle_bat", "terra_entity:jungle_mimic", "terra_entity:jungle_slime", "terra_entity:ladybug", "terra_entity:lava_slime", "terra_entity:leech", "terra_entity:light_lamia", "terra_entity:light_mummy", "terra_entity:luminous_slime", "terra_entity:maggot", "terra_entity:man_eater", "terra_entity:mechanic", "terra_entity:merchant", "terra_entity:meteor_head", "terra_entity:zoologist", "terra_entity:yellow_slime", "terra_entity:wyvern", "terra_entity:wraith", "terra_entity:wooden_mimic", "terra_entity:wizard", "terra_entity:wither_bone_serpent", "terra_entity:witch_doctor", "terra_entity:wandering_eye_fish", "terra_entity:wall_of_flesh", "terra_entity:voodoo_demon", "saintsdragons:volitans", "terra_entity:visual_neuron", "terra_entity:vile_ghoul", "terra_entity:undead_viking", "terra_entity:truffle", "terra_entity:tropic_slime", "terra_entity:traveling_merchant", "terra_entity:tomb_crawler", "terra_entity:the_hungry", "terra_entity:terraprisma", "terra_entity:tainted_ghoul", "terra_entity:swamp_slime", "terra_entity:summon_wooden_sword", "terra_entity:summon_stone_sword", "terra_entity:summon_snow_flinx", "terra_entity:summon_netherite_sword", "terra_entity:summon_iron_sword", "terra_entity:summon_imp", "terra_entity:summon_golden_sword", "terra_entity:summon_diamond_sword", "terra_entity:squirrel", "terra_entity:spore_zombie", "terra_entity:spore_skeleton", "terra_entity:spore_bat", "terra_entity:spiked_slime", "terra_entity:spiked_jungle_slime", "terra_entity:spiked_ice_slime", "terra_entity:snow_flinx", "terra_entity:snatcher", "terra_entity:snail", "terra_entity:sluggy", "terra_entity:slime_baby", "terra_entity:skeletron_prime_part", "terra_entity:skeletron_prime", "terra_entity:skeletron_hand", "terra_entity:skeletron", "terra_entity:short_bones", "terra_entity:shark", "terra_entity:shadow_mimic", "terra_entity:sculk_wisp", "terra_entity:scorpion", "terra_entity:sand_poacher", "terra_entity:rideable_slime", "terra_entity:rideable_bee", "terra_entity:red_slime", "terra_entity:prismatic_lacewing", "terra_entity:possess_armor_void_vessel", "terra_entity:possess_armor", "terra_entity:plantera_tentacle", "terra_entity:plantera_hook", "terra_entity:plantera", "terra_entity:pixie", "terra_entity:piranha", "terra_entity:pink_jellyfish", "terra_entity:piggy_bank", "terra_entity:party_girl", "terra_entity:painter", "terra_entity:old_man", "terra_entity:nymph", "terra_entity:nurse", "terra_entity:mummy", "terra_entity:devourer"]
+	#Global mob spawn rate entries overrides natural and world-gen spawn rate entries (0.0–1.0, empty = default 1.0)
+	spawnRates = ["monsterexpansion:leivekilth=3.0", "monsterexpansion:skrythe=2.0"]
+	#Natural spawn rates (0.0–1.0, empty = default 1.0)
+	naturalSpawnRates = []
+	#Chunk-gen spawn rates (0.0–1.0, empty = default 1.0)
+	worldGenSpawnRates = []
+	#Per-dimension banned mobs.
+	#Format:
+	#minecraft:overworld=minecraft:creeper,minecraft:zombie
+	#minecraft:the_nether=minecraft:ghast
+	#
+	dimensionBannedMobs = []
+	#Disabled spawn types for specific mobs.
+	#Format:
+	#NATURAL=minecraft:creeper,minecraft:zombie
+	#CHUNK_GENERATION=minecraft:skeleton
+	#COMMAND=minecraft:enderman
+	#
+	disabledMobSpawnTypes = []
+	#Per-biome banned mobs.
+	#Format:
+	#minecraft:zombie=minecraft:plains,minecraft:desert
+	#minecraft:creeper=minecraft:snowy_taiga
+	#
+	bannedMobsBiomes = []
+	#Custom spawns per biome.
+	#Format:
+	#minecraft:wither=minecraft:plains|MONSTER|100|1|1
+	#minecraft:ghast=minecraft:nether_wastes|MONSTER|50|2|2
+	#Categories: MONSTER, CREATURE, AMBIENT, MISSILE, WATER_AMBIENT, WATER_CREATURE, UNDERGROUND_WATER_CREATURE
+	#Format: mobId=biomeId|category|weight|minCount|maxCount
+	#(minCount/maxCount are group size, weight is spawn weight)
+	#
+	mobBiomeSpawns = []
+
+	[config_v1.spawn_caps_config_v1]
+		#Per‑category spawn caps (ex: "monster=70", "creature=10"). Values outside 0–9999 are ignored.
+		spawnCaps = ["water_creature=5", "underground_water_creature=5", "ambient=15", "axolotls=5", "creature=10", "water_ambient=20", "monster=70"]
+

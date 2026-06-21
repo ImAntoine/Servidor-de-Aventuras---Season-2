@@ -1,5 +1,19 @@
 {
   "bookGuiScale": 0,
   "clickedVisualize": false,
-  "bookData": {}
+  "bookData": {
+    "patchouli:sda2_guide": {
+      "viewedEntries": [
+        "patchouli:test_entry",
+        "patchouli:test_entry2"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
+    },
+    "minecells:minecells_guidebook": {
+      "viewedEntries": [],
+      "bookmarks": [],
+      "completedManualQuests": []
+    }
+  }
 }

@@ -1,0 +1,14 @@
+{
+	version: 1
+	uuid: "c3a0fe159fc546d789bf7350618f5e4d"
+	name: "AntoineCra#c3a0fe15"
+	lock: false
+	rewards_blocked: false
+	task_progress: { }
+	started: { }
+	completed: { }
+	repeatable: { }
+	completion_count: { }
+	claimed_rewards: { }
+	player_data: { }
+}

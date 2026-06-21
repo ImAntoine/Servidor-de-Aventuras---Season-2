@@ -1,0 +1,194 @@
+{
+  "apprenticecodex:stealth_rune_armor_head": {
+    "equipment_slots": {
+      "head": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "action": "modify",
+          "amount": 4.0,
+          "operation": "add_value"
+        },
+        {
+          "attribute": "irons_spellbooks:max_mana",
+          "action": "modify",
+          "amount": 30.0,
+          "operation": "add_value"
+        },
+        {
+          "attribute": "irons_spellbooks:spell_power",
+          "action": "modify",
+          "amount": 0.1,
+          "operation": "add_value"
+        },
+        {
+          "attribute": "minecraft:generic.attack_damage",
+          "action": "add",
+          "amount": -1.0,
+          "operation": "add_multiplied_total"
+        },
+        {
+          "attribute": "cataclysm_spellbooks:abyssal_spell_power",
+          "action": "add",
+          "amount": 0.1,
+          "operation": "add_multiplied_base"
+        },
+        {
+          "attribute": "cataclysm_spellbooks:technomancy_spell_power",
+          "action": "add",
+          "amount": 0.1,
+          "operation": "add_multiplied_base"
+        },
+        {
+          "attribute": "attributeslib:arrow_damage",
+          "action": "add",
+          "amount": -1.0,
+          "operation": "add_value"
+        }
+      ]
+    }
+  },
+  "apprenticecodex:stealth_rune_armor_body": {
+    "equipment_slots": {
+      "chest": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "action": "modify",
+          "amount": 7.0,
+          "operation": "add_value"
+        },
+        {
+          "attribute": "irons_spellbooks:max_mana",
+          "action": "modify",
+          "amount": 35.0,
+          "operation": "add_value"
+        },
+        {
+          "attribute": "irons_spellbooks:spell_power",
+          "action": "modify",
+          "amount": 0.1,
+          "operation": "add_value"
+        },
+        {
+          "attribute": "minecraft:generic.attack_damage",
+          "action": "add",
+          "amount": -1.0,
+          "operation": "add_multiplied_total"
+        },
+        {
+          "attribute": "cataclysm_spellbooks:abyssal_spell_power",
+          "action": "add",
+          "amount": 0.1,
+          "operation": "add_multiplied_base"
+        },
+        {
+          "attribute": "cataclysm_spellbooks:technomancy_spell_power",
+          "action": "add",
+          "amount": 0.1,
+          "operation": "add_multiplied_base"
+        },
+        {
+          "attribute": "attributeslib:arrow_damage",
+          "action": "add",
+          "amount": -1.0,
+          "operation": "add_value"
+        }
+      ]
+    }
+  },
+  "apprenticecodex:stealth_rune_armor_leg": {
+    "equipment_slots": {
+      "legs": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "action": "modify",
+          "amount": 5.0,
+          "operation": "add_value"
+        },
+        {
+          "attribute": "irons_spellbooks:max_mana",
+          "action": "modify",
+          "amount": 35.0,
+          "operation": "add_value"
+        },
+        {
+          "attribute": "irons_spellbooks:spell_power",
+          "action": "modify",
+          "amount": 0.1,
+          "operation": "add_value"
+        },
+        {
+          "attribute": "minecraft:generic.attack_damage",
+          "action": "add",
+          "amount": -1.0,
+          "operation": "add_multiplied_total"
+        },
+        {
+          "attribute": "cataclysm_spellbooks:abyssal_spell_power",
+          "action": "add",
+          "amount": 0.1,
+          "operation": "add_multiplied_base"
+        },
+        {
+          "attribute": "cataclysm_spellbooks:technomancy_spell_power",
+          "action": "add",
+          "amount": 0.1,
+          "operation": "add_multiplied_base"
+        },
+        {
+          "attribute": "attributeslib:arrow_damage",
+          "action": "add",
+          "amount": -1.0,
+          "operation": "add_value"
+        }
+      ]
+    }
+  },
+  "apprenticecodex:stealth_rune_armor_foot": {
+    "equipment_slots": {
+      "feet": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "action": "modify",
+          "amount": 4.0,
+          "operation": "add_value"
+        },
+        {
+          "attribute": "irons_spellbooks:max_mana",
+          "action": "modify",
+          "amount": 30.0,
+          "operation": "add_value"
+        },
+        {
+          "attribute": "irons_spellbooks:spell_power",
+          "action": "modify",
+          "amount": 0.1,
+          "operation": "add_value"
+        },
+        {
+          "attribute": "minecraft:generic.attack_damage",
+          "action": "add",
+          "amount": -1.0,
+          "operation": "add_multiplied_total"
+        },
+        {
+          "attribute": "cataclysm_spellbooks:abyssal_spell_power",
+          "action": "add",
+          "amount": 0.1,
+          "operation": "add_multiplied_base"
+        },
+        {
+          "attribute": "cataclysm_spellbooks:technomancy_spell_power",
+          "action": "add",
+          "amount": 0.1,
+          "operation": "add_multiplied_base"
+        },
+        {
+          "attribute": "attributeslib:arrow_damage",
+          "action": "add",
+          "amount": -1.0,
+          "operation": "add_value"
+        }
+      ]
+    }
+  }
+}

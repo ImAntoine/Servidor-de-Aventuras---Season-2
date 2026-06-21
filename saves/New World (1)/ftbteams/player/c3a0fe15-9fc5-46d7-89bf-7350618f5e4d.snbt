@@ -1,0 +1,17 @@
+{
+	id: "c3a0fe15-9fc5-46d7-89bf-7350618f5e4d"
+	type: "player"
+	player_name: "AntoineCra"
+	ranks: {
+		c3a0fe15-9fc5-46d7-89bf-7350618f5e4d: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "AntoineCra"
+		"ftbteams:description": ""
+		"ftbteams:color": "#FF59EE"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}

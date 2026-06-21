@@ -1,24 +1,24 @@
 [
   {
     "playerUuid": "c3a0fe15-9fc5-46d7-89bf-7350618f5e4d",
-    "jumpCritRatio": 0.0,
+    "jumpCritRatio": 0.06291975308641973,
     "actionWeights": {
       "STRAFE_LEFT": 0.0,
-      "STRAFE_RIGHT": 0.0,
-      "JUMP_CRIT": 0.0,
+      "STRAFE_RIGHT": 0.48499999999999877,
+      "JUMP_CRIT": 0.3849999999999987,
       "RANGED_ATTACK": 0.0,
-      "MELEE_ATTACK": 0.0,
+      "MELEE_ATTACK": 0.7649999999999998,
       "SHIELD_BLOCK": 0.0,
       "HIT_AND_RUN": 0.0,
       "BACK_PEDAL": 0.0,
       "CIRCLE_STRAFE": 0.0,
       "ENVIRONMENTAL_KILL": 0.0,
-      "RUSH_FORWARD": 0.0
+      "RUSH_FORWARD": 0.7249999999999998
     },
-    "meleeRatio": 0.0,
+    "meleeRatio": 0.9765000000000026,
     "rangedRatio": 0.0,
     "shieldUsageRatio": 0.0,
-    "totalActions": 24271,
+    "totalActions": 36302,
     "environmentalKillRatio": 0.0,
     "dominantMovementPattern": "AGGRESSIVE"
   },

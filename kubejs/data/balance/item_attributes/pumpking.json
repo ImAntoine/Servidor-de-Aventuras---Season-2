@@ -1,0 +1,140 @@
+{
+  "irons_spellbooks:pumpkin_helmet": {
+    "equipment_slots": {
+      "head": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "action": "modify",
+          "amount": 2.0,
+          "operation": "add_value"
+        },
+        {
+          "attribute": "irons_spellbooks:max_mana",
+          "action": "modify",
+          "amount": 15.0,
+          "operation": "add_value"
+        },
+        {
+          "attribute": "irons_spellbooks:spell_power",
+          "action": "add",
+          "amount": 0.05,
+          "operation": "add_value"
+        },
+        {
+          "attribute": "minecraft:generic.attack_damage",
+          "action": "add",
+          "amount": -0.5,
+          "operation": "add_multiplied_total"
+        },
+        {
+          "attribute": "attributeslib:arrow_damage",
+          "action": "add",
+          "amount": -0.5,
+          "operation": "add_value"
+        }        
+      ]
+    }
+  },
+  "irons_spellbooks:pumpkin_chestplate": {
+    "equipment_slots": {
+      "chest": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "action": "modify",
+          "amount": 4.0,
+          "operation": "add_value"
+        },
+        {
+          "attribute": "irons_spellbooks:max_mana",
+          "action": "modify",
+          "amount": 25.0,
+          "operation": "add_value"
+        },
+        {
+          "attribute": "minecraft:generic.attack_damage",
+          "action": "add",
+          "amount": -0.5,
+          "operation": "add_multiplied_total"
+        },
+        {
+          "attribute": "attributeslib:arrow_damage",
+          "action": "add",
+          "amount": -0.5,
+          "operation": "add_value"
+        }
+      ]
+    }
+  },
+  "irons_spellbooks:pumpkin_leggings": {
+    "equipment_slots": {
+      "legs": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "action": "modify",
+          "amount": 3.0,
+          "operation": "add_value"
+        },
+        {
+          "attribute": "irons_spellbooks:max_mana",
+          "action": "modify",
+          "amount": 20.0,
+          "operation": "add_value"
+        },
+        {
+          "attribute": "irons_spellbooks:spell_power",
+          "action": "add",
+          "amount": 0.05,
+          "operation": "add_value"
+        },
+        {
+          "attribute": "minecraft:generic.attack_damage",
+          "action": "add",
+          "amount": -0.5,
+          "operation": "add_multiplied_total"
+        },
+        {
+          "attribute": "attributeslib:arrow_damage",
+          "action": "add",
+          "amount": -0.5,
+          "operation": "add_value"
+        }
+      ]
+    }
+  },
+  "irons_spellbooks:pumpkin_boots": {
+    "equipment_slots": {
+      "feet": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "action": "modify",
+          "amount": 2.0,
+          "operation": "add_value"
+        },
+        {
+          "attribute": "irons_spellbooks:max_mana",
+          "action": "modify",
+          "amount": 15.0,
+          "operation": "add_value"
+        },
+        {
+          "attribute": "irons_spellbooks:spell_power",
+          "action": "add",
+          "amount": 0.05,
+          "operation": "add_value"
+        },
+        {
+          "attribute": "minecraft:generic.attack_damage",
+          "action": "add",
+          "amount": -0.5,
+          "operation": "add_multiplied_total"
+        },
+        {
+          "attribute": "attributeslib:arrow_damage",
+          "action": "add",
+          "amount": -0.5,
+          "operation": "add_value"
+        }
+      ]
+    }
+  }
+}

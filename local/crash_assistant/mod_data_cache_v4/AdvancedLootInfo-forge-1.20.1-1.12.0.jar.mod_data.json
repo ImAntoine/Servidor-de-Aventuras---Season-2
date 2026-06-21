@@ -1,0 +1,1 @@
+{"jarName":"AdvancedLootInfo-forge-1.20.1-1.12.0.jar","modId":"ali","name":"AdvancedLootInfo","version":"1.12.0","mixinConfigs":["ali.mixins.json","ali.lootjs.mixins.json","ali.forge.mixins.json","ali.emi.mixins.json"],"jarJarMods":[],"curseForgeHash":1730954885,"modrinthHash":"bbf7742a49e6cbe90c5d805538ec46ce223e6e0b"}

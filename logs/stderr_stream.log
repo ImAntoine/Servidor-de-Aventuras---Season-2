@@ -1,225 +1,119 @@
 -----------------------------------------------------------------------------------
-DateTime: 24.05.2026 15:22:45:350 +02:00; PID: 15148
+DateTime: 20.06.2026 20:21:15:940 +02:00; PID: 12352
 This file contains the stderr stream of the Minecraft process logged to a file.
 It does not include stdout or log (log4j) messages to avoid performance impact.
 -----------------------------------------------------------------------------------
-[15:23:17:523] [STDERR]: org.objectweb.asm.tree.analysis.AnalyzerException: Error at instruction 141: Insufficient maximum stack size.
-[15:23:17:523] [STDERR]: 	at org.objectweb.asm.tree.analysis@9.9.1/org.objectweb.asm.tree.analysis.Analyzer.analyze(Analyzer.java:290)
-[15:23:17:523] [STDERR]: 	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.util.Locals.generateLocalVariableTable(Locals.java:898)
-[15:23:17:523] [STDERR]: 	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.util.Locals.getGeneratedLocalVariableTable(Locals.java:867)
-[15:23:17:523] [STDERR]: 	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.util.Locals.getLocalVariableAt(Locals.java:821)
-[15:23:17:523] [STDERR]: 	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.util.Locals.getLocalVariableAt(Locals.java:791)
-[15:23:17:523] [STDERR]: 	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.util.Locals.getLocalsAt_0_9_2(Locals.java:659)
-[15:23:17:523] [STDERR]: 	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.util.Locals.getLocalsAt(Locals.java:345)
-[15:23:17:523] [STDERR]: 	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.injection.modify.LocalVariableDiscriminator$Context.initLocals(LocalVariableDiscriminator.java:154)
-[15:23:17:523] [STDERR]: 	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.injection.modify.LocalVariableDiscriminator$Context.<init>(LocalVariableDiscriminator.java:148)
-[15:23:17:525] [STDERR]: 	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.injection.modify.ModifyVariableInjector$Context.<init>(ModifyVariableInjector.java:71)
-[15:23:17:525] [STDERR]: 	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.injection.modify.ModifyVariableInjector.preInject(ModifyVariableInjector.java:159)
-[15:23:17:525] [STDERR]: 	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.injection.code.Injector.preInject(Injector.java:258)
-[15:23:17:525] [STDERR]: 	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.injection.struct.InjectionInfo.preInject(InjectionInfo.java:436)
-[15:23:17:525] [STDERR]: 	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinTargetContext.applyInjections(MixinTargetContext.java:1370)
-[15:23:17:525] [STDERR]: 	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.applyInjections(MixinApplicatorStandard.java:1062)
-[15:23:17:525] [STDERR]: 	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.applyMixin(MixinApplicatorStandard.java:402)
-[15:23:17:525] [STDERR]: 	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.apply(MixinApplicatorStandard.java:327)
-[15:23:17:525] [STDERR]: 	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.TargetClassContext.apply(TargetClassContext.java:421)
-[15:23:17:525] [STDERR]: 	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.TargetClassContext.applyMixins(TargetClassContext.java:403)
-[15:23:17:525] [STDERR]: 	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:363)
-[15:23:17:525] [STDERR]: 	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClass(MixinTransformer.java:250)
-[15:23:17:525] [STDERR]: 	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.service.modlauncher.MixinTransformationHandler.processClass(MixinTransformationHandler.java:131)
-[15:23:17:525] [STDERR]: 	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.launch.MixinLaunchPluginLegacy.processClass(MixinLaunchPluginLegacy.java:131)
-[15:23:17:525] [STDERR]: 	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.serviceapi.ILaunchPluginService.processClassWithFlags(ILaunchPluginService.java:156)
-[15:23:17:525] [STDERR]: 	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:88)
-[15:23:17:525] [STDERR]: 	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120)
-[15:23:17:525] [STDERR]: 	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50)
-[15:23:17:525] [STDERR]: 	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:113)
-[15:23:17:525] [STDERR]: 	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:219)
-[15:23:17:525] [STDERR]: 	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229)
-[15:23:17:525] [STDERR]: 	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219)
-[15:23:17:525] [STDERR]: 	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:135)
-[15:23:17:525] [STDERR]: 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
-[15:23:17:525] [STDERR]: 	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
-[15:23:17:525] [STDERR]: 	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1017)
-[15:23:17:525] [STDERR]: 	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:119)
-[15:23:17:525] [STDERR]: 	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:219)
-[15:23:17:525] [STDERR]: 	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229)
-[15:23:17:525] [STDERR]: 	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219)
-[15:23:17:525] [STDERR]: 	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:135)
-[15:23:17:525] [STDERR]: 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
-[15:23:17:525] [STDERR]: 	at TRANSFORMER/patchouli@1.20.1-85-FORGE/vazkii.patchouli.client.handler.BookCrashHandler.appendToCrashReport(BookCrashHandler.java:23)
-[15:23:17:525] [STDERR]: 	at TRANSFORMER/minecraft@1.20.1/net.minecraft.SystemReport.handler$gka000$patchouli$addContext(SystemReport.java:1016)
-[15:23:17:525] [STDERR]: 	at TRANSFORMER/minecraft@1.20.1/net.minecraft.SystemReport.<init>(SystemReport.java:58)
-[15:23:17:525] [STDERR]: 	at TRANSFORMER/minecraft@1.20.1/net.minecraft.CrashReport.<init>(CrashReport.java:31)
-[15:23:17:525] [STDERR]: 	at TRANSFORMER/minecraft@1.20.1/net.minecraft.CrashReport.m_127529_(CrashReport.java:216)
-[15:23:17:525] [STDERR]: 	at TRANSFORMER/minecraft@1.20.1/net.minecraft.client.main.Main.main(Main.java:149)
-[15:23:17:525] [STDERR]: 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-[15:23:17:525] [STDERR]: 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-[15:23:17:525] [STDERR]: 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-[15:23:17:525] [STDERR]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
-[15:23:17:525] [STDERR]: 	at MC-BOOTSTRAP/fmlloader@1.20.1-47.4.20/net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111)
-[15:23:17:525] [STDERR]: 	at MC-BOOTSTRAP/fmlloader@1.20.1-47.4.20/net.minecraftforge.fml.loading.targets.CommonLaunchHandler.clientService(CommonLaunchHandler.java:99)
-[15:23:17:525] [STDERR]: 	at MC-BOOTSTRAP/fmlloader@1.20.1-47.4.20/net.minecraftforge.fml.loading.targets.CommonClientLaunchHandler.lambda$makeService$0(CommonClientLaunchHandler.java:25)
-[15:23:17:525] [STDERR]: 	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30)
-[15:23:17:525] [STDERR]: 	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53)
-[15:23:17:525] [STDERR]: 	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71)
-[15:23:17:525] [STDERR]: 	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.Launcher.run(Launcher.java:108)
-[15:23:17:525] [STDERR]: 	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.Launcher.main(Launcher.java:78)
-[15:23:17:525] [STDERR]: 	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26)
-[15:23:17:525] [STDERR]: 	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23)
-[15:23:17:525] [STDERR]: 	at cpw.mods.bootstraplauncher@1.1.2/cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141)
-[15:23:17:525] [STDERR]: Caused by: java.lang.IndexOutOfBoundsException: Insufficient maximum stack size.
-[15:23:17:525] [STDERR]: 	at org.objectweb.asm.tree.analysis@9.9.1/org.objectweb.asm.tree.analysis.Frame.push(Frame.java:273)
-[15:23:17:525] [STDERR]: 	at org.objectweb.asm.tree.analysis@9.9.1/org.objectweb.asm.tree.analysis.Frame.execute(Frame.java:319)
-[15:23:17:525] [STDERR]: 	at org.objectweb.asm.tree.analysis@9.9.1/org.objectweb.asm.tree.analysis.Analyzer.analyze(Analyzer.java:173)
-[15:23:17:526] [STDERR]: 	... 61 more
-[15:23:56:090] [STDERR]: java.lang.Exception: Given object couldn't be converted to value! -
-[15:23:56:090] [STDERR]: 	at TRANSFORMER/mclib@20/com.eliotlash.mclib.math.MathBuilder.valueFromObject(MathBuilder.java:488)
-[15:23:56:090] [STDERR]: 	at TRANSFORMER/mclib@20/com.eliotlash.mclib.math.MathBuilder.parseSymbols(MathBuilder.java:257)
-[15:23:56:090] [STDERR]: 	at TRANSFORMER/mclib@20/com.eliotlash.mclib.math.MathBuilder.parseSymbols(MathBuilder.java:308)
-[15:23:56:090] [STDERR]: 	at TRANSFORMER/geckolib@4.8.3/software.bernie.geckolib.core.molang.MolangParser.parseSymbolsMolang(MolangParser.java:256)
-[15:23:56:090] [STDERR]: 	at TRANSFORMER/geckolib@4.8.3/software.bernie.geckolib.core.molang.MolangParser.parseOneLine(MolangParser.java:244)
-[15:23:56:090] [STDERR]: 	at TRANSFORMER/geckolib@4.8.3/software.bernie.geckolib.core.molang.MolangParser.parseExpression(MolangParser.java:199)
-[15:23:56:090] [STDERR]: 	at TRANSFORMER/geckolib@4.8.3/software.bernie.geckolib.core.molang.MolangParser.parseJson(MolangParser.java:181)
-[15:23:56:090] [STDERR]: 	at TRANSFORMER/geckolib@4.8.3/software.bernie.geckolib.loading.json.typeadapter.BakedAnimationsAdapter.buildKeyframeStack(BakedAnimationsAdapter.java:197)
-[15:23:56:090] [STDERR]: 	at TRANSFORMER/geckolib@4.8.3/software.bernie.geckolib.loading.json.typeadapter.BakedAnimationsAdapter.bakeBoneAnimations(BakedAnimationsAdapter.java:72)
-[15:23:56:090] [STDERR]: 	at TRANSFORMER/geckolib@4.8.3/software.bernie.geckolib.loading.json.typeadapter.BakedAnimationsAdapter.bakeAnimation(BakedAnimationsAdapter.java:53)
-[15:23:56:090] [STDERR]: 	at TRANSFORMER/geckolib@4.8.3/software.bernie.geckolib.loading.json.typeadapter.BakedAnimationsAdapter.deserialize(BakedAnimationsAdapter.java:39)
-[15:23:56:090] [STDERR]: 	at TRANSFORMER/geckolib@4.8.3/software.bernie.geckolib.loading.json.typeadapter.BakedAnimationsAdapter.deserialize(BakedAnimationsAdapter.java:31)
-[15:23:56:090] [STDERR]: 	at MC-BOOTSTRAP/com.google.gson@2.10/com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76)
-[15:23:56:090] [STDERR]: 	at MC-BOOTSTRAP/com.google.gson@2.10/com.google.gson.Gson.fromJson(Gson.java:1214)
-[15:23:56:090] [STDERR]: 	at MC-BOOTSTRAP/com.google.gson@2.10/com.google.gson.Gson.fromJson(Gson.java:1319)
-[15:23:56:090] [STDERR]: 	at MC-BOOTSTRAP/com.google.gson@2.10/com.google.gson.Gson.fromJson(Gson.java:1261)
-[15:23:56:090] [STDERR]: 	at TRANSFORMER/geckolib@4.8.3/software.bernie.geckolib.loading.FileLoader.loadAnimationsFile(FileLoader.java:28)
-[15:23:56:090] [STDERR]: 	at TRANSFORMER/geckolib@4.8.3/software.bernie.geckolib.cache.GeckoLibCache.lambda$loadAnimations$1(GeckoLibCache.java:90)
-[15:23:56:090] [STDERR]: 	at TRANSFORMER/geckolib@4.8.3/software.bernie.geckolib.cache.GeckoLibCache.lambda$loadResources$5(GeckoLibCache.java:132)
-[15:23:56:090] [STDERR]: 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
-[15:23:56:090] [STDERR]: 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
-[15:23:56:090] [STDERR]: 	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
-[15:23:56:090] [STDERR]: 	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
-[15:23:56:090] [STDERR]: 	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
-[15:23:56:090] [STDERR]: 	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
-[15:23:56:090] [STDERR]: 	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
-[15:23:56:091] [STDERR]: software.bernie.geckolib.core.molang.MolangException: Couldn't parse '--25.7874' expression!
-[15:23:56:092] [STDERR]: 	at TRANSFORMER/geckolib@4.8.3/software.bernie.geckolib.core.molang.MolangParser.parseOneLine(MolangParser.java:247)
-[15:23:56:092] [STDERR]: 	at TRANSFORMER/geckolib@4.8.3/software.bernie.geckolib.core.molang.MolangParser.parseExpression(MolangParser.java:199)
-[15:23:56:092] [STDERR]: 	at TRANSFORMER/geckolib@4.8.3/software.bernie.geckolib.core.molang.MolangParser.parseJson(MolangParser.java:181)
-[15:23:56:092] [STDERR]: 	at TRANSFORMER/geckolib@4.8.3/software.bernie.geckolib.loading.json.typeadapter.BakedAnimationsAdapter.buildKeyframeStack(BakedAnimationsAdapter.java:197)
-[15:23:56:092] [STDERR]: 	at TRANSFORMER/geckolib@4.8.3/software.bernie.geckolib.loading.json.typeadapter.BakedAnimationsAdapter.bakeBoneAnimations(BakedAnimationsAdapter.java:72)
-[15:23:56:092] [STDERR]: 	at TRANSFORMER/geckolib@4.8.3/software.bernie.geckolib.loading.json.typeadapter.BakedAnimationsAdapter.bakeAnimation(BakedAnimationsAdapter.java:53)
-[15:23:56:092] [STDERR]: 	at TRANSFORMER/geckolib@4.8.3/software.bernie.geckolib.loading.json.typeadapter.BakedAnimationsAdapter.deserialize(BakedAnimationsAdapter.java:39)
-[15:23:56:092] [STDERR]: 	at TRANSFORMER/geckolib@4.8.3/software.bernie.geckolib.loading.json.typeadapter.BakedAnimationsAdapter.deserialize(BakedAnimationsAdapter.java:31)
-[15:23:56:092] [STDERR]: 	at MC-BOOTSTRAP/com.google.gson@2.10/com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76)
-[15:23:56:092] [STDERR]: 	at MC-BOOTSTRAP/com.google.gson@2.10/com.google.gson.Gson.fromJson(Gson.java:1214)
-[15:23:56:092] [STDERR]: 	at MC-BOOTSTRAP/com.google.gson@2.10/com.google.gson.Gson.fromJson(Gson.java:1319)
-[15:23:56:092] [STDERR]: 	at MC-BOOTSTRAP/com.google.gson@2.10/com.google.gson.Gson.fromJson(Gson.java:1261)
-[15:23:56:092] [STDERR]: 	at TRANSFORMER/geckolib@4.8.3/software.bernie.geckolib.loading.FileLoader.loadAnimationsFile(FileLoader.java:28)
-[15:23:56:092] [STDERR]: 	at TRANSFORMER/geckolib@4.8.3/software.bernie.geckolib.cache.GeckoLibCache.lambda$loadAnimations$1(GeckoLibCache.java:90)
-[15:23:56:092] [STDERR]: 	at TRANSFORMER/geckolib@4.8.3/software.bernie.geckolib.cache.GeckoLibCache.lambda$loadResources$5(GeckoLibCache.java:132)
-[15:23:56:092] [STDERR]: 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
-[15:23:56:092] [STDERR]: 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
-[15:23:56:092] [STDERR]: 	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
-[15:23:56:092] [STDERR]: 	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
-[15:23:56:092] [STDERR]: 	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
-[15:23:56:092] [STDERR]: 	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
-[15:23:56:092] [STDERR]: 	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
-[15:23:59:435] [STDERR]: org.objectweb.asm.tree.analysis.AnalyzerException: Error at instruction 44: Cannot invoke "org.spongepowered.asm.mixin.transformer.ClassInfo.hasSuperClass(org.spongepowered.asm.mixin.transformer.ClassInfo)" because the return value of "org.spongepowered.asm.mixin.transformer.ClassInfo.forType(org.objectweb.asm.Type, org.spongepowered.asm.mixin.transformer.ClassInfo$TypeLookup)" is null
-[15:23:59:436] [STDERR]: 	at org.objectweb.asm.tree.analysis@9.9.1/org.objectweb.asm.tree.analysis.Analyzer.analyze(Analyzer.java:290)
-[15:23:59:436] [STDERR]: 	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.util.Locals.generateLocalVariableTable(Locals.java:898)
-[15:23:59:436] [STDERR]: 	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.util.Locals.getGeneratedLocalVariableTable(Locals.java:867)
-[15:23:59:436] [STDERR]: 	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.util.Locals.getLocalVariableAt(Locals.java:821)
-[15:23:59:436] [STDERR]: 	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.util.Locals.getLocalVariableAt(Locals.java:791)
-[15:23:59:436] [STDERR]: 	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.util.Locals.getLocalsAt(Locals.java:479)
-[15:23:59:436] [STDERR]: 	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.util.Locals.getLocalsAt(Locals.java:425)
-[15:23:59:436] [STDERR]: 	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.util.Locals.getLocalsAt(Locals.java:343)
-[15:23:59:436] [STDERR]: 	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.injection.modify.LocalVariableDiscriminator$Context.initLocals(LocalVariableDiscriminator.java:154)
-[15:23:59:436] [STDERR]: 	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.injection.modify.LocalVariableDiscriminator$Context.<init>(LocalVariableDiscriminator.java:148)
-[15:23:59:436] [STDERR]: 	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.injection.modify.ModifyVariableInjector$Context.<init>(ModifyVariableInjector.java:71)
-[15:23:59:436] [STDERR]: 	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.injection.modify.ModifyVariableInjector.preInject(ModifyVariableInjector.java:159)
-[15:23:59:436] [STDERR]: 	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.injection.code.Injector.preInject(Injector.java:258)
-[15:23:59:436] [STDERR]: 	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.injection.struct.InjectionInfo.preInject(InjectionInfo.java:436)
-[15:23:59:436] [STDERR]: 	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinTargetContext.applyInjections(MixinTargetContext.java:1370)
-[15:23:59:436] [STDERR]: 	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.applyInjections(MixinApplicatorStandard.java:1062)
-[15:23:59:436] [STDERR]: 	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.applyMixin(MixinApplicatorStandard.java:402)
-[15:23:59:436] [STDERR]: 	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.apply(MixinApplicatorStandard.java:327)
-[15:23:59:436] [STDERR]: 	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.TargetClassContext.apply(TargetClassContext.java:421)
-[15:23:59:436] [STDERR]: 	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.TargetClassContext.applyMixins(TargetClassContext.java:403)
-[15:23:59:436] [STDERR]: 	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:363)
-[15:23:59:436] [STDERR]: 	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClass(MixinTransformer.java:250)
-[15:23:59:436] [STDERR]: 	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.service.modlauncher.MixinTransformationHandler.processClass(MixinTransformationHandler.java:131)
-[15:23:59:436] [STDERR]: 	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.launch.MixinLaunchPluginLegacy.processClass(MixinLaunchPluginLegacy.java:131)
-[15:23:59:436] [STDERR]: 	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.serviceapi.ILaunchPluginService.processClassWithFlags(ILaunchPluginService.java:156)
-[15:23:59:436] [STDERR]: 	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:88)
-[15:23:59:436] [STDERR]: 	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120)
-[15:23:59:436] [STDERR]: 	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50)
-[15:23:59:436] [STDERR]: 	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:113)
-[15:23:59:436] [STDERR]: 	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:219)
-[15:23:59:436] [STDERR]: 	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229)
-[15:23:59:436] [STDERR]: 	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219)
-[15:23:59:436] [STDERR]: 	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:135)
-[15:23:59:436] [STDERR]: 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
-[15:23:59:436] [STDERR]: 	at java.base/java.lang.Class.forName0(Native Method)
-[15:23:59:436] [STDERR]: 	at java.base/java.lang.Class.forName(Class.java:375)
-[15:23:59:436] [STDERR]: 	at TRANSFORMER/emi@1.1.24+1.20.1+forge/dev.emi.emi.platform.EmiAgnos.<clinit>(EmiAgnos.java:31)
-[15:23:59:436] [STDERR]: 	at TRANSFORMER/emi@1.1.24+1.20.1+forge/dev.emi.emi.config.EmiConfig.<clinit>(EmiConfig.java:110)
-[15:23:59:436] [STDERR]: 	at TRANSFORMER/minecraft@1.20.1/net.minecraft.client.gui.components.toasts.ToastComponent.handler$bmj000$emi$drawHead(ToastComponent.java:520)
-[15:23:59:436] [STDERR]: 	at TRANSFORMER/minecraft@1.20.1/net.minecraft.client.gui.components.toasts.ToastComponent.m_94920_(ToastComponent.java)
-[15:23:59:436] [STDERR]: 	at TRANSFORMER/minecraft@1.20.1/net.minecraft.client.renderer.GameRenderer.redirect$ekn000$fancytoasts$onToastManagerRender(GameRenderer.java:11622)
-[15:23:59:436] [STDERR]: 	at TRANSFORMER/minecraft@1.20.1/net.minecraft.client.renderer.GameRenderer.m_109093_(GameRenderer.java:996)
-[15:23:59:436] [STDERR]: 	at TRANSFORMER/minecraft@1.20.1/net.minecraft.client.Minecraft.m_91383_(Minecraft.java:1146)
-[15:23:59:436] [STDERR]: 	at TRANSFORMER/minecraft@1.20.1/net.minecraft.client.Minecraft.m_91374_(Minecraft.java:718)
-[15:23:59:436] [STDERR]: 	at TRANSFORMER/minecraft@1.20.1/net.minecraft.client.main.Main.main(Main.java:218)
-[15:23:59:436] [STDERR]: 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-[15:23:59:436] [STDERR]: 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-[15:23:59:436] [STDERR]: 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-[15:23:59:436] [STDERR]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
-[15:23:59:436] [STDERR]: 	at MC-BOOTSTRAP/fmlloader@1.20.1-47.4.20/net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111)
-[15:23:59:436] [STDERR]: 	at MC-BOOTSTRAP/fmlloader@1.20.1-47.4.20/net.minecraftforge.fml.loading.targets.CommonLaunchHandler.clientService(CommonLaunchHandler.java:99)
-[15:23:59:436] [STDERR]: 	at MC-BOOTSTRAP/fmlloader@1.20.1-47.4.20/net.minecraftforge.fml.loading.targets.CommonClientLaunchHandler.lambda$makeService$0(CommonClientLaunchHandler.java:25)
-[15:23:59:436] [STDERR]: 	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30)
-[15:23:59:436] [STDERR]: 	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53)
-[15:23:59:436] [STDERR]: 	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71)
-[15:23:59:436] [STDERR]: 	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.Launcher.run(Launcher.java:108)
-[15:23:59:436] [STDERR]: 	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.Launcher.main(Launcher.java:78)
-[15:23:59:436] [STDERR]: 	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26)
-[15:23:59:436] [STDERR]: 	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23)
-[15:23:59:436] [STDERR]: 	at cpw.mods.bootstraplauncher@1.1.2/cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141)
-[15:23:59:436] [STDERR]: Caused by: java.lang.NullPointerException: Cannot invoke "org.spongepowered.asm.mixin.transformer.ClassInfo.hasSuperClass(org.spongepowered.asm.mixin.transformer.ClassInfo)" because the return value of "org.spongepowered.asm.mixin.transformer.ClassInfo.forType(org.objectweb.asm.Type, org.spongepowered.asm.mixin.transformer.ClassInfo$TypeLookup)" is null
-[15:23:59:436] [STDERR]: 	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.util.asm.MixinVerifier.isAssignableFrom(MixinVerifier.java:104)
-[15:23:59:436] [STDERR]: 	at org.objectweb.asm.tree.analysis@9.9.1/org.objectweb.asm.tree.analysis.SimpleVerifier.isSubTypeOf(SimpleVerifier.java:257)
-[15:23:59:436] [STDERR]: 	at org.objectweb.asm.tree.analysis@9.9.1/org.objectweb.asm.tree.analysis.BasicVerifier.naryOperation(BasicVerifier.java:400)
-[15:23:59:436] [STDERR]: 	at org.objectweb.asm.tree.analysis@9.9.1/org.objectweb.asm.tree.analysis.BasicVerifier.naryOperation(BasicVerifier.java:44)
-[15:23:59:436] [STDERR]: 	at org.objectweb.asm.tree.analysis@9.9.1/org.objectweb.asm.tree.analysis.Frame.executeInvokeInsn(Frame.java:684)
-[15:23:59:436] [STDERR]: 	at org.objectweb.asm.tree.analysis@9.9.1/org.objectweb.asm.tree.analysis.Frame.execute(Frame.java:609)
-[15:23:59:436] [STDERR]: 	at org.objectweb.asm.tree.analysis@9.9.1/org.objectweb.asm.tree.analysis.Analyzer.analyze(Analyzer.java:173)
-[15:23:59:436] [STDERR]: 	... 59 more
-[15:29:47:556] [STDERR]: Failed to load modifier group windswept:modifiers/advancements/all_effects.json: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
-[15:29:47:556] [STDERR]: Failed to load modifier group windswept:modifiers/advancements/balanced_diet.json: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
-[15:29:47:556] [STDERR]: Failed to load modifier group windswept:modifiers/advancements/kill_a_mob.json: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
-[15:29:47:557] [STDERR]: Failed to load modifier group windswept:modifiers/advancements/kill_all_mobs.json: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
-[15:29:47:557] [STDERR]: Failed to load modifier group windswept:modifiers/advancements/plant_seed.json: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
-[15:29:47:557] [STDERR]: Failed to load modifier group windswept:modifiers/advancements/walk_on_powder_snow_with_leather_boots.json: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
-[15:29:47:562] [STDERR]: Failed to load modifier group windswept:modifiers/dimension/chunk_generator/flowering_savanna_surface_rule.json: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
-[15:29:47:562] [STDERR]: Failed to load modifier group windswept:modifiers/dimension/chunk_generator/tundra_surface_rule.json: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
-[15:29:47:562] [STDERR]: Failed to load modifier group windswept:modifiers/loot_tables/drowned_disc.json: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
-[15:29:47:562] [STDERR]: Failed to load modifier group windswept:modifiers/loot_tables/goat_meat.json: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
-[15:29:47:563] [STDERR]: Failed to load modifier group windswept:modifiers/loot_tables/stray.json: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
-[15:29:47:563] [STDERR]: Failed to load modifier group windswept:modifiers/loot_tables/underwater_ruin_small.json: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
-[15:29:47:563] [STDERR]: Failed to load modifier group windswept:modifiers/loot_tables/village_fisher.json: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
-[15:29:47:563] [STDERR]: Failed to load modifier group windswept:modifiers/loot_tables/village_savanna_house.json: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
-[15:29:47:563] [STDERR]: Failed to load modifier group windswept:modifiers/loot_tables/village_snowy_house.json: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
-[15:29:47:563] [STDERR]: Failed to load modifier group windswept:modifiers/loot_tables/village_taiga_house.json: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
-[15:30:06:096] [STDERR]: Failed to load modifier group windswept:modifiers/advancements/all_effects.json: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
-[15:30:06:096] [STDERR]: Failed to load modifier group windswept:modifiers/advancements/balanced_diet.json: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
-[15:30:06:096] [STDERR]: Failed to load modifier group windswept:modifiers/advancements/kill_a_mob.json: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
-[15:30:06:096] [STDERR]: Failed to load modifier group windswept:modifiers/advancements/kill_all_mobs.json: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
-[15:30:06:096] [STDERR]: Failed to load modifier group windswept:modifiers/advancements/plant_seed.json: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
-[15:30:06:097] [STDERR]: Failed to load modifier group windswept:modifiers/advancements/walk_on_powder_snow_with_leather_boots.json: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
-[15:30:06:097] [STDERR]: Failed to load modifier group windswept:modifiers/dimension/chunk_generator/flowering_savanna_surface_rule.json: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
-[15:30:06:097] [STDERR]: Failed to load modifier group windswept:modifiers/dimension/chunk_generator/tundra_surface_rule.json: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
-[15:30:06:097] [STDERR]: Failed to load modifier group windswept:modifiers/loot_tables/drowned_disc.json: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
-[15:30:06:098] [STDERR]: Failed to load modifier group windswept:modifiers/loot_tables/goat_meat.json: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
-[15:30:06:098] [STDERR]: Failed to load modifier group windswept:modifiers/loot_tables/stray.json: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
-[15:30:06:098] [STDERR]: Failed to load modifier group windswept:modifiers/loot_tables/underwater_ruin_small.json: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
-[15:30:06:098] [STDERR]: Failed to load modifier group windswept:modifiers/loot_tables/village_fisher.json: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
-[15:30:06:098] [STDERR]: Failed to load modifier group windswept:modifiers/loot_tables/village_savanna_house.json: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
-[15:30:06:098] [STDERR]: Failed to load modifier group windswept:modifiers/loot_tables/village_snowy_house.json: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
-[15:30:06:098] [STDERR]: Failed to load modifier group windswept:modifiers/loot_tables/village_taiga_house.json: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[20:23:01:110] [STDERR]: java.lang.Exception: Given object couldn't be converted to value! -
+[20:23:01:110] [STDERR]: 	at TRANSFORMER/mclib@20/com.eliotlash.mclib.math.MathBuilder.valueFromObject(MathBuilder.java:488)
+[20:23:01:110] [STDERR]: 	at TRANSFORMER/mclib@20/com.eliotlash.mclib.math.MathBuilder.parseSymbols(MathBuilder.java:257)
+[20:23:01:110] [STDERR]: 	at TRANSFORMER/mclib@20/com.eliotlash.mclib.math.MathBuilder.parseSymbols(MathBuilder.java:308)
+[20:23:01:110] [STDERR]: 	at TRANSFORMER/geckolib@4.8.3/software.bernie.geckolib.core.molang.MolangParser.parseSymbolsMolang(MolangParser.java:256)
+[20:23:01:110] [STDERR]: 	at TRANSFORMER/geckolib@4.8.3/software.bernie.geckolib.core.molang.MolangParser.parseOneLine(MolangParser.java:244)
+[20:23:01:110] [STDERR]: 	at TRANSFORMER/geckolib@4.8.3/software.bernie.geckolib.core.molang.MolangParser.parseExpression(MolangParser.java:199)
+[20:23:01:110] [STDERR]: 	at TRANSFORMER/geckolib@4.8.3/software.bernie.geckolib.core.molang.MolangParser.parseJson(MolangParser.java:181)
+[20:23:01:110] [STDERR]: 	at TRANSFORMER/geckolib@4.8.3/software.bernie.geckolib.loading.json.typeadapter.BakedAnimationsAdapter.buildKeyframeStack(BakedAnimationsAdapter.java:197)
+[20:23:01:110] [STDERR]: 	at TRANSFORMER/geckolib@4.8.3/software.bernie.geckolib.loading.json.typeadapter.BakedAnimationsAdapter.bakeBoneAnimations(BakedAnimationsAdapter.java:72)
+[20:23:01:110] [STDERR]: 	at TRANSFORMER/geckolib@4.8.3/software.bernie.geckolib.loading.json.typeadapter.BakedAnimationsAdapter.bakeAnimation(BakedAnimationsAdapter.java:53)
+[20:23:01:110] [STDERR]: 	at TRANSFORMER/geckolib@4.8.3/software.bernie.geckolib.loading.json.typeadapter.BakedAnimationsAdapter.deserialize(BakedAnimationsAdapter.java:39)
+[20:23:01:110] [STDERR]: 	at TRANSFORMER/geckolib@4.8.3/software.bernie.geckolib.loading.json.typeadapter.BakedAnimationsAdapter.deserialize(BakedAnimationsAdapter.java:31)
+[20:23:01:110] [STDERR]: 	at MC-BOOTSTRAP/com.google.gson@2.10/com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76)
+[20:23:01:112] [STDERR]: 	at MC-BOOTSTRAP/com.google.gson@2.10/com.google.gson.Gson.fromJson(Gson.java:1214)
+[20:23:01:112] [STDERR]: 	at MC-BOOTSTRAP/com.google.gson@2.10/com.google.gson.Gson.fromJson(Gson.java:1319)
+[20:23:01:112] [STDERR]: 	at MC-BOOTSTRAP/com.google.gson@2.10/com.google.gson.Gson.fromJson(Gson.java:1261)
+[20:23:01:112] [STDERR]: 	at TRANSFORMER/geckolib@4.8.3/software.bernie.geckolib.loading.FileLoader.loadAnimationsFile(FileLoader.java:28)
+[20:23:01:112] [STDERR]: 	at TRANSFORMER/geckolib@4.8.3/software.bernie.geckolib.cache.GeckoLibCache.lambda$loadAnimations$1(GeckoLibCache.java:90)
+[20:23:01:112] [STDERR]: 	at TRANSFORMER/geckolib@4.8.3/software.bernie.geckolib.cache.GeckoLibCache.lambda$loadResources$5(GeckoLibCache.java:132)
+[20:23:01:113] [STDERR]: 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+[20:23:01:113] [STDERR]: 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+[20:23:01:113] [STDERR]: 	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+[20:23:01:113] [STDERR]: 	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+[20:23:01:113] [STDERR]: 	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+[20:23:01:113] [STDERR]: 	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+[20:23:01:113] [STDERR]: 	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+[20:23:01:114] [STDERR]: software.bernie.geckolib.core.molang.MolangException: Couldn't parse '--25.7874' expression!
+[20:23:01:114] [STDERR]: 	at TRANSFORMER/geckolib@4.8.3/software.bernie.geckolib.core.molang.MolangParser.parseOneLine(MolangParser.java:247)
+[20:23:01:114] [STDERR]: 	at TRANSFORMER/geckolib@4.8.3/software.bernie.geckolib.core.molang.MolangParser.parseExpression(MolangParser.java:199)
+[20:23:01:114] [STDERR]: 	at TRANSFORMER/geckolib@4.8.3/software.bernie.geckolib.core.molang.MolangParser.parseJson(MolangParser.java:181)
+[20:23:01:114] [STDERR]: 	at TRANSFORMER/geckolib@4.8.3/software.bernie.geckolib.loading.json.typeadapter.BakedAnimationsAdapter.buildKeyframeStack(BakedAnimationsAdapter.java:197)
+[20:23:01:114] [STDERR]: 	at TRANSFORMER/geckolib@4.8.3/software.bernie.geckolib.loading.json.typeadapter.BakedAnimationsAdapter.bakeBoneAnimations(BakedAnimationsAdapter.java:72)
+[20:23:01:114] [STDERR]: 	at TRANSFORMER/geckolib@4.8.3/software.bernie.geckolib.loading.json.typeadapter.BakedAnimationsAdapter.bakeAnimation(BakedAnimationsAdapter.java:53)
+[20:23:01:114] [STDERR]: 	at TRANSFORMER/geckolib@4.8.3/software.bernie.geckolib.loading.json.typeadapter.BakedAnimationsAdapter.deserialize(BakedAnimationsAdapter.java:39)
+[20:23:01:114] [STDERR]: 	at TRANSFORMER/geckolib@4.8.3/software.bernie.geckolib.loading.json.typeadapter.BakedAnimationsAdapter.deserialize(BakedAnimationsAdapter.java:31)
+[20:23:01:114] [STDERR]: 	at MC-BOOTSTRAP/com.google.gson@2.10/com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76)
+[20:23:01:114] [STDERR]: 	at MC-BOOTSTRAP/com.google.gson@2.10/com.google.gson.Gson.fromJson(Gson.java:1214)
+[20:23:01:114] [STDERR]: 	at MC-BOOTSTRAP/com.google.gson@2.10/com.google.gson.Gson.fromJson(Gson.java:1319)
+[20:23:01:114] [STDERR]: 	at MC-BOOTSTRAP/com.google.gson@2.10/com.google.gson.Gson.fromJson(Gson.java:1261)
+[20:23:01:114] [STDERR]: 	at TRANSFORMER/geckolib@4.8.3/software.bernie.geckolib.loading.FileLoader.loadAnimationsFile(FileLoader.java:28)
+[20:23:01:114] [STDERR]: 	at TRANSFORMER/geckolib@4.8.3/software.bernie.geckolib.cache.GeckoLibCache.lambda$loadAnimations$1(GeckoLibCache.java:90)
+[20:23:01:114] [STDERR]: 	at TRANSFORMER/geckolib@4.8.3/software.bernie.geckolib.cache.GeckoLibCache.lambda$loadResources$5(GeckoLibCache.java:132)
+[20:23:01:114] [STDERR]: 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+[20:23:01:114] [STDERR]: 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+[20:23:01:114] [STDERR]: 	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+[20:23:01:114] [STDERR]: 	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+[20:23:01:114] [STDERR]: 	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+[20:23:01:114] [STDERR]: 	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+[20:23:01:114] [STDERR]: 	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+[20:26:05:284] [STDERR]: Failed to load modifier group windswept:modifiers/advancements/all_effects.json: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[20:26:05:284] [STDERR]: Failed to load modifier group windswept:modifiers/advancements/balanced_diet.json: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[20:26:05:284] [STDERR]: Failed to load modifier group windswept:modifiers/advancements/kill_a_mob.json: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[20:26:05:284] [STDERR]: Failed to load modifier group windswept:modifiers/advancements/kill_all_mobs.json: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[20:26:05:285] [STDERR]: Failed to load modifier group windswept:modifiers/advancements/plant_seed.json: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[20:26:05:285] [STDERR]: Failed to load modifier group windswept:modifiers/advancements/walk_on_powder_snow_with_leather_boots.json: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[20:26:05:296] [STDERR]: Failed to load modifier group windswept:modifiers/dimension/chunk_generator/flowering_savanna_surface_rule.json: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[20:26:05:296] [STDERR]: Failed to load modifier group windswept:modifiers/dimension/chunk_generator/tundra_surface_rule.json: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[20:26:05:296] [STDERR]: Failed to load modifier group windswept:modifiers/loot_tables/drowned_disc.json: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[20:26:05:296] [STDERR]: Failed to load modifier group windswept:modifiers/loot_tables/goat_meat.json: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[20:26:05:296] [STDERR]: Failed to load modifier group windswept:modifiers/loot_tables/stray.json: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[20:26:05:296] [STDERR]: Failed to load modifier group windswept:modifiers/loot_tables/underwater_ruin_small.json: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[20:26:05:296] [STDERR]: Failed to load modifier group windswept:modifiers/loot_tables/village_fisher.json: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[20:26:05:298] [STDERR]: Failed to load modifier group windswept:modifiers/loot_tables/village_savanna_house.json: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[20:26:05:298] [STDERR]: Failed to load modifier group windswept:modifiers/loot_tables/village_snowy_house.json: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[20:26:05:298] [STDERR]: Failed to load modifier group windswept:modifiers/loot_tables/village_taiga_house.json: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[20:26:22:376] [STDERR]: Failed to load modifier group windswept:modifiers/advancements/all_effects.json: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[20:26:22:378] [STDERR]: Failed to load modifier group windswept:modifiers/advancements/balanced_diet.json: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[20:26:22:379] [STDERR]: Failed to load modifier group windswept:modifiers/advancements/kill_a_mob.json: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[20:26:22:380] [STDERR]: Failed to load modifier group windswept:modifiers/advancements/kill_all_mobs.json: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[20:26:22:381] [STDERR]: Failed to load modifier group windswept:modifiers/advancements/plant_seed.json: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[20:26:22:382] [STDERR]: Failed to load modifier group windswept:modifiers/advancements/walk_on_powder_snow_with_leather_boots.json: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[20:26:22:383] [STDERR]: Failed to load modifier group windswept:modifiers/dimension/chunk_generator/flowering_savanna_surface_rule.json: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[20:26:22:383] [STDERR]: Failed to load modifier group windswept:modifiers/dimension/chunk_generator/tundra_surface_rule.json: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[20:26:22:384] [STDERR]: Failed to load modifier group windswept:modifiers/loot_tables/drowned_disc.json: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[20:26:22:384] [STDERR]: Failed to load modifier group windswept:modifiers/loot_tables/goat_meat.json: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[20:26:22:384] [STDERR]: Failed to load modifier group windswept:modifiers/loot_tables/stray.json: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[20:26:22:384] [STDERR]: Failed to load modifier group windswept:modifiers/loot_tables/underwater_ruin_small.json: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[20:26:22:384] [STDERR]: Failed to load modifier group windswept:modifiers/loot_tables/village_fisher.json: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[20:26:22:385] [STDERR]: Failed to load modifier group windswept:modifiers/loot_tables/village_savanna_house.json: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[20:26:22:385] [STDERR]: Failed to load modifier group windswept:modifiers/loot_tables/village_snowy_house.json: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[20:26:22:385] [STDERR]: Failed to load modifier group windswept:modifiers/loot_tables/village_taiga_house.json: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[20:33:43:716] [STDERR]: Failed to load modifier group windswept:modifiers/advancements/all_effects.json: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[20:33:43:717] [STDERR]: Failed to load modifier group windswept:modifiers/advancements/balanced_diet.json: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[20:33:43:718] [STDERR]: Failed to load modifier group windswept:modifiers/advancements/kill_a_mob.json: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[20:33:43:718] [STDERR]: Failed to load modifier group windswept:modifiers/advancements/kill_all_mobs.json: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[20:33:43:718] [STDERR]: Failed to load modifier group windswept:modifiers/advancements/plant_seed.json: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[20:33:43:719] [STDERR]: Failed to load modifier group windswept:modifiers/advancements/walk_on_powder_snow_with_leather_boots.json: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[20:33:43:719] [STDERR]: Failed to load modifier group windswept:modifiers/dimension/chunk_generator/flowering_savanna_surface_rule.json: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[20:33:43:720] [STDERR]: Failed to load modifier group windswept:modifiers/dimension/chunk_generator/tundra_surface_rule.json: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[20:33:43:720] [STDERR]: Failed to load modifier group windswept:modifiers/loot_tables/drowned_disc.json: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[20:33:43:720] [STDERR]: Failed to load modifier group windswept:modifiers/loot_tables/goat_meat.json: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[20:33:43:721] [STDERR]: Failed to load modifier group windswept:modifiers/loot_tables/stray.json: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[20:33:43:721] [STDERR]: Failed to load modifier group windswept:modifiers/loot_tables/underwater_ruin_small.json: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[20:33:43:721] [STDERR]: Failed to load modifier group windswept:modifiers/loot_tables/village_fisher.json: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[20:33:43:721] [STDERR]: Failed to load modifier group windswept:modifiers/loot_tables/village_savanna_house.json: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[20:33:43:721] [STDERR]: Failed to load modifier group windswept:modifiers/loot_tables/village_snowy_house.json: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[20:33:43:721] [STDERR]: Failed to load modifier group windswept:modifiers/loot_tables/village_taiga_house.json: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[20:33:57:791] [STDERR]: Failed to load modifier group windswept:modifiers/advancements/all_effects.json: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[20:33:57:791] [STDERR]: Failed to load modifier group windswept:modifiers/advancements/balanced_diet.json: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[20:33:57:791] [STDERR]: Failed to load modifier group windswept:modifiers/advancements/kill_a_mob.json: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[20:33:57:791] [STDERR]: Failed to load modifier group windswept:modifiers/advancements/kill_all_mobs.json: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[20:33:57:791] [STDERR]: Failed to load modifier group windswept:modifiers/advancements/plant_seed.json: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[20:33:57:792] [STDERR]: Failed to load modifier group windswept:modifiers/advancements/walk_on_powder_snow_with_leather_boots.json: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[20:33:57:793] [STDERR]: Failed to load modifier group windswept:modifiers/dimension/chunk_generator/flowering_savanna_surface_rule.json: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[20:33:57:794] [STDERR]: Failed to load modifier group windswept:modifiers/dimension/chunk_generator/tundra_surface_rule.json: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[20:33:57:796] [STDERR]: Failed to load modifier group windswept:modifiers/loot_tables/drowned_disc.json: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[20:33:57:797] [STDERR]: Failed to load modifier group windswept:modifiers/loot_tables/goat_meat.json: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[20:33:57:798] [STDERR]: Failed to load modifier group windswept:modifiers/loot_tables/stray.json: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[20:33:57:798] [STDERR]: Failed to load modifier group windswept:modifiers/loot_tables/underwater_ruin_small.json: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[20:33:57:798] [STDERR]: Failed to load modifier group windswept:modifiers/loot_tables/village_fisher.json: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[20:33:57:798] [STDERR]: Failed to load modifier group windswept:modifiers/loot_tables/village_savanna_house.json: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[20:33:57:798] [STDERR]: Failed to load modifier group windswept:modifiers/loot_tables/village_snowy_house.json: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[20:33:57:798] [STDERR]: Failed to load modifier group windswept:modifiers/loot_tables/village_taiga_house.json: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null

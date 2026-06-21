@@ -1,0 +1,26 @@
+{
+  "irons_spellbooks:silver_ring": {
+    "curios_slots": {
+      "ring": [
+        {
+          "attribute": "irons_spellbooks:max_mana",
+          "action": "modify",
+          "amount": 20.0,
+          "operation": "add_value"
+        }
+      ]
+    }
+  },
+  "irons_spellbooks:cooldown_ring": {
+    "curios_slots": {
+      "ring": [
+        {
+          "attribute": "irons_spellbooks:cooldown_reduction",
+          "action": "modify",
+          "amount": 0.1,
+          "operation": "add_multiplied_base"
+        }
+      ]
+    }
+  }
+}

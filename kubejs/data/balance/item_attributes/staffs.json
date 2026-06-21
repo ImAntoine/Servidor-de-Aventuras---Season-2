@@ -1,0 +1,178 @@
+{
+  "irons_spellbooks:graybeard_staff": {
+    "equipment_slots": {
+      "mainhand": [
+        {
+          "attribute": "irons_spellbooks:mana_regen",
+          "action": "remove"
+        },
+        {
+          "attribute": "irons_spellbooks:spell_power",
+          "action": "modify",
+          "amount": 0.1,
+          "operation": "add_value"
+        }
+      ]
+    }
+  },
+  "irons_spellbooks:lightning_rod": {
+    "equipment_slots": {
+      "mainhand": [
+        {
+          "attribute": "irons_spellbooks:cooldown_reduction",
+          "action": "remove"
+        },
+        {
+          "attribute": "irons_spellbooks:lightning_spell_power",
+          "action": "remove"
+        },
+        {
+          "attribute": "irons_spellbooks:spell_power",
+          "action": "modify",
+          "amount": 0.15,
+          "operation": "add_value"
+        }
+      ]
+    }
+  },
+  "irons_spellbooks:ice_staff": {
+    "equipment_slots": {
+      "mainhand": [
+        {
+          "attribute": "irons_spellbooks:ice_spell_power",
+          "action": "remove"
+        },
+        {
+          "attribute": "irons_spellbooks:mana_regen",
+          "action": "remove"
+        },
+        {
+          "attribute": "irons_spellbooks:spell_power",
+          "action": "modify",
+          "amount": 0.2,
+          "operation": "add_value"
+        }
+      ]
+    }
+  },
+  "apprenticecodex:explorers_cane": {
+    "equipment_slots": {
+      "offhand": [
+        {
+          "attribute": "forge:step_height_addition",
+          "action": "remove"
+        },
+        {
+          "attribute": "minecraft:generic.movement_speed",
+          "action": "modify",
+          "amount": 0.05,
+          "operation": "add_value"
+        },
+        {
+          "attribute": "minecraft:generic.attack_damage",
+          "action": "add",
+          "amount": -1.0,
+          "operation": "add_multiplied_total"
+        },
+        {
+          "attribute": "attributeslib:arrow_damage",
+          "action": "add",
+          "amount": -1.0,
+          "operation": "add_multiplied_total"
+        }
+      ]
+    }
+  },
+  "cataclysm_spellbooks:fake_wudjets_staff": {
+    "equipment_slots": {
+      "mainhand": [
+        {
+          "attribute": "irons_spellbooks:cooldown_reduction",
+          "action": "remove"
+        },
+        {
+          "attribute": "irons_spellbooks:nature_spell_power",
+          "action": "remove"
+        },
+        {
+          "attribute": "irons_spellbooks:holy_spell_power",
+          "action": "modify",
+          "amount": 0.1,
+          "operation": "add_value"
+        },
+        {
+          "attribute": "irons_spellbooks:evocation_spell_power",
+          "action": "add",
+          "amount": 0.1,
+          "operation": "add_value"
+        },
+        {
+          "attribute": "irons_spellbooks:spell_power",
+          "action": "add",
+          "amount": 0.2,
+          "operation": "add_value"
+        }
+      ]
+    }
+  },
+  "cataclysm_spellbooks:bloom_stone_staff": {
+    "equipment_slots": {
+      "mainhand": [
+        {
+          "attribute": "irons_spellbooks:cooldown_reduction",
+          "action": "remove"
+        },
+        {
+          "attribute": "irons_spellbooks:nature_spell_power",
+          "action": "remove"
+        },
+        {
+          "attribute": "irons_spellbooks:aqua_spell_power",
+          "action": "add",
+          "amount": 0.1,
+          "operation": "add_value"
+        },
+        {
+          "attribute": "irons_spellbooks:ender_spell_power",
+          "action": "add",
+          "amount": 0.1,
+          "operation": "add_value"
+        },
+        {
+          "attribute": "irons_spellbooks:spell_power",
+          "action": "add",
+          "amount": 0.2,
+          "operation": "add_value"
+        }
+      ]
+    }
+  },
+  "apprenticecodex:illuminate_stellar_staff": {
+    "equipment_slots": {
+      "mainhand": [
+        {
+          "attribute": "irons_spellbooks:holy_spell_power",
+          "action": "remove"
+        },
+        {
+          "attribute": "irons_spellbooks:lightning_spell_power",
+          "action": "add",
+          "amount": 0.1,
+          "operation": "add_value"
+        },
+        {
+          "attribute": "irons_spellbooks:technomancy_spell_power",
+          "action": "add",
+          "amount": 0.1,
+          "operation": "add_value"
+        },
+        {
+          "attribute": "irons_spellbooks:spell_power",
+          "action": "modify",
+          "amount": 0.2,
+          "operation": "add_value"
+        }
+      ]
+    }
+  }
+}

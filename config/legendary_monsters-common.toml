@@ -25,6 +25,11 @@
 		"Allow Bosses to reduce player's resistance effect" = true
 		#Allow duo boss respawn teammate when it's dead and duo boss has no target
 		"Allow duo boss respawn teammate" = true
+		#MiniBoss DamageCap
+		#Range: 0 ~ 1000
+		"MiniBoss DamageCap" = 21
+		#Allow Knight Summons Initiate Attack
+		"Allow Knight Summons Initiate Attack" = true
 
 	["Mob Settings"."Chorusling Settings"]
 		#Multiplies damage dealt by Chorusling
@@ -365,6 +370,14 @@
 		#Multiplies damage dealt by Resurrected Knight
 		#Range: 0.0 ~ 1000.0
 		"Resurrected Knight Damage Multiplier" = 1.0
+
+	["Mob Settings"."Flameborn Warrior Settings"]
+		#Multiplies damage dealt by Flameborn Warrior
+		#Range: 0.0 ~ 1000.0
+		"The Flameborn Guard Damage Multiplier" = 1.0
+		#Multiplies damage of Flameborn Warrior
+		#Range: 0.0 ~ 1000.0
+		"Flameborn Guard Damage Multiplier" = 1.0
 
 ["Item Settings"]
 

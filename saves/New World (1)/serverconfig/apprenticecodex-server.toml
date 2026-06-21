@@ -65,6 +65,14 @@
 	magicSpear = 1.0
 	#Range: 0.1 ~ 10.0
 	frostRune = 1.0
+	#Range: 0.1 ~ 10.0
+	mysticShield = 1.0
+	#Range: 0.1 ~ 10.0
+	boundSword = 1.0
+	#Range: 0.1 ~ 10.0
+	inscribeIce = 1.0
+	#Range: 0.1 ~ 10.0
+	heavenlyFist = 1.0
 
 [Blocks]
 
@@ -81,10 +89,23 @@
 		#Range: > 1
 		ticksPerStoredParameter = 3600
 
-	#WARNING: Ignores Spell Dispenser spell profile and denylist config files.
-	#Use at your own risk. This can allow unsupported or intentionally blocked spells.
 	[Blocks.SpellDispenser]
-		ignoreSpellProfileAndDenylistFiles = false
+		#Enables Spell Dispenser redstone and contraption casting.
+		enable = true
+		#Enables the server-side Spell Dispenser spell allowlist.
+		#When enabled, an empty spellAllowlist blocks all spells.
+		enableSpellAllowlist = false
+		#Namespaced spell IDs that Spell Dispenser may cast when enableSpellAllowlist is true.
+		spellAllowlist = []
+		#Multiplier applied to Spell Dispenser cooldown ticks. Minimum is 0.1.
+		#Range: 0.1 ~ 1.7976931348623157E308
+		cooldownMultiplier = 1.0
+		#Enables mana consumption for Creative Spell Dispenser. Disabled by default.
+		creativeManaConsumption = false
+		#Multiplier applied to Creative Spell Dispenser cooldown ticks.
+		#WARNING: Setting this to 0 can cause catastrophic server load if redstone or contraptions repeatedly cast spells.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		creativeCooldownMultiplier = 0.1
 
 [Items]
 
@@ -127,8 +148,6 @@
 	[Items.IsekaiTravelGuidebook]
 		#Show a tooltip on the Isekai Travel Guidebook. Disable this if it feels too intrusive.
 		showTooltip = true
-		#Add the Isekai Travel Guidebook to bonus chest loot.
-		enableBonusChestLoot = true
 
 	#Global spell power attribute modifier amount per armor piece. 0.01 = +1%.
 	[Items.ApprenticeMageRobe]
@@ -170,6 +189,15 @@
 		#Ticks treated as perfect guard for vanilla-style Mana Force Blade guard. Not used when Epic Fight is installed because Epic Fight guard skills take priority.
 		#Range: 0 ~ 72000
 		perfectGuardTicks = 10
+		#Cooldown ticks applied when releasing vanilla-style Mana Force Blade guard. 0 disables the release cooldown.
+		#Range: 0 ~ 72000
+		releaseCooldownTicks = 40
+		#Ticks after a successful perfect guard during which releasing Mana Force Blade guard skips release cooldown. 0 disables this grace.
+		#Range: 0 ~ 72000
+		perfectGuardReleaseCooldownGraceTicks = 40
+		#Number of release cooldown skips granted by a successful perfect guard. 0 disables this grace. Use a large value for effectively unlimited skips.
+		#Range: 0 ~ 1000000
+		perfectGuardReleaseCooldownGraceUses = 1
 
 	[Items.MultipurposeStaffrifle]
 		#Cooldowns at or below this value are removed for Multipurpose Staffrifle special casts. 200 ticks = 10 seconds.
@@ -184,6 +212,354 @@
 		#Minimum server-side interval between ADS full-auto special cast attempts.
 		#Range: 1 ~ 72000
 		adsFullAutoIntervalTicks = 3
+		#Additional spell IDs blocked only for Multipurpose Staffrifle special casts. Entries use "modid:path".
+		spellDenylist = []
+
+	[Items.ManaShieldCharm]
+		#Mana spent per whole damage point absorbed by Mana Shield Charm. 0 makes absorbed whole-damage steps free and can make the charm effectively invulnerable against many damage sources; use only when that is intended.
+		#Range: 0.0 ~ 10000.0
+		manaPerDamage = 25.0
+		#Mana required to reactivate Mana Shield Charm after depletion. 0 disables depletion cooldown.
+		#Range: 0 ~ 10000
+		recoveryThresholdMana = 100
+		#Extra mana spent per whole damage point mitigated by Synchronization before the normal barrier stage.
+		#Range: 0.0 ~ 10000.0
+		synchronizationManaPerDamage = 30.0
+		#Mana recovered per whole damage point nullified by Neutralization. 0 keeps nullification but disables mana recovery.
+		#Range: 0.0 ~ 10000.0
+		neutralizationRecoverManaPerDamage = 25.0
+		#Durability damage applied to each equipped armor piece when Shell uses the armor path. 0 disables this armor wear.
+		#Range: 0 ~ 1000
+		shellArmorDurabilityDamage = 1
+		#Vanilla-style invulnerability ticks applied after Mana Shield Charm fully negates damage.
+		#Range: 0 ~ 72000
+		invulnerableTimeTicks = 20
+
+	[Items.CircuitHeatStaff]
+		#Cooldown ticks treated as the reference amount for Circuit Heat Staff extra mana. 200 ticks = 10 seconds.
+		#Range: 1 ~ 72000
+		additionalManaReferenceCooldownTicks = 200
+		#Linear extra mana multiplier per repeated Circuit Heat Staff cooldown bypass step.
+		#Range: 0.0 ~ 100.0
+		additionalManaLinearMultiplier = 0.1
+		#Quadratic extra mana multiplier per repeated Circuit Heat Staff cooldown bypass step.
+		#Range: 0.0 ~ 100.0
+		additionalManaQuadraticMultiplier = 0.1
+		#Maximum remaining cooldown ticks Circuit Heat Staff may bypass. 0 disables this limit.
+		#Range: 0 ~ 72000
+		cooldownBypassMaxRemainingTicks = 0
+		#Spell IDs blocked only for Circuit Heat Staff cooldown bypass. Entries use "modid:path".
+		spellDenylist = []
+		#Multiplier applied to Circuit Heat Staff item overheat duration after failed mana coverage.
+		#Range: 0.0 ~ 100.0
+		staffOverheatDurationMultiplier = 1.0
+		#Minimum Circuit Heat Staff item overheat duration in ticks. 200 ticks = 10 seconds.
+		#Range: 0 ~ 72000
+		staffOverheatDurationMinTicks = 200
+		#Maximum Circuit Heat Staff item overheat duration in ticks. 0 disables this cap.
+		#Range: > 0
+		staffOverheatDurationCapTicks = 0
+		#Enables Circuit Heat Staff dropped-item cooling in water and powder snow.
+		dropCoolingEnabled = true
+		#Tick interval between Circuit Heat Staff dropped-item cooling processes.
+		#Range: 1 ~ 72000
+		dropCoolingProcessIntervalTicks = 10
+		#Overheat ticks reduced per Circuit Heat Staff dropped-item cooling process.
+		#Range: 0 ~ 72000
+		dropCoolingReductionTicks = 200
+		#Cooling process count before Circuit Heat Staff consumes water source or water cauldron level.
+		#Range: 1 ~ 72000
+		dropCoolingWaterConsumeProcessCount = 3
+		#Allows Circuit Heat Staff dropped-item cooling to remove water source blocks.
+		consumeWaterSourceOnCooling = true
+		#Allows Circuit Heat Staff dropped-item cooling to lower water cauldron levels.
+		consumeWaterCauldronOnCooling = true
+
+	[Items.MulticastEchoStaff]
+		#Delay in ticks between Multicast Echo Staff repeated casts. Must be at least 1 tick.
+		#Range: 1 ~ 20
+		multicastDelayTicks = 2
+		#Cooldown multiplier applied per EchoSpell stack when Multicast Echo Staff finishes.
+		#Range: 0.0 ~ 100.0
+		cooldownMultiplier = 1.2
+		#Cooldown ticks added from skipped cast time per repeated Multicast Echo Staff cast.
+		#Range: 0.0 ~ 100.0
+		castTimeCooldownMultiplier = 1.0
+		#Maximum adjusted Multicast Echo Staff cooldown in ticks. Original cooldowns above this value are preserved.
+		#Range: 1 ~ 72000
+		cooldownCapTicks = 12000
+		#Maximum number of repeated casts stored by Echo Cast for Multicast Echo Staff.
+		#Range: 1 ~ 20
+		maxMulticastCount = 10
+		#Enables Multicast Echo Staff mob effect profile handling for repeated casts.
+		mobEffectProfilesEnabled = true
+		#Allows Multicast Echo Staff mob effect profile handling for beneficial effects.
+		beneficialMobEffectsEnabled = true
+		#Allows Multicast Echo Staff mob effect profile handling for harmful effects.
+		harmfulMobEffectsEnabled = true
+		#Allows Multicast Echo Staff mob effect profile handling for neutral effects.
+		neutralMobEffectsEnabled = true
+		#Enables an additional server-side duration cap for Multicast Echo Staff mob effect profile handling.
+		durationServerCapEnabled = false
+		#Additional server-side duration cap in ticks. 0 disables this cap even when enabled.
+		#Range: 0 ~ 72000
+		durationServerCapTicks = 6000
+		#Enables an additional server-side amplifier cap for Multicast Echo Staff mob effect profile handling.
+		amplifierServerCapEnabled = false
+		#Additional server-side amplifier cap. 0 disables this cap even when enabled.
+		#Range: 0 ~ 255
+		amplifierServerCap = 10
+		#Enables Multicast Echo Staff attack profile handling for repeated casts.
+		attackProfilesEnabled = true
+		#Server-wide multiplier applied to repeated Multicast Echo Staff attack profile damage.
+		#Range: 0.0 ~ 100.0
+		repeatDamageMultiplier = 1.0
+
+	[Items.FocusStaffbow]
+		#Enables Focus Staffbow custom continuous cast handling. When false, CONTINUOUS spells fail before consuming arrows or mana.
+		enableContinuousFocusedCast = true
+		#Allows pending Focus Staffbow casts to borrow missing mana after the base mana start check succeeds.
+		enableManaLoan = true
+		#Requires an arrow catalyst for Focus Staffbow casts. When false, no arrow is searched or consumed.
+		enableArrowCatalystRequirement = true
+		#Item IDs accepted as Focus Staffbow arrow catalysts. Empty list makes non-Synthesis survival casts unusable while arrow catalysts are required.
+		arrowCatalystItems = ["minecraft:arrow"]
+		#Maximum spell power multiplier for pending Focus Staffbow casts.
+		#Range: 1.0 ~ 100.0
+		pendingMaxChargeMultiplier = 3.0
+		#Maximum spell power multiplier for continuous Focus Staffbow casts.
+		#Range: 1.0 ~ 100.0
+		continuousMaxChargeMultiplier = 2.0
+		#Minimum baseline ticks used before pending Focus Staffbow overcharge starts. 20 ticks = 1 second.
+		#Range: 0 ~ 72000
+		minimumOverchargeBaselineTicks = 20
+		#Exponent applied to charge multiplier for Focus Staffbow scaled mana cost.
+		#Range: 0.0 ~ 10.0
+		chargeManaCostExponent = 2.0
+		#Final multiplier applied to Focus Staffbow scaled mana cost.
+		#Range: 0.0 ~ 100.0
+		chargeManaCostMultiplier = 1.0
+		#Maximum pending Focus Staffbow borrowed mana as a ratio of the caster's max mana. 0 disables borrowing.
+		#Range: 0.0 ~ 100.0
+		pendingMaxLoanManaRatio = 1.0
+		#Spell IDs blocked for Focus Staffbow casts. Entries use "modid:path" and are checked before ammo or mana is consumed.
+		spellDenylist = []
+		#Enables the Focus Staffbow spell allowlist. The denylist still has priority.
+		enableSpellAllowlist = false
+		#Spell IDs allowed when enableSpellAllowlist is true. Entries use "modid:path".
+		spellAllowlist = []
+
+	[Items.ElementalBow]
+		#Multiplier applied to Elemental Bow magic mode required draw ticks from its mode profile.
+		#Range: 0.0 ~ 100.0
+		magicReadyDrawTicksMultiplier = 1.0
+		#Linear extra mana multiplier per repeated Elemental Bow magic shot overheat step.
+		#Range: 0.0 ~ 100.0
+		overheatAdditionalManaLinearMultiplier = 0.2
+		#Quadratic extra mana multiplier per repeated Elemental Bow magic shot overheat step.
+		#Range: 0.0 ~ 100.0
+		overheatAdditionalManaQuadraticMultiplier = 0.08
+		#Multiplier applied to Elemental Bow magic shot overheat duration after cooldown resolution.
+		#Range: 0.0 ~ 100.0
+		overheatDurationMultiplier = 1.0
+		#Minimum Elemental Bow magic shot overheat duration in ticks. 0 disables this minimum.
+		#Range: 0 ~ 72000
+		overheatDurationMinTicks = 0
+		#Maximum Elemental Bow magic shot overheat duration in ticks. 0 disables this cap.
+		#Range: > 0
+		overheatDurationCapTicks = 0
+		#Elemental Bow magic shot spell level bonus per Power enchantment level. Fractional totals are rounded down.
+		#Range: 0.0 ~ 100.0
+		powerArrowSpellLevelBonusPerLevel = 1.0
+
+	[Items.ScrollcasterGauntlet]
+		#Enchantment IDs that cannot be copied to Scrollcaster Gauntlets through Spell Calibration Bench books. This is a final safety gate for books that already exist outside normal enchantment-control paths.
+		deniedEnchantments = []
+		#Compatibility escape hatch for enchantment IDs that are not normally supported but have been verified by the modpack. No special behavior is added; effects and stability depend on each enchantment implementation.
+		compatAdditionalAllowedEnchantments = []
+
+	#School spell power bonus amount distributed from the equipped spellbook while wearing Element Maiden Robe. 0.01 = +1%.
+	[Items.ElementMaidenRobe]
+		#Range: 0.0 ~ 10.0
+		spellPowerBonus = 0.15
+		#Range: 0.0 ~ 10.0
+		schoolSpellPowerBonus = 0.2
+
+	[Items.ZenithStaff]
+		#Mana cost multiplier for non-strongest-school spells while holding Zenith Staff.
+		#Range: 1.0 ~ 100.0
+		manaCostMultiplier = 5.0
+
+	[Items.MagiCompressorGadget]
+		#Mana consumed by the Magi-Compressor Gadget per second while converting air.
+		#Range: 0.0 ~ 100000.0
+		manaCostPerSecond = 40.0
+		#Compressed air filled by the Magi-Compressor Gadget per second.
+		#Range: 0.0 ~ 100000.0
+		airFillPerSecond = 5.0
+		#Maximum compressed air held by the Magi-Compressor Gadget. Values above Create's Backtank capacity cannot be fully exposed to Create air consumers.
+		#Range: 0.0 ~ 100000.0
+		maxAir = 50.0
+
+	[Items.ManaThruster]
+		#Mana consumed each successful Mana Thruster tick.
+		#Range: 0.0 ~ 10000.0
+		manaCostPerTick = 7.5
+
+	[Items.Spellgun]
+
+		[Items.Spellgun.Iron]
+			#Maximum spell cooldown ticks allowed for this Spellgun's imbue restriction. 0 disables this limit.
+			#Range: 0 ~ 72000
+			maxInstantImbueCooldownTicks = 100
+			#Cooldown ticks applied after this Spellgun casts. 0 forces a 0-tick cooldown instead of using the original spell cooldown.
+			#Range: 0 ~ 72000
+			overriddenSpellCooldownTicks = 10
+
+		[Items.Spellgun.Copper]
+			#Maximum spell cooldown ticks allowed for this Spellgun's imbue restriction. 0 disables this limit.
+			#Range: 0 ~ 72000
+			maxInstantImbueCooldownTicks = 200
+			#Cooldown ticks applied after this Spellgun casts. 0 forces a 0-tick cooldown instead of using the original spell cooldown.
+			#Range: 0 ~ 72000
+			overriddenSpellCooldownTicks = 20
+
+		[Items.Spellgun.Gold]
+			#Maximum spell cooldown ticks allowed for this Spellgun's imbue restriction. 0 disables this limit.
+			#Range: 0 ~ 72000
+			maxInstantImbueCooldownTicks = 400
+			#Cooldown ticks applied after this Spellgun casts. 0 forces a 0-tick cooldown instead of using the original spell cooldown.
+			#Range: 0 ~ 72000
+			overriddenSpellCooldownTicks = 40
+
+		[Items.Spellgun.Diamond]
+			#Maximum spell cooldown ticks allowed for this Spellgun's imbue restriction. 0 disables this limit.
+			#Range: 0 ~ 72000
+			maxInstantImbueCooldownTicks = 600
+			#Cooldown ticks applied after this Spellgun casts. 0 forces a 0-tick cooldown instead of using the original spell cooldown.
+			#Range: 0 ~ 72000
+			overriddenSpellCooldownTicks = 80
+
+	[Items.SpellCastParryingRing]
+		#Ticks after spell-cast start where Spell Cast Parrying Ring can block frontal damage.
+		#Range: > 0
+		spellCastParryingRingParryWindowTicks = 10
+
+	[Items.SpellStainedRunicTablet]
+
+		[Items.SpellStainedRunicTablet.maxMana]
+			#Bonus value for this rarity tier. Negative values are allowed.
+			#Range: -10000.0 ~ 10000.0
+			common = 10.0
+			#Bonus value for this rarity tier. Negative values are allowed.
+			#Range: -10000.0 ~ 10000.0
+			uncommon = 10.0
+			#Bonus value for this rarity tier. Negative values are allowed.
+			#Range: -10000.0 ~ 10000.0
+			rare = 10.0
+			#Bonus value for this rarity tier. Negative values are allowed.
+			#Range: -10000.0 ~ 10000.0
+			epic = 15.0
+			#Bonus value for this rarity tier. Negative values are allowed.
+			#Range: -10000.0 ~ 10000.0
+			legendary = 20.0
+			#Bonus value for this rarity tier. Negative values are allowed.
+			#Range: -10000.0 ~ 10000.0
+			mythicOver = 50.0
+
+		[Items.SpellStainedRunicTablet.schoolSpellPower]
+			#Bonus value for this rarity tier. Negative values are allowed.
+			#Range: -10000.0 ~ 10000.0
+			common = 0.01
+			#Bonus value for this rarity tier. Negative values are allowed.
+			#Range: -10000.0 ~ 10000.0
+			uncommon = 0.01
+			#Bonus value for this rarity tier. Negative values are allowed.
+			#Range: -10000.0 ~ 10000.0
+			rare = 0.01
+			#Bonus value for this rarity tier. Negative values are allowed.
+			#Range: -10000.0 ~ 10000.0
+			epic = 0.02
+			#Bonus value for this rarity tier. Negative values are allowed.
+			#Range: -10000.0 ~ 10000.0
+			legendary = 0.02
+			#Bonus value for this rarity tier. Negative values are allowed.
+			#Range: -10000.0 ~ 10000.0
+			mythicOver = 0.05
+			#Minimum positive school spell power total required before Spell-stained Runic Tablet applies that school bonus. 0.05 means +5%.
+			#Range: 0.0 ~ 10000.0
+			minimumAppliedPositiveBonus = 0.05
+			#Minimum absolute negative school spell power total required before Spell-stained Runic Tablet applies that school penalty. 0.05 means -5%.
+			#Range: 0.0 ~ 10000.0
+			minimumAppliedNegativePenalty = 0.05
+
+		[Items.SpellStainedRunicTablet.generalSpellPower]
+			#Bonus value for this rarity tier. Negative values are allowed.
+			#Range: -10000.0 ~ 10000.0
+			common = 0.0
+			#Bonus value for this rarity tier. Negative values are allowed.
+			#Range: -10000.0 ~ 10000.0
+			uncommon = 0.0
+			#Bonus value for this rarity tier. Negative values are allowed.
+			#Range: -10000.0 ~ 10000.0
+			rare = 0.0
+			#Bonus value for this rarity tier. Negative values are allowed.
+			#Range: -10000.0 ~ 10000.0
+			epic = 0.0
+			#Bonus value for this rarity tier. Negative values are allowed.
+			#Range: -10000.0 ~ 10000.0
+			legendary = 0.01
+			#Bonus value for this rarity tier. Negative values are allowed.
+			#Range: -10000.0 ~ 10000.0
+			mythicOver = 0.01
+
+		[Items.SpellStainedRunicTablet.cooldownReduction]
+			#Minimum distinct school count required before Spell-stained Runic Tablet grants cooldown reduction.
+			#Range: -10000 ~ 10000
+			minimumSchoolCount = 5
+			#Cooldown reduction added per distinct school on Spell-stained Runic Tablet. Negative values are allowed.
+			#Range: -10000.0 ~ 10000.0
+			perSchool = 0.02
+			#Flat cooldown reduction added when the distinct school count threshold is met. Negative values are allowed.
+			#Range: -10000.0 ~ 10000.0
+			flat = -0.05
+
+		[Items.SpellStainedRunicTablet.castTimeReduction]
+			#Minimum same-school spell count required before Spell-stained Runic Tablet grants cast time reduction.
+			#Range: -10000 ~ 10000
+			minimumDuplicateCount = 4
+			#Cast time reduction added per spell in the most represented school. Negative values are allowed.
+			#Range: -10000.0 ~ 10000.0
+			perDuplicate = 0.05
+			#Flat cast time reduction added when the same-school spell count threshold is met. Negative values are allowed.
+			#Range: -10000.0 ~ 10000.0
+			flat = -0.1
+
+	[Items.SpellThrowableCards]
+		#Craft output count for Spell Invoke Card. The same count is required for paper/card base ingredients.
+		#Range: 1 ~ 64
+		spellInvokeCardCraftCount = 16
+		#Craft output count for Spell Autonomy Card. The same count is required for paper/card base ingredients.
+		#Range: 1 ~ 64
+		spellAutonomyCardCraftCount = 8
+
+	[Items.ArchivistsGrimoire]
+		#Initial unlocked row count for Archivist's Grimoire. Each row contains 9 scroll slots.
+		#Range: 1 ~ 6
+		initialRows = 1
+		#Maximum unlocked row count for Archivist's Grimoire. Values lower than initialRows are treated as initialRows.
+		#Range: 1 ~ 6
+		maxRows = 6
+
+	[Items.SatelliteFollowcastAmulet]
+		#Spell IDs blocked only for Satellite Followcast Amulet imbue and followcast. Entries use "modid:path".
+		spellDenylist = []
+
+	[Items.RemoteOwnerCast]
+		#Enables remote_player_geometry casts. When disabled, those profiles stay imbuable but fail at cast time.
+		enableRemotePlayerGeometry = true
+		#Spell IDs blocked at Remote Owner Cast execution time. Entries use "modid:path".
+		remoteOwnerCastDenylist = []
 
 [Spells]
 
@@ -193,4 +569,68 @@
 	[Spells.ForceField]
 		#Range: 0.0 ~ 10000.0
 		drainManaBasePerHit = 150.0
+
+	[Spells.DemicreatorWings]
+		#Dimension IDs where Demicreator Wings cannot grant flight. Entries use "modid:path".
+		dimensionDenylist = []
+		#Enables the Demicreator Wings dimension allowlist.
+		#When enabled, an empty dimensionAllowlist blocks all dimensions.
+		enableDimensionAllowlist = false
+		#Dimension IDs where Demicreator Wings may grant flight when enableDimensionAllowlist is true.
+		dimensionAllowlist = []
+
+	[Spells.RemoteEye]
+		#Dimension IDs where Remote Eye cannot detach vision. Entries use "modid:path".
+		dimensionDenylist = []
+		#Enables the Remote Eye dimension allowlist.
+		#When enabled, an empty dimensionAllowlist blocks all dimensions.
+		enableDimensionAllowlist = false
+		#Dimension IDs where Remote Eye may detach vision when enableDimensionAllowlist is true.
+		dimensionAllowlist = []
+
+	[Spells.RiftHole]
+		#Dimension IDs where Rift Hole cannot open tunnels. Entries use "modid:path".
+		dimensionDenylist = []
+		#Enables the Rift Hole dimension allowlist.
+		#When enabled, an empty dimensionAllowlist blocks all dimensions.
+		enableDimensionAllowlist = false
+		#Dimension IDs where Rift Hole may open tunnels when enableDimensionAllowlist is true.
+		dimensionAllowlist = []
+
+	[Spells.BoundBow]
+		#Range: 0 ~ 255
+		maxPowerEnchantmentLevel = 6
+		#Range: 0.0 ~ 10000.0
+		forgeArrowManaCost = 25.0
+
+	[Spells.MistForm]
+		#Block IDs or block tag IDs that Mist Form cannot pass through even when they are in apprenticecodex:mist_form_passable.
+		#Entries use "modid:path" for blocks and "#modid:path" for block tags.
+		mistFormPassableBlockDenylist = []
+
+[Loot]
+	#Enable Apprentice Curio additions to configured chest loot.
+	enableApprenticeCurioLoot = true
+	#Multiplier for all Apprentice Curio chest loot additions. 1.0 = default chance. 0.0 effectively disables this loot without editing datapacks.
+	#Range: 0.0 ~ 10.0
+	apprenticeCurioLootChanceMultiplier = 1.0
+
+[Worldgen]
+
+	[Worldgen.ErrandMageVillageHouse]
+		#Inject Errand Mage houses into village template pools. Disable this before world generation if another datapack or modpack should fully control these houses.
+		enableInjection = true
+
+#Recipe ID denylists for Apprentice's Codex processing features. Entries use "modid:path".
+[Processing]
+	#Disable matching Spellcaster Workbench recipes by recipe ID.
+	spellcasterWorkbenchRecipeDenylist = []
+	#Disable matching Essence Smoker recipes by recipe ID.
+	essenceSmokerRecipeDenylist = []
+	#Disable matching Grind Runner recipes by recipe ID.
+	grindRunnerRecipeDenylist = []
+	#Disable matching Thermal Process cooking recipes by recipe ID.
+	thermalProcessRecipeDenylist = []
+	#Disable matching Create pressing or compacting recipes used by Heavenly Fist by recipe ID.
+	heavenlyFistCreateRecipeDenylist = []
 

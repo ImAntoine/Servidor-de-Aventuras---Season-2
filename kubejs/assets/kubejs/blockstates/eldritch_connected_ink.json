@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "ink_state=0": { "model": "kubejs:block/eldritch_connected_ink_horizontal" },
+    "ink_state=1": { "model": "kubejs:block/eldritch_connected_ink_vertical" },
+    "ink_state=2": { "model": "kubejs:block/eldritch_connected_ink_corner1" },
+    "ink_state=3": { "model": "kubejs:block/eldritch_connected_ink_corner2" }
+  }
+}

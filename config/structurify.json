@@ -1,0 +1,53 @@
+{
+  "config_version": "2.0.25",
+  "config_datetime": "2026-05-26_19-12-11",
+  "general": {
+    "disable_all_structures": false,
+    "prevent_structure_overlap": true,
+    "enable_global_spacing_and_separation_modifier": false,
+    "global_spacing_and_separation_modifier": 1.0
+  },
+  "structure_namespaces": [],
+  "structures": [
+    {
+      "name": "legendary_monsters:ancient_tower_remains",
+      "is_disabled": true
+    },
+    {
+      "name": "legendary_monsters:cloudy_temple",
+      "is_disabled": true
+    },
+    {
+      "name": "legendary_monsters:lava_eater_spawn",
+      "is_disabled": true
+    },
+    {
+      "name": "legendary_monsters:shulker_tower",
+      "is_disabled": true
+    },
+    {
+      "name": "legendary_monsters:skeletosaurus_nest",
+      "is_disabled": true
+    },
+    {
+      "name": "legendary_monsters:soul_fortress_remains",
+      "is_disabled": true
+    },
+    {
+      "name": "legendary_monsters:space_station",
+      "is_disabled": true
+    },
+    {
+      "name": "legendary_monsters:warped_fungussus_nest",
+      "is_disabled": true
+    },
+    {
+      "name": "nova_structures:illager_camp",
+      "blacklisted_biomes": [
+        "minecraft:river"
+      ]
+    }
+  ],
+  "structure_sets": [],
+  "structure_template_pools": []
+}

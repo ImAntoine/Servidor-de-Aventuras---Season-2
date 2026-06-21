@@ -572,6 +572,17 @@
         "value": 10
       }
     },
+    "ironsattributes:apprenticecodex_mist_form_unlocked": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10,
+        "value": 10
+      }
+    },
     "ironsattributes:apprenticecodex_manifestation_grimoire_unlocked": {
       "enabled": false,
       "min": {
@@ -1067,6 +1078,17 @@
         "value": 10
       }
     },
+    "ironsattributes:apprenticecodex_divine_possession_unlocked": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10,
+        "value": 10
+      }
+    },
     "ironsattributes:apprenticecodex_illuminate_stellar_unlocked": {
       "enabled": false,
       "min": {
@@ -1208,6 +1230,17 @@
       "max": {
         "default": 10,
         "value": 10
+      }
+    },
+    "irons_lib:armor_pierce": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
       }
     },
     "ironsattributes:irons_spellbooks_earthquake_unlocked": {
@@ -1505,6 +1538,17 @@
       "max": {
         "default": 100,
         "value": 100
+      }
+    },
+    "ironsattributes:irons_spellbooks_arcane_shackle_unlocked": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10,
+        "value": 10
       }
     },
     "ironsattributes:irons_spellbooks_evocation_school_unlocked": {
@@ -1936,6 +1980,17 @@
         "value": 10
       }
     },
+    "ironsattributes:apprenticecodex_heavenly_fist_unlocked": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10,
+        "value": 10
+      }
+    },
     "ironsattributes:irons_spellbooks_evocation_uncommon_rarity_unlocked": {
       "enabled": false,
       "min": {
@@ -2044,6 +2099,17 @@
       "max": {
         "default": 10,
         "value": 10
+      }
+    },
+    "irons_lib:dodge_chance": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
       }
     },
     "irons_spellbooks:spell_resist": {
@@ -3685,6 +3751,17 @@
         "value": 10
       }
     },
+    "irons_lib:arrow_damage": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
     "ironsattributes:irons_spellbooks_frostwave_unlocked": {
       "enabled": false,
       "min": {
@@ -3773,6 +3850,17 @@
         "value": 10
       }
     },
+    "irons_lib:mining_speed": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
     "ironsattributes:cataclysm_spellbooks_reboot_unlocked": {
       "enabled": false,
       "min": {
@@ -3785,6 +3873,17 @@
       }
     },
     "ironsattributes:irons_spellbooks_flaming_barrage_unlocked": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10,
+        "value": 10
+      }
+    },
+    "ironsattributes:apprenticecodex_bound_bow_unlocked": {
       "enabled": false,
       "min": {
         "default": 0,
@@ -3829,6 +3928,17 @@
       }
     },
     "ironsattributes:irons_spellbooks_arrow_volley_unlocked": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10,
+        "value": 10
+      }
+    },
+    "ironsattributes:irons_spellbooks_blizzard_unlocked": {
       "enabled": false,
       "min": {
         "default": 0,
@@ -4079,6 +4189,17 @@
       "max": {
         "default": 1,
         "value": 1
+      }
+    },
+    "ironsattributes:irons_spellbooks_fang_swirl_unlocked": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10,
+        "value": 10
       }
     },
     "ironsattributes:traveloptics_coral_barrage_unlocked": {
@@ -4378,6 +4499,17 @@
         "value": 10
       }
     },
+    "irons_lib:healing_received": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
     "ironsattributes:traveloptics_aqua_uncommon_rarity_unlocked": {
       "enabled": false,
       "min": {
@@ -4521,6 +4653,17 @@
         "value": 10
       }
     },
+    "irons_lib:experience_gained": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
     "ironsattributes:traveloptics_burning_judgment_unlocked": {
       "enabled": false,
       "min": {
@@ -4610,6 +4753,17 @@
       }
     },
     "ironsattributes:traveloptics_primal_pack_unlocked": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10,
+        "value": 10
+      }
+    },
+    "ironsattributes:apprenticecodex_inscribe_ice_unlocked": {
       "enabled": false,
       "min": {
         "default": 0,
@@ -5247,6 +5401,17 @@
         "value": 100
       }
     },
+    "ironsattributes:apprenticecodex_bound_sword_unlocked": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10,
+        "value": 10
+      }
+    },
     "ironsattributes:irons_spellbooks_fire_epic_rarity_unlocked": {
       "enabled": false,
       "min": {
@@ -5456,6 +5621,17 @@
         "value": 10
       }
     },
+    "ironsattributes:apprenticecodex_mirage_avoidance_unlocked": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10,
+        "value": 10
+      }
+    },
     "ironsattributes:cataclysm_spellbooks_cryopiercer_unlocked": {
       "enabled": false,
       "min": {
@@ -5608,6 +5784,17 @@
       "max": {
         "default": 1,
         "value": 1
+      }
+    },
+    "irons_lib:crit_damage": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
       }
     },
     "ironsattributes:traveloptics_cursed_minefield_unlocked": {

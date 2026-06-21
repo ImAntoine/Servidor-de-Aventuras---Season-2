@@ -1,0 +1,104 @@
+{
+  "irons_spellbooks:spellbreaker": {
+    "equipment_slots": {
+      "mainhand": [
+        {
+          "attribute": "irons_spellbooks:cooldown_reduction",
+          "action": "modify",
+          "amount": 0.2,
+          "operation": "add_multiplied_total"
+        },
+        {
+          "attribute": "irons_spellbooks:spell_resist",
+          "action": "add",
+          "amount": 0.2,
+          "operation": "add_value"
+        },
+        {
+          "attribute": "minecraft:generic.attack_damage",
+          "action": "remove"
+        },
+        {
+          "attribute": "ironsattributes:irons_spellbooks_counterspell_unlocked",
+          "action": "add",
+          "amount": 1.0,
+          "operation": "add_value"
+        },
+        {
+          "attribute": "minecraft:generic.armor",
+          "action": "add",
+          "amount": -2.0,
+          "operation": "add_value"
+        }
+      ]
+    }
+  },
+  "irons_spellbooks:boreal_blade": {
+    "equipment_slots": {
+      "mainhand": [
+        {
+          "attribute": "irons_spellbooks:cooldown_reduction",
+          "action": "modify",
+          "amount": 0.2,
+          "operation": "add_multiplied_total"
+        },
+        {
+          "attribute": "irons_spellbooks:spell_resist",
+          "action": "add",
+          "amount": 0.2,
+          "operation": "add_value"
+        },
+        {
+          "attribute": "minecraft:generic.attack_damage",
+          "action": "remove"
+        },
+        {
+          "attribute": "ironsattributes:irons_spellbooks_frostbite_unlocked",
+          "action": "add",
+          "amount": 3.0,
+          "operation": "add_value"
+        },
+        {
+          "attribute": "minecraft:generic.armor",
+          "action": "add",
+          "amount": -2.0,
+          "operation": "add_value"
+        }
+      ]
+    }
+  },
+  "irons_spellbooks:twilight_gale": {
+    "equipment_slots": {
+      "mainhand": [
+        {
+          "attribute": "irons_spellbooks:cooldown_reduction",
+          "action": "modify",
+          "amount": 0.2,
+          "operation": "add_multiplied_total"
+        },
+        {
+          "attribute": "irons_spellbooks:spell_resist",
+          "action": "add",
+          "amount": 0.2,
+          "operation": "add_value"
+        },
+        {
+          "attribute": "minecraft:generic.attack_damage",
+          "action": "remove"
+        },
+        {
+          "attribute": "ironsattributes:irons_spellbooks_volt_strike_unlocked",
+          "action": "add",
+          "amount": 5.0,
+          "operation": "add_value"
+        },
+        {
+          "attribute": "minecraft:generic.armor",
+          "action": "add",
+          "amount": -2.0,
+          "operation": "add_value"
+        }
+      ]
+    }
+  }        
+}

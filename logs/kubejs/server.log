@@ -1,54 +1,110 @@
-[15:30:05] [INIT] KubeJS 2001.6.5-build.26; MC 2001 forge
-[15:30:05] [INIT] Loaded plugins:
-[15:30:05] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
-[15:30:05] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
-[15:30:05] [INIT] - com.lowdragmc.lowdraglib.kjs.LDLibKubeJSPlugin
-[15:30:05] [INIT] - com.almostreliable.morejs.Plugin
-[15:30:05] [INIT] - com.almostreliable.lootjs.kube.LootJSPlugin
-[15:30:05] [INFO] Loaded script server_scripts:atlan.js in 0.0 s
-[15:30:05] [INFO] Loaded script server_scripts:copper_rail.js in 0.001 s
-[15:30:05] [INFO] Loaded script server_scripts:crafting.js in 0.0 s
-[15:30:05] [INFO] Loaded script server_scripts:drowned_trident.js in 0.0 s
-[15:30:05] [INFO] Loaded script server_scripts:enchanting_table.js in 0.001 s
-[15:30:05] [INFO] Loaded script server_scripts:enchant_tablets.js in 0.0 s
-[15:30:05] [INFO] Loaded script server_scripts:etome.js in 0.0 s
-[15:30:05] [INFO] example.js#5: Hello, World! (Loaded server scripts)
-[15:30:05] [INFO] Loaded script server_scripts:example.js in 0.0 s
-[15:30:05] [INFO] Loaded script server_scripts:exported_recipes.js in 0.0 s
-[15:30:05] [INFO] Loaded script server_scripts:gravel.js in 0.0 s
-[15:30:05] [INFO] Loaded script server_scripts:hellfork.js in 0.0 s
-[15:30:05] [INFO] Loaded script server_scripts:leather_armor.js in 0.0 s
-[15:30:05] [INFO] Loaded script server_scripts:lodestone.js in 0.0 s
-[15:30:05] [INFO] Loaded script server_scripts:magearmor.js in 0.002 s
-[15:30:05] [INFO] Loaded script server_scripts:map.js in 0.0 s
-[15:30:05] [INFO] Loaded script server_scripts:name_tag.js in 0.001 s
-[15:30:05] [INFO] Loaded script server_scripts:rabbit_hide.js in 0.0 s
-[15:30:05] [INFO] Loaded script server_scripts:relics.js in 0.0 s
-[15:30:05] [INFO] Loaded script server_scripts:relic_case.js in 0.0 s
-[15:30:05] [INFO] Loaded script server_scripts:remove_items.js in 0.001 s
-[15:30:05] [INFO] Loaded script server_scripts:remove_scalinghealth_drops.js in 0.0 s
-[15:30:05] [INFO] Loaded script server_scripts:royal_arrow.js in 0.0 s
-[15:30:05] [INFO] Loaded script server_scripts:saddle.js in 0.0 s
-[15:30:05] [INFO] Loaded script server_scripts:spectral_arrow.js in 0.0 s
-[15:30:05] [INFO] Loaded script server_scripts:tags.js in 0.001 s
-[15:30:05] [INFO] Loaded script server_scripts:test.js in 0.001 s
-[15:30:05] [INFO] Loaded script server_scripts:tool_swapper_upgrade.js in 0.0 s
-[15:30:05] [INFO] Loaded script server_scripts:waystone.js in 0.0 s
-[15:30:05] [INFO] Loaded 28/28 KubeJS server scripts in 0.022 s with 0 errors and 0 warnings
-[15:30:05] [INFO] Scripts loaded
-[15:30:05] [INFO] Initializing recipe event...
-[15:30:05] [INFO] Server resource reload complete!
-[15:30:06] [INFO] [minecraft:item] Found 1152 tags, added 184 objects, removed 0 objects
-[15:30:08] [INFO] Processing recipes...
-[15:30:08] [WARN] Failed to parse recipe 'cataclysm:stonecutting/azure_seastone_brick_stair_from_stonecutting[minecraft:stonecutting]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[15:30:08] [WARN] Failed to parse recipe 'minecraft_121_update:copper_lock_crafting[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[15:30:08] [WARN] Failed to parse recipe 'minecraft_121_update:copper_door[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[15:30:08] [WARN] Failed to parse recipe 'mofus_better_end_:end_engine_recipe[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[15:30:08] [WARN] Failed to parse recipe 'starcatcher:aquaculture_fillet[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[15:30:08] [WARN] Failed to parse recipe 'netherexp:stonecutting/from_pale_soul_slate/indented[minecraft:stonecutting]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[15:30:08] [INFO] Found 15073 recipes in 195.3 ms
-[15:30:08] [INFO] Posted recipe events in 296.1 ms
-[15:30:08] [INFO] Added 46 recipes, removed 117 recipes, modified 2 recipes, with 0 failed recipes in 41.36 ms
-[15:30:09] [WARN] remove_scalinghealth_drops.js#5: LootJS: Invalid ingredient for filter: net.minecraft.world.item.crafting.Ingredient@1ef57a88
-[15:30:09] [WARN] remove_scalinghealth_drops.js#14: LootJS: Invalid ingredient for filter: net.minecraft.world.item.crafting.Ingredient@1ef57a88
-[15:30:14] [INFO] Server resource reload complete!
+[20:33:57] [INIT] KubeJS 2001.6.5-build.26; MC 2001 forge
+[20:33:57] [INIT] Loaded plugins:
+[20:33:57] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[20:33:57] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
+[20:33:57] [INIT] - com.lowdragmc.lowdraglib.kjs.LDLibKubeJSPlugin
+[20:33:57] [INIT] - com.lowdragmc.mbd2.integration.kubejs.MBDKubeJSPlugin
+[20:33:57] [INIT] - dev.sorin.kubejsextendedcrafting.KubejsExtendedCraftingPlugin
+[20:33:57] [INIT] - com.almostreliable.morejs.Plugin
+[20:33:57] [INIT] - com.almostreliable.lootjs.kube.LootJSPlugin
+[20:33:57] [INIT] - com.blakebr0.cucumber.compat.kubejs.CucumberKubeJSPlugin
+[20:33:57] [INIT] - com.almostreliable.summoningrituals.compat.kubejs.AlmostKube
+[20:33:57] [INFO] Loaded script server_scripts:abyssal_spells_recipes.js in 0.002 s
+[20:33:57] [INFO] Loaded script server_scripts:advancement_attributes.js in 0.001 s
+[20:33:57] [INFO] Loaded script server_scripts:allowed_relics.js in 0.0 s
+[20:33:57] [INFO] Loaded script server_scripts:aqua_spells_recipes.js in 0.0 s
+[20:33:57] [INFO] Loaded script server_scripts:blood_spells_recipes.js in 0.001 s
+[20:33:57] [INFO] Loaded script server_scripts:crafting.js in 0.0 s
+[20:33:57] [INFO] Loaded script server_scripts:drowned_give_trident.js in 0.0 s
+[20:33:57] [INFO] Loaded script server_scripts:eldritch_magical_ink.js in 0.0 s
+[20:33:57] [INFO] Loaded script server_scripts:ench_list.js in 0.001 s
+[20:33:57] [INFO] Loaded script server_scripts:ender_spells_recipes.js in 0.0 s
+[20:33:57] [INFO] Loaded script server_scripts:evocation_spells_recipes.js in 0.001 s
+[20:33:57] [INFO] Loaded script server_scripts:exc_recipes.js in 0.0 s
+[20:33:57] [INFO] Loaded script server_scripts:fire_spells_recipes.js in 0.0 s
+[20:33:57] [INFO] Loaded script server_scripts:hellish_magical_ink.js in 0.0 s
+[20:33:57] [INFO] Loaded script server_scripts:holy_spells_recipes.js in 0.0 s
+[20:33:57] [INFO] Loaded script server_scripts:ice_spells_recipes.js in 0.001 s
+[20:33:57] [INFO] Loaded script server_scripts:lightning_spells_recipes.js in 0.001 s
+[20:33:57] [INFO] Loaded script server_scripts:magearmor.js in 0.001 s
+[20:33:57] [INFO] Loaded script server_scripts:magical_ink.js in 0.0 s
+[20:33:57] [INFO] Loaded script server_scripts:nature_spells_recipes.js in 0.001 s
+[20:33:57] [INFO] Loaded script server_scripts:relics_case.js in 0.0 s
+[20:33:57] [INFO] Loaded script server_scripts:removed_tags.js in 0.001 s
+[20:33:57] [INFO] Loaded script server_scripts:remove_items.js in 0.0 s
+[20:33:57] [INFO] Loaded script server_scripts:remove_loot.js in 0.0 s
+[20:33:57] [INFO] Loaded script server_scripts:remove_recipes.js in 0.0 s
+[20:33:57] [INFO] Loaded script server_scripts:shaped_recipes.js in 0.001 s
+[20:33:57] [INFO] Loaded script server_scripts:shapeless_recipes.js in 0.0 s
+[20:33:57] [INFO] Loaded script server_scripts:smithing_recipes.js in 0.0 s
+[20:33:57] [INFO] Loaded script server_scripts:spell_circles.js in 0.001 s
+[20:33:57] [INFO] Loaded script server_scripts:summon_weather.js in 0.0 s
+[20:33:57] [INFO] Loaded script server_scripts:technomancy_spells_recipes.js in 0.0 s
+[20:33:57] [INFO] Loaded 31/31 KubeJS server scripts in 0.023 s with 0 errors and 0 warnings
+[20:33:57] [INFO] Scripts loaded
+[20:33:57] [INFO] Initializing recipe event...
+[20:33:57] [INFO] Server resource reload complete!
+[20:33:57] [INFO] [minecraft:item] Found 1241 tags, added 313 objects, removed 0 objects
+[20:33:59] [INFO] Processing recipes...
+[20:33:59] [WARN] Failed to parse recipe 'cataclysm:stonecutting/azure_seastone_brick_stair_from_stonecutting[minecraft:stonecutting]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[20:33:59] [WARN] Failed to parse recipe 'minecraft_121_update:copper_lock_crafting[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[20:33:59] [WARN] Failed to parse recipe 'minecraft_121_update:copper_door[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[20:33:59] [WARN] Failed to parse recipe 'mofus_better_end_:end_engine_recipe[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[20:33:59] [WARN] Failed to parse recipe 'netherexp:stonecutting/from_pale_soul_slate/indented[minecraft:stonecutting]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[20:33:59] [INFO] Found 17685 recipes in 102.9 ms
+[20:34:00] [INFO] Posted recipe events in 476.7 ms
+[20:34:00] [WARN] Error parsing recipe natures_spirit:chalk_recipes/bleached_chalk_stairs_from_stonecutting[minecraft:stonecutting]: {"type":"minecraft:stonecutting","count":1,"ingredient":{"item":"natures_spirit:bleached_chalk"},"result":{"item":"natures_spirit:bleached_chalk_stairs"}}: Expected result to be a string, was an object ({"it...s"})
+[20:34:00] [WARN] com.google.gson.JsonSyntaxException: Expected result to be a string, was an object ({"it...s"})
+[20:34:00] [WARN]   at net.minecraft.util.GsonHelper.m_13805_(GsonHelper.java:119)
+[20:34:00] [WARN]   at net.minecraft.util.GsonHelper.m_13906_(GsonHelper.java:125)
+[20:34:00] [WARN]   at net.minecraft.world.item.crafting.SingleItemRecipe$Serializer.m_6729_(SingleItemRecipe.java:94)
+[20:34:00] [WARN]   at net.minecraft.world.item.crafting.SingleItemRecipe$Serializer.m_6729_(SingleItemRecipe.java:72)
+[20:34:00] [WARN]   at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23)
+[20:34:00] [WARN]   at …kubejs.platform.forge.RecipeForgeHelper.fromJson(RecipeForgeHelper.java:28)
+[20:34:00] [WARN]   at …kubejs.recipe.RecipeJS.createRecipe(RecipeJS.java:515)
+[20:34:00] [WARN]   at …kubejs.recipe.RecipesEventJS.createRecipe(RecipesEventJS.java:446)
+[20:34:00] [WARN]   at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+[20:34:00] [WARN]   at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+[20:34:00] [WARN]   at java.util.HashMap$ValueSpliterator.forEachRemaining(HashMap.java:1779)
+[20:34:00] [WARN]   at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+[20:34:00] [WARN]   at java.util.stream.ForEachOps$ForEachTask.compute(ForEachOps.java:290)
+[20:34:00] [WARN]   at java.util.concurrent.CountedCompleter.exec(CountedCompleter.java:754)
+[20:34:00] [WARN] Error parsing recipe natures_spirit:chalk_recipes/bleached_chalk_slab_from_stonecutting[minecraft:stonecutting]: {"type":"minecraft:stonecutting","count":2,"ingredient":{"item":"natures_spirit:bleached_chalk"},"result":{"item":"natures_spirit:bleached_chalk_slab","count":2}}: Expected result to be a string, was an object ({"it...:2})
+[20:34:00] [WARN] com.google.gson.JsonSyntaxException: Expected result to be a string, was an object ({"it...:2})
+[20:34:00] [WARN]   at net.minecraft.util.GsonHelper.m_13805_(GsonHelper.java:119)
+[20:34:00] [WARN]   at net.minecraft.util.GsonHelper.m_13906_(GsonHelper.java:125)
+[20:34:00] [WARN]   at net.minecraft.world.item.crafting.SingleItemRecipe$Serializer.m_6729_(SingleItemRecipe.java:94)
+[20:34:00] [WARN]   at net.minecraft.world.item.crafting.SingleItemRecipe$Serializer.m_6729_(SingleItemRecipe.java:72)
+[20:34:00] [WARN]   at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23)
+[20:34:00] [WARN]   at …kubejs.platform.forge.RecipeForgeHelper.fromJson(RecipeForgeHelper.java:28)
+[20:34:00] [WARN]   at …kubejs.recipe.RecipeJS.createRecipe(RecipeJS.java:515)
+[20:34:00] [WARN]   at …kubejs.recipe.RecipesEventJS.createRecipe(RecipesEventJS.java:446)
+[20:34:00] [WARN]   at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+[20:34:00] [WARN]   at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+[20:34:00] [WARN]   at java.util.HashMap$ValueSpliterator.forEachRemaining(HashMap.java:1779)
+[20:34:00] [WARN]   at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+[20:34:00] [WARN]   at java.util.stream.ForEachOps$ForEachTask.compute(ForEachOps.java:290)
+[20:34:00] [WARN]   at java.util.concurrent.CountedCompleter.exec(CountedCompleter.java:754)
+[20:34:00] [WARN]   at java.util.stream.ForEachOps$ForEachOp.evaluateParallel(ForEachOps.java:159)
+[20:34:00] [WARN]   at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateParallel(ForEachOps.java:173)
+[20:34:00] [WARN]   at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:233)
+[20:34:00] [WARN]   at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+[20:34:00] [WARN]   at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:679)
+[20:34:00] [WARN]   at …kubejs.recipe.RecipesEventJS.lambda$post$6(RecipesEventJS.java:384)
+[20:34:00] [WARN] Error parsing recipe minecraft:thunder_ritual[summoningrituals:altar]: {"type":"summoningrituals:altar","catalyst":{"type":"forge:nbt","item":"minecraft:trident","count":1,"nbt":"{Damage:0,Enchantments:[{id:\"minecraft:channeling\",lvl:1s}]}"},"outputs":[{"item":"minecraft:trident","count":1,"nbt":"{Damage:0}"}],"inputs":[{"ingredient":{"tag":"forge:rods/copper"},"count":4}],"sacrifices":{"mobs":[],"region":{"x":3,"y":2,"z":3}},"recipe_time":100}: Ingredient is empty, maybe wrong tag
+[20:34:00] [WARN] java.lang.IllegalArgumentException: Ingredient is empty, maybe wrong tag
+[20:34:00] [WARN]   at com.almostreliable.summoningrituals.recipe.component.IngredientStack.fromJson(IngredientStack.java:23)
+[20:34:00] [WARN]   at com.almostreliable.summoningrituals.recipe.AltarRecipeSerializer.fromJson(AltarRecipeSerializer.java:38)
+[20:34:00] [WARN]   at com.almostreliable.summoningrituals.recipe.AltarRecipeSerializer.m_6729_(AltarRecipeSerializer.java:19)
+[20:34:00] [WARN]   at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23)
+[20:34:00] [WARN]   at …kubejs.platform.forge.RecipeForgeHelper.fromJson(RecipeForgeHelper.java:28)
+[20:34:00] [WARN]   at …kubejs.recipe.RecipeJS.createRecipe(RecipeJS.java:515)
+[20:34:00] [WARN]   at …kubejs.recipe.RecipesEventJS.createRecipe(RecipesEventJS.java:446)
+[20:34:00] [WARN]   at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+[20:34:00] [WARN]   at java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992)
+[20:34:00] [WARN]   at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+[20:34:00] [WARN]   at java.util.stream.ForEachOps$ForEachTask.compute(ForEachOps.java:290)
+[20:34:00] [WARN]   at java.util.concurrent.CountedCompleter.exec(CountedCompleter.java:754)
+[20:34:00] [INFO] Added 154 recipes, removed 349 recipes, modified 2 recipes, with 3 failed recipes in 29.97 ms
+[20:34:07] [INFO] Server resource reload complete!
+[20:34:16] [ERROR] ! aqua_spells_recipes.js#102: Error in 'PlayerEvents.loggedIn': TypeError: Cannot call method "getAttributes" of undefined

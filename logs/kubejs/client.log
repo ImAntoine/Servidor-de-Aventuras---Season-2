@@ -1,12 +1,14 @@
-[15:23:38] [INIT] KubeJS 2001.6.5-build.26; MC 2001 forge
-[15:23:38] [INIT] Loaded plugins:
-[15:23:38] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
-[15:23:38] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
-[15:23:38] [INIT] - com.lowdragmc.lowdraglib.kjs.LDLibKubeJSPlugin
-[15:23:38] [INIT] - com.almostreliable.morejs.Plugin
-[15:23:38] [INIT] - com.almostreliable.lootjs.kube.LootJSPlugin
-[15:23:38] [INFO] example.js#5: Hello, World! (Loaded client scripts)
-[15:23:38] [INFO] Loaded script client_scripts:example.js in 0.001 s
-[15:23:38] [ERROR] ! hide_from_player.js#2: ReferenceError: "JEIEvents" is not defined.
-[15:23:38] [INFO] Loaded 1/2 KubeJS client scripts in 0.054 s with 0 errors and 0 warnings
-[15:23:54] [INFO] Client resource reload complete!
+[20:22:34] [INIT] KubeJS 2001.6.5-build.26; MC 2001 forge
+[20:22:34] [INIT] Loaded plugins:
+[20:22:34] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[20:22:34] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
+[20:22:34] [INIT] - com.lowdragmc.lowdraglib.kjs.LDLibKubeJSPlugin
+[20:22:34] [INIT] - com.lowdragmc.mbd2.integration.kubejs.MBDKubeJSPlugin
+[20:22:34] [INIT] - dev.sorin.kubejsextendedcrafting.KubejsExtendedCraftingPlugin
+[20:22:34] [INIT] - com.almostreliable.morejs.Plugin
+[20:22:34] [INIT] - com.almostreliable.lootjs.kube.LootJSPlugin
+[20:22:34] [INIT] - com.blakebr0.cucumber.compat.kubejs.CucumberKubeJSPlugin
+[20:22:34] [INIT] - com.almostreliable.summoningrituals.compat.kubejs.AlmostKube
+[20:22:35] [INFO] Loaded script client_scripts:hide_unwanted_items.js in 0.005 s
+[20:22:35] [INFO] Loaded 1/1 KubeJS client scripts in 0.042 s with 0 errors and 0 warnings
+[20:22:58] [INFO] Client resource reload complete!

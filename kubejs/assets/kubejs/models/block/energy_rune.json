@@ -1,0 +1,6 @@
+{
+  "parent": "kubejs:block/rune_carpet",
+  "textures": {
+    "carpet": "kubejs:block/energy_rune"
+  }
+}

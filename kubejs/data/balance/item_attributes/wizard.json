@@ -1,0 +1,182 @@
+{
+  "irons_spellbooks:wizard_helmet": {
+    "equipment_slots": {
+      "head": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "action": "modify",
+          "amount": 3.0,
+          "operation": "add_value"
+        },
+        {
+          "attribute": "irons_spellbooks:max_mana",
+          "action": "modify",
+          "amount": 25.0,
+          "operation": "add_value"
+        },
+        {
+          "attribute": "irons_spellbooks:spell_power",
+          "action": "modify",
+          "amount": 0.1,
+          "operation": "add_value"
+        },
+        {
+          "attribute": "minecraft:generic.attack_damage",
+          "action": "add",
+          "amount": -1.0,
+          "operation": "add_multiplied_total"
+        },
+        {
+          "attribute": "attributeslib:arrow_damage",
+          "action": "add",
+          "amount": -1.0,
+          "operation": "add_value"
+        }
+      ]
+    }
+  },
+  "irons_spellbooks:wizard_hat": {
+    "equipment_slots": {
+      "head": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "action": "modify",
+          "amount": 0.0,
+          "operation": "add_value"
+        },
+        {
+          "attribute": "irons_spellbooks:max_mana",
+          "action": "modify",
+          "amount": 15.0,
+          "operation": "add_value"
+        },
+        {
+          "attribute": "irons_spellbooks:spell_power",
+          "action": "modify",
+          "amount": 0.25,
+          "operation": "add_value"
+        },
+        {
+          "attribute": "minecraft:generic.attack_damage",
+          "action": "add",
+          "amount": -1.0,
+          "operation": "add_multiplied_total"
+        },
+        {
+          "attribute": "attributeslib:arrow_damage",
+          "action": "add",
+          "amount": -1.0,
+          "operation": "add_value"
+        }
+      ]
+    }
+  },
+  "irons_spellbooks:wizard_chestplate": {
+    "equipment_slots": {
+      "chest": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "action": "modify",
+          "amount": 5.0,
+          "operation": "add_value"
+        },
+        {
+          "attribute": "irons_spellbooks:max_mana",
+          "action": "modify",
+          "amount": 30.0,
+          "operation": "add_value"
+        },
+        {
+          "attribute": "irons_spellbooks:spell_power",
+          "action": "modify",
+          "amount": 0.1,
+          "operation": "add_value"
+        },
+        {
+          "attribute": "minecraft:generic.attack_damage",
+          "action": "add",
+          "amount": -1.0,
+          "operation": "add_multiplied_total"
+        },
+        {
+          "attribute": "attributeslib:arrow_damage",
+          "action": "add",
+          "amount": -1.0,
+          "operation": "add_value"
+        }
+      ]
+    }
+  },
+  "irons_spellbooks:wizard_leggings": {
+    "equipment_slots": {
+      "legs": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "action": "modify",
+          "amount": 4.0,
+          "operation": "add_value"
+        },
+        {
+          "attribute": "irons_spellbooks:max_mana",
+          "action": "modify",
+          "amount": 30.0,
+          "operation": "add_value"
+        },
+        {
+          "attribute": "irons_spellbooks:spell_power",
+          "action": "modify",
+          "amount": 0.1,
+          "operation": "add_value"
+        },
+        {
+          "attribute": "minecraft:generic.attack_damage",
+          "action": "add",
+          "amount": -1.0,
+          "operation": "add_multiplied_total"
+        },
+        {
+          "attribute": "attributeslib:arrow_damage",
+          "action": "add",
+          "amount": -1.0,
+          "operation": "add_value"
+        }
+      ]
+    }
+  },
+  "irons_spellbooks:wizard_boots": {
+    "equipment_slots": {
+      "feet": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "action": "modify",
+          "amount": 3.0,
+          "operation": "add_value"
+        },
+        {
+          "attribute": "irons_spellbooks:max_mana",
+          "action": "modify",
+          "amount": 25.0,
+          "operation": "add_value"
+        },
+        {
+          "attribute": "irons_spellbooks:spell_power",
+          "action": "modify",
+          "amount": 0.1,
+          "operation": "add_value"
+        },
+        {
+          "attribute": "minecraft:generic.attack_damage",
+          "action": "add",
+          "amount": -1.0,
+          "operation": "add_multiplied_total"
+        },
+        {
+          "attribute": "attributeslib:arrow_damage",
+          "action": "add",
+          "amount": -1.0,
+          "operation": "add_value"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,31 @@
+Detected that Windows reported recent critical or error events in the Application log,
+which can indicate that a process (including the Minecraft JVM) terminated unexpectedly.
+Scope: Application log; Levels: Error & Critical; Window: last ~15 seconds.
+
+If no java.exe (or related JVM processes) are listed below, you can disregard this message.
+To inspect these events manually:
+  1) Press Win+R, type "eventvwr.msc", press Enter.
+  2) Open "Windows Logs" → "Application".
+  3) Sort by Date and look for entries with Level = Error or Critical near the crash time.
+
+-----------------------
+Time: 2026-06-12 23:20:48.145 CEST
+Source: Application Hang
+Event ID: 1002
+Level: Error
+
+Message:
+  The program explorer.exe version 10.0.26100.8655 stopped interacting with Windows and was closed. To see if more information about the problem is available, check the problem history in the Security and Maintenance control panel.
+
+
+Details:
+  - AppName: explorer.exe
+  - AppVersion: 10.0.26100.8655
+  - Process ID: 9556 [0x2554]
+  - Start Time: 2026-06-12 15:12:08.559 CEST [0x1dcfa6d12a726ac]
+  - TerminationTime: 757
+  - ExeFileName: C:\Windows\explorer.exe
+  - ReportId: 47723ef6-1ff7-4e91-9da3-a8e7b252edc7
+  - HangType: Unknown
+-----------------------
+
